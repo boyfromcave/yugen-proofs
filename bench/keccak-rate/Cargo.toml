@@ -1,0 +1,14 @@
+[package]
+name = "yugen-bench-keccak-rate"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Design basis: single-thread Keccak-f[1600] permutations per second, the unit of grinding cost."
+
+[workspace]
+
+[dependencies]
+keccak = "=0.1.6"
+
+[profile.release]
+lto = "thin"

@@ -1,0 +1,8 @@
+# radix-4 batched GKR, dummy variable, four blinders per tree and layer
+GF(16), 3 trees, A5: degrees [8] and [8, 4, 4]: every verifier check passes in 36 of 36 runs; mask rank = dim V_r (9, 17) at 12 of 12 challenge vectors; control Gt2 without the combiner's powers: round check fails in 35 of 36
+GF(16), 3 trees, A5-T: degrees [4] and [4, 4, 4]: every verifier check passes in 36 of 36 runs; mask rank = dim V_r (5, 13) at 12 of 12 challenge vectors; control Gt2 without the combiner's powers: round check fails in 31 of 36
+GF(16), A5: four blinders -> four children: image size by r_w: 1 at r_w in [0, 1], 65536 at r_w in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]; control, two blinders (c0 + c1 b1): image 256 of 65536
+GF(16), A5-T: four blinders -> four children: image size by r_w: 1 at r_w in [0], 65536 at r_w in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]; control, two blinders (c0 + c1 b1): image 256 of 65536
+GF(4), one tree, A5, exact joint law of the two-reduction chain over 256 x 256 blinders and all masks: equal for two witnesses of one root in 4 of 4; equal to the simulator's law in 4 of 4; control two blinders: different in 4 of 4; blinders off: different in 4 of 4
+GF(4), one tree, A5-T, exact joint law of the two-reduction chain over 256 x 256 blinders and all masks: equal for two witnesses of one root in 4 of 4; equal to the simulator's law in 4 of 4; control two blinders: different in 4 of 4; blinders off: different in 4 of 4
+RESULT: PASS

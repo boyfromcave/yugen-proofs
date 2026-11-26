@@ -1,0 +1,9 @@
+GF(4), every tau, every nonzero column and every b (960 games solved exactly): largest value with c(tau) != 0: 0.8750; largest gain of any b over b = 0: +0.0000
+ok    GF(4): for every column and tau, no committed blinder value beats b = 0
+ok    GF(4): value 0.8750 <= 1 - (1 - 3/q)(1 - 2/q) = 0.8750 (the two rounds' bound without a blinder)
+GF(8), six tau, every nonzero column and every b (3024 games solved exactly): largest value with c(tau) != 0: 0.5312; largest gain of any b over b = 0: +0.0000
+ok    GF(8): for every column and tau, no committed blinder value beats b = 0
+ok    GF(8): value 0.5312 <= 1 - (1 - 3/q)(1 - 2/q) = 0.5312 (the two rounds' bound without a blinder)
+control: blinder chosen after the challenges: accepted with probability 0.7708 for a false column
+ok    control: an uncommitted blinder breaks soundness (accepted whenever r_y (1 + r_y) != 0)
+FAILURES 0

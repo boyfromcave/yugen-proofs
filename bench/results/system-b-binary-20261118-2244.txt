@@ -1,0 +1,86 @@
+# run 2026-11-18 22:44 PST
+# uptime before: 22:44  up 2 days, 44 mins, 9 users, load averages: 4.59 4.16 4.45
+Apple M5
+## args: folding 12 1 100
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding, 163 Keccak-f permutations
+Width: 1625
+Fields: GF(2^128)
+Proof size: 434434 bytes
+Prove time: 0.031s
+Verify time: 0.004s
+Composed security: 101.27 bits
+            24084480  maximum resident set size
+## args: folding 12 2 100
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding, 163 Keccak-f permutations
+Width: 1625
+Fields: GF(2^128)
+Proof size: 314427 bytes
+Prove time: 0.033s
+Verify time: 0.003s
+Composed security: 101.03 bits
+            26247168  maximum resident set size
+## args: whir-ud 12 1 100
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir-ud, 163 Keccak-f permutations
+Width: 1625
+Fields: GF(2^128)
+Proof size: 283161 bytes
+Prove time: 0.037s
+Verify time: 0.003s
+Composed security: 100.74 bits
+WHIR regime: UniqueDecoding
+WHIR term target: 102 bits
+WHIR packed variables: 16
+WHIR cap height: 7
+WHIR opened positions: 462
+WHIR PCS payload estimate: 331679 bytes
+WHIR max grinding: 0 bits
+            23642112  maximum resident set size
+## args: whir-ud 12 3 100
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir-ud, 163 Keccak-f permutations
+Width: 1625
+Fields: GF(2^128)
+Proof size: 247324 bytes
+Prove time: 0.047s
+Verify time: 0.003s
+Composed security: 100.80 bits
+WHIR regime: UniqueDecoding
+WHIR term target: 102 bits
+WHIR packed variables: 16
+WHIR cap height: 6
+WHIR opened positions: 331
+WHIR PCS payload estimate: 258831 bytes
+WHIR max grinding: 0 bits
+            35586048  maximum resident set size
+## args: whir-ud-gf192 12 1 100
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir-ud-gf192, 163 Keccak-f permutations
+Width: 1625
+Fields: GF(2^64) values, GF(2^192) challenges
+Proof size: 327159 bytes
+Prove time: 0.162s
+Verify time: 0.004s
+Composed security: 100.76 bits
+WHIR regime: UniqueDecoding
+WHIR term target: 102 bits
+WHIR packed variables: 17
+WHIR cap height: 7
+WHIR opened positions: 462
+WHIR PCS payload estimate: 348860 bytes
+WHIR max grinding: 0 bits
+           102137856  maximum resident set size
+## args: whir-ud-gf192 12 3 100
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir-ud-gf192, 163 Keccak-f permutations
+Width: 1625
+Fields: GF(2^64) values, GF(2^192) challenges
+Proof size: 305231 bytes
+Prove time: 0.187s
+Verify time: 0.004s
+Composed security: 100.87 bits
+WHIR regime: UniqueDecoding
+WHIR term target: 102 bits
+WHIR packed variables: 17
+WHIR cap height: 6
+WHIR opened positions: 331
+WHIR PCS payload estimate: 288124 bytes
+WHIR max grinding: 0 bits
+           124567552  maximum resident set size
+# uptime after: 22:44  up 2 days, 44 mins, 9 users, load averages: 4.59 4.16 4.45

@@ -1,0 +1,10 @@
+ok   W-M, 2 lanes, 3 message slots, Q = 3, coset of 16, GF(256): 120/120  (rank B, dim Acc) = [(20, 20)]
+ok   W-M, 4 lanes, 4 message slots, Q = 4, coset of 16, GF(256): 80/80  (rank B, dim Acc) = [(48, 48)]
+ok   W-M, 4 lanes, 5 message slots, Q = 2, coset of 32, GF(256): 60/60  (rank B, dim Acc) = [(40, 40)]
+ok   control: linear domain, an opened row in U_top: 60/60  leak in every tuple
+ok   control: one random coefficient too few: 60/60  leak in every tuple
+ok   control: mask misses one message slot: 60/60  leak in every tuple
+ok   control: no mask: 60/60  leak in every tuple
+ok   enumeration GF(8): W-M, 2 lanes, 1 slot, Q = 1, coset of 4, all 8^6 tapes: distributions equal in 32/32 (rho, position) cases
+ok   enumeration GF(8) control: no mask, rho != 0: distributions equal in 0/28 (rho, position) cases
+FAILURES 0

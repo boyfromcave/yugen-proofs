@@ -1,0 +1,15 @@
+# bit slices of a packed column: K = GF(4) in F = GF(16), two slices, four cells
+F_2-rank of the blinder basis omega = [1, 6, 2, 12]: 4 of 4
+unblinded, 4 points with F_2-rank 1 of the weights: the slices take 4 values over the 256 witnesses (2 x 1 bits), the column evaluation 4
+unblinded, 12 points with F_2-rank 2 of the weights: the slices take 16 values over the 256 witnesses (2 x 2 bits), the column evaluation 4
+unblinded, 38 points with F_2-rank 2 of the weights: the slices take 16 values over the 256 witnesses (2 x 2 bits), the column evaluation 16
+unblinded, 55 points with F_2-rank 3 of the weights: the slices take 64 values over the 256 witnesses (2 x 3 bits), the column evaluation 16
+unblinded, 91 points with F_2-rank 4 of the weights: the slices take 256 values over the 256 witnesses (2 x 4 bits), the column evaluation 16
+blinded, Z != 0: B -> (shat_0, shat_1) is a bijection of K^4 onto F^2 for 1536 of 1536 (witness, challenge) cases: the two slices are uniform and independent
+ring switch on the blinded slices: sum_i x^i Phi(shat_i) = <Phi(eq), q> + <Phi(Z omega), B> in 12800 of 12800 cases
+product form of the blinder weights: True
+control, Z = 0: laws of two witnesses differ: True
+control, three blinder cells (3 bits a slice against 4): support 64 of 256; some witness pair has different laws: True
+control, dependent weights [1, 6, 7, 2] (F_2-rank 3): support 64 of 256; some witness pair has different laws: True
+control, one element of F shared by both slices: some witness pair has different laws: True
+RESULT: PASS

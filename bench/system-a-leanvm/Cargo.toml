@@ -1,0 +1,19 @@
+[package]
+name = "yugen-bench-a-leanvm"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Step 0.3 smoke benchmark: smallest Keccak-hashing proof in system A (leanVM)."
+
+[workspace]
+
+[dependencies]
+# System A: leanVM (github.com/leanEthereum/leanMultisig), pinned to one commit.
+isa = { git = "https://github.com/leanEthereum/leanMultisig", rev = "84780fb42667bc288c0e567c125b7e10479fb568" }
+verifier = { git = "https://github.com/leanEthereum/leanMultisig", rev = "84780fb42667bc288c0e567c125b7e10479fb568" }
+zkdsl_compiler = { git = "https://github.com/leanEthereum/leanMultisig", rev = "84780fb42667bc288c0e567c125b7e10479fb568" }
+stable_lean_vm_core = { git = "https://github.com/leanEthereum/leanMultisig", rev = "84780fb42667bc288c0e567c125b7e10479fb568" }
+keccak256 = { git = "https://github.com/leanEthereum/leanMultisig", rev = "84780fb42667bc288c0e567c125b7e10479fb568" }
+
+[profile.release]
+lto = "thin"

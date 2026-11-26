@@ -1,0 +1,122 @@
+
+## S1. Rule W4 against the measured leaf proofs
+
+| Leaf pair | A (B) | B (B) | Proofs | + LEAF_BYTES_RESERVE | LEAF_RESERVE | Over by |
+|---|---|---|---|---|---|---|
+| referee R7: A 600,340 (study anchor) + B form T | 600,340 | 583,680 | 1,184,020 | 1,201,476 | 1,150,000 | +51,476 |
+| A row 8 with 64-byte salts (M) + B form T (M) | 692,504 | 583,680 | 1,276,184 | 1,293,640 | 1,150,000 | +143,640 |
+| A row 8 (M) + B with 512-bit salts (M + C) | 692,504 | 595,456 | 1,287,960 | 1,305,416 | 1,150,000 | +155,416 |
+| A row 8 (M) + B with 512-bit salts and route S (M + C + spec figure) | 692,504 | 642,560 | 1,335,064 | 1,352,520 | 1,150,000 | +202,520 |
+
+E1 size limits: A 542,720 B, B 589,824 B; together 1,132,544 B (the reserve was sized on these).
+A row 8 over E1's A limit by +149,784 B; B form T under its limit by -6,144 B.
+
+## S2. Calculator revision 7: category-1 rows with the salts of a zero-knowledge target
+
+Zero-knowledge target: pool of 2^20 leaf proofs, advantage <= 2^-128 (excluding Q eps_hvzk).
+Leaf salt floor at 32-byte proof digests: A 75 B, B 75 B. Proof salt floor: 70 B at t = 2^128 (quantum queries before the last proof), 102 B if t is read as 2^256 classical queries.
+Built granularity: A salts in 8-byte words (parameters.md 2.3); B salts in field elements, 32 B at GF(2^256) (yugen-proof-b2 parameters.md 8.4). Chosen: A leaf 80 B, B leaf 96 B, proof salt 80 B.
+
+| Profile | System | Proof salt | Leaf salt | One proof | Pool (2^20) | WI (6.6 (4)) pool, no query bound | Salt term at t = 2^256 classical | log2(t / eps) of the salt term |
+|---|---|---|---|---|---|---|---|---|
+| cat1 (as built: D-b salts, SQ-48 BLAKE3) | A | 64 | 64 | 2^-107.8 | 2^-87.8 | 2^-86.8 | 2^0.0 | 234 |
+| cat1 (as built: D-b salts, SQ-48 BLAKE3) | B | 64 | 64 | 2^-105.7 | 2^-85.7 | 2^-84.7 | 2^0.0 | 234 |
+| Y (soundness 1 per system, privacy 5; A leaf salt 80 B) | A | 80 | 80 | 2^-171.8 | 2^-151.8 | 2^-150.8 | 2^-42.0 | 298 |
+| Y (soundness 1 per system, privacy 5; A leaf salt 80 B) | B | 80 | 80 | 2^-169.7 | 2^-149.7 | 2^-148.7 | 2^-42.0 | 298 |
+| Y, B's leaf salt 96 B | A | 80 | 96 | 2^-190.0 | 2^-170.0 | 2^-214.4 | 2^-42.0 | 298 |
+| Y, B's leaf salt 96 B | B | 80 | 96 | 2^-190.0 | 2^-170.0 | 2^-212.6 | 2^-42.0 | 298 |
+
+The last column is t / eps for the proof-salt term 4 Q t / 2^(4 b_s) of Theorem 6.6 (3): it does not depend on t, so an adversary's work divided by its advantage from that term is at least 2^(4 b_s - 22) whatever t is.
+Category 5 (2^256) needs 4 b_s - 22 >= 256: b_s >= 70 B. Category 3: 54 B.
+
+Category-1 rows (revision 7), sizes E:
+| Profile | A leaf row 8 mode 0 1/4 | A node 2^27 1/2 | B leaf 1/8 | B node 2^27 words 1/8 | weakest A / B | QROM A / B |
+|---|---|---|---|---|---|---|
+| cat1 (as built: D-b salts, SQ-48 BLAKE3) | 682,787 | 873,948 | 635,909 | 713,602 | 152.37 / 152.73 | 67.25 / 67.43 |
+| Y (soundness 1 per system, privacy 5; A leaf salt 80 B) | 694,435 | 873,948 | 651,910 | 713,602 | 152.37 / 152.73 | 67.25 / 67.43 |
+| Y, B's leaf salt 96 B | 706,083 | 873,948 | 667,911 | 713,602 | 152.37 / 152.73 | 67.25 / 67.43 |
+
+## S3. The wallet statements: binding digests of 48 bytes and Falcon-1024, by count
+
+| Variant | A: cycles | A: Keccak-f | A: committed words (E) | A stack | B: AND rows | B: Keccak-f | B stack |
+|---|---|---|---|---|---|---|---|
+| binding 32 B, Falcon-512 | 187,746 | 87 | 3,463,392 | 2^22 | 112,710 | 78 | 2^17 |
+| binding 32 B, Falcon-1024 | 273,900 to 283,900 | 110 | 5,052,694 to 5,237,166 | 2^23 | 204,216 to 209,216 | 101 | 2^18 |
+| binding 48 B, Falcon-512 | 189,666 | 127 | 3,498,811 | 2^22 | 136,710 | 118 | 2^18 |
+| binding 48 B, Falcon-1024 | 275,820 to 285,820 | 150 | 5,088,113 to 5,272,585 | 2^23 | 228,216 to 233,216 | 141 | 2^18 |
+
+A's 2^22 stack holds 4,194,304 words (headroom 730,912 as built). A's words scale here by the leaf's average words a cycle (E); the KECCAK table's words a permutation are not counted (task P-2). B's limit for 2^17 is 131,072 AND rows and 131,072 committed words (388 free as built).
+
+## S4. Options: leaf pair, LEAF_RESERVE, roots, capacity at W = 4,000,000 (E unless marked)
+
+| Option | A leaf | B leaf | LEAF_RESERVE needed | A root | B root | W1 (every proof <= 1.75 MiB) | Record | Transfers a block at W = 4 MB | W for 6,000 a block | Hosts for E2 (N = 1,500, 60 s) | Wallet stacks |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| O1 category 1 as built (64/64 salts) | 682,787 | 635,909 | 1,337,000 | 875,309 | 713,602 | yes | 200 | 5,370 | 4,125,911 | 12 to 15 (10 to 11 with D-6, K, cap) | A 2^22, B 2^17 |
+| O2 referee P6 (salts 80/96/80, ML-KEM-1024) | 694,435 | 667,911 | 1,381,000 | 875,309 | 713,602 | yes | 200 | 5,150 | 4,169,911 | 12 to 15 (10 to 11) | A 2^22, B 2^17 |
+| O3a O2 + 48-byte binding digests | 694,435 | 679,687 | 1,393,000 | 875,309 | 713,602 | yes | 232 | 4,388 | 4,373,911 | 12 to 15 (10 to 11) | A 2^22, B 2^18 |
+| O3b O2 + Falcon-1024 | 701,699 | 679,687 | 1,400,000 | 875,309 | 713,602 | yes | 200 | 5,055 | 4,188,911 | 12 to 15 (10 to 11) | A 2^23, B 2^18 |
+| O3c O2 + both | 701,699 | 679,687 | 1,400,000 | 875,309 | 713,602 | yes | 232 | 4,358 | 4,380,911 | 12 to 15 (10 to 11) | A 2^23, B 2^18 |
+| O4 study M-1 (cat 3 rows, 48 B, Falcon-1024, ML-KEM-1024) | 1,092,578 | 1,125,569 | 2,237,000 | 1,278,504 | 1,144,436 | yes | 232 | 0 | 6,051,939 | 33 to 45 | A 2^23, B 2^18 |
+| O5 category 3 throughout (ML-KEM-768) | 1,075,378 | 1,103,465 | 2,197,000 | 1,278,504 | 1,144,436 | yes | 232 | 0 | 6,011,939 | 33 to 45 | A 2^23, B 2^18 |
+| O6 category 5 throughout (GF(2^384), unique decoding) | 1,761,111 | 1,854,208 | 3,634,000 | 2,155,687 | 2,043,737 | **no** | 264 | 0 | 9,417,424 | 57 to 82 | A 2^23, B 2^18 |
+
+LEAF_RESERVE needed = A leaf + B leaf + LEAF_BYTES_RESERVE (+960 B for two long ML-KEM-1024 packages), rounded up to 1,000. Capacity = (W - LEAF_RESERVE - A root - B root) / record (rule W5; tree and anchor-table bytes left out: upper figures). Roots: A's category-1 root is the measured 875,309 B; every other size is the calculator's (E). Hosts: 16 cores x 60 s = 960 core-seconds a host.
+
+## S5. Privacy components: bytes (ML-KEM sizes from memory; FIPS 203 not in the folder)
+
+ML-KEM-768: ek 1,184 B, ciphertext 1,088 B, dk 2,400 B; package short 1,178 B, long 1,690 B; mailbox entry 1,176 B
+ML-KEM-1024: ek 1,568 B, ciphertext 1,568 B, dk 3,168 B; package short 1,658 B, long 2,170 B; mailbox entry 1,656 B
+DPF lambda = 128: key about 292 B; tag lookups a day 18.6 KB (E5 idle limit 50 KB)
+DPF lambda = 256: key about 584 B; tag lookups a day 28.6 KB (E5 idle limit 50 KB)
+Transport: the hybrid handshake carries one ek and one ciphertext a connection: +384 B and +480 B with ML-KEM-1024 (from memory).
+
+## S6. LEAF_RESERVE from measured leaves plus counted deltas (referee V7), and capacity under Y
+
+| Leaf | Calculator (E, revision 7) | Measured plus counted deltas | Difference |
+|---|---|---|---|
+| A, row 8, 80-byte leaf salt, 2^22 | 694,435 | 704,152 = 692,504 (M) + 11,648 (salt 64 -> 80 B, E) | +9,717 |
+| B, form T, 96-byte leaf salt, route S, 2^18 | 679,687 | 666,112 = 583,680 (M) + 23,552 (salt, C) + 47,104 (route S, spec figure) + 11,776 (one level, E) | -13,575 |
+
+| Reserve basis | A leaf | B leaf | LEAF_RESERVE | Transfers a block at W = 4,000,000 (record 232 B) | W for 5,150 | W for 6,000 |
+|---|---|---|---|---|---|---|
+| record revision 1 (calculator on both sides) | 694,435 | 679,687 | 1,393,000 | 4,388 | 4,176,711 | 4,373,911 |
+| measured plus deltas on both sides | 704,152 | 666,112 | 1,389,000 | 4,405 | 4,172,711 | 4,369,911 |
+| the larger of the two on each side (provisional value) | 704,152 | 679,687 | 1,403,000 | 4,345 | 4,186,711 | 4,383,911 |
+
+LEAF_BYTES_RESERVE with two long ML-KEM-1024 packages: 18,416 B. Roots: A 875,309 (M), B 713,602 (E).
+
+## S7. Zero-knowledge salts at the lifetime proof count (referee V6, finding on Q)
+
+At 4,405 transfers a 75-second block: one system makes 2^22.3 leaf proofs a day, 2^34.1 in ten years, 2^36.4 in fifty (C).
+At 4,388 transfers a 75-second block: one system makes 2^22.3 leaf proofs a day, 2^34.1 in ten years, 2^36.4 in fifty (C).
+
+| | Q = 2^20 | Q = 2^35 | Q = 2^37 |
+|---|---|---|---|
+| A leaf salt floor for 2^-128 (32-byte proof digests) | 75 B | 78 B | 79 B |
+| B leaf salt floor for 2^-128 | 75 B | 79 B | 79 B |
+| A leaf term at 80 B | 2^-151.8 | 2^-136.8 | 2^-134.8 |
+| B leaf term at 96 B | 2^-213.7 | 2^-198.7 | 2^-196.7 |
+| Proof salt: t / eps at 80 B | 2^298 | 2^283 | 2^281 |
+| Proof-salt floor against 2^256 / against 2^272 (AES-256's gate count, [CFP] p. 18) | 70 / 74 B | 74 / 78 B | 74 / 78 B |
+
+Chosen and unchanged: A leaf 80 B, B leaf 96 B, proof salt 80 B. Margins at Q = 2^37: A leaf 1 B, B leaf 17 B, proof salt 2 B against 2^272.
+
+## S8. B's wallet memory at 2^18 (referee V7)
+
+Steps a and b kept 0.436 of the footprint at the pin. Applied to twice the category-1 peak: 956 to 965 MB at 2^18 (E: assumes the same proportion), about 1.9 x E1's 512 MB. The unreduced 2^18 process: 2,190 to 2,212 MB, about 4.3 x (the record revision 1's 'about 4x').
+
+## S9. Note-tree hash variants at 48-byte digests (referee V8; task F-2 counts them in circuit)
+
+| Variant | Standard | Depth | Perm. a level | Tree AND rows a transfer (B) | B AND rows | B committed words (E) | B stack | Keccak-f-equivalents a transfer | Path bytes a spend | A |
+|---|---|---|---|---|---|---|---|---|---|---|
+| T0 as built: SHA3-256, 4-ary, 32-byte (category 2) | FIPS 202 | 20 | 1 | 24,000 | 112,710 | 130,684 | 2^17 | 40 | 1,920 | 24 cycles a level (M) |
+| T1 SHAKE256-384 (or SHA3-384), 4-ary, two blocks | FIPS 202 | 20 | 2 | 48,000 | 136,710 | 154,924 | 2^18 | 80 | 2,880 | two KECCAK rows a level; aligned layout needed (a cell straddles at rate 136 or 104) |
+| T1b SHAKE256-384, binary, framed node (16-byte frame first), one block | FIPS 202 | 40 | 1 | 48,000 | 136,710 | 154,684 | 2^18 | 80 | 1,920 | one KECCAK row a level; 112 bytes, children at bytes 16 and 64: no straddle |
+| T1c SHA-384, binary, one 128-byte block | FIPS 180-4 | 40 | 1 | 73,600 | 162,310 | 180,284 | 2^18 | 123 | 1,920 | no SHA-512 precompile in A: not buildable without a VM change |
+| T2 TurboSHAKE256, 4-ary, two Keccak-p[1600,12] | RFC 9861 (not FIPS) | 20 | 2 | 24,000 | 112,710 | 130,924 | 2^17 | 40 | 2,880 | needs a 12-round precompile (VM change) |
+| T3 Keccak-f[1600] at capacity 384 (rate 152), ternary | not FIPS (a Keccak sponge outside FIPS 202's set) | 26 | 1 | 31,200 | 119,910 | 138,028 | 2^18 | 52 | 2,496 | one KECCAK row a level; no VM change; 26 levels |
+
+B's 2^17 limit is 131,072 AND rows and 131,072 committed words (388 words free as built). The sibling words assume 8-byte words; the other 48-byte digests of the statement (cm, nkc, anchor_root as public words) are not counted here (F-2 counts them). T1c is priced for B only.
+Other functions of yugen-proof-b2 parameters.md 10.4 for a 48-byte binding digest: BLAKE3 (168 to 192 rows) and SHA-256 (364) give 32 bytes only and claim 128 bits (decision-b-merkle-hash.md H-1.5); Keccak-256 (600) gives 32 bytes; SHA-512 (1,840 a two-block node) is a 64-byte digest. None serves 48-byte binding.
+
+Block weight that restores 5,150 transfers under Y (record 232 B): S6, 4,172,711 to 4,186,711 B (about 4.18 MB).

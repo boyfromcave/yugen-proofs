@@ -1,0 +1,11 @@
+affine-combiner space, GF(4), 1 round(s): full rank 5 at 16/16 challenge vectors (all)
+affine-combiner space, GF(4), 2 round(s): full rank 9 at 256/256 challenge vectors (all)
+affine-combiner space, GF(2^8), 3 rounds: full rank 13 at 24/24 challenge vectors
+affine-combiner space, GF(2^8), 5 rounds: full rank 21 at 24/24 challenge vectors
+affine-combiner space, GF(2^8), 14 rounds: full rank 57 at 24/24 challenge vectors
+plain round space degree 2, u = X, GF(4), 3 rounds: full rank 7 at 64/64 (all)
+plain round space degree 3, u = X, GF(4), 3 rounds: full rank 10 at 64/64 (all)
+control: plain round space with u = 1 (lam(u) = 0): views pass the round checks at 4/64 (only r_1 = r_2 = 0)
+PASS blinder on: r_y not in {0,1}: identical 48, different 0; r_y in {0,1} (excluded event): identical 0, different 48
+PASS blinder off: identical 0, different 96
+FAILURES 0

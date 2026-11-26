@@ -1,0 +1,171 @@
+RECORD (superseded by revision 9; not the calculator's convention): the counts below use the book need (kappa_C + 1 + log2 N + log2(1 + k), or earlier per-layer targets), which for the spBCS transcript holds only under the non-default convention (t >= k_q); no row below is certified. Johnson-regime rows rest on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; Haboeck's route is withdrawn (binius-johnson-row.md 0.1); the 102- and 77-query rows are withdrawn (thin margins). The certified rows are printed by `yugen-soundness` (no flag) or `--rev9`.
+
+Tree: 16,384 leaves, sub-bundles of 16, 3 merge levels of arity 16: levels [16384, 1024, 64, 4, 1], 17,477 proofs (2^14.093); union bound, one attempt; 512 rounds outside each proof's listed rounds in k; no grinding; unique decoding; GF(2^256) challenges; 256-bit digests.
+
+## System A leaf (W-I, true rates)
+
+**Row 6 as built (nominal-rate counts)**: row 6 (built: folds 5, 3; reductions 1, 1; residual 2^10; 135.58-bit list); stack 2^22, rate 1/4; 87 rounds in the proof's list, 512 more outside it; need 152.32 bits a round; size 472 KiB (E); **short by 16.91 bits**
+
+| Level | Fold | Domain (rows) | Nominal rate | Folded lane lf | True rate | Queries | Bits at the nominal rate | Bits at the true rate |
+|---|---|---|---|---|---|---|---|---|
+| 0 | 5 | 2^19 | 2^-2 | 131,533 | 0.25088 (2^-1.99) | 200 | 135.61 | 135.41 |
+| 1 | 3 | 2^20 | 2^-6 | 16,782 | 0.01600 (2^-5.97) | 139 | 135.89 | 135.82 |
+| 2 | 3 | 2^19 | 2^-8 | 2,444 | 0.00466 (2^-7.74) | 137 | 136.23 | 136.08 |
+| 3 | 3 | 2^18 | 2^-10 | 651 | 0.00248 (2^-8.65) | 136 | 135.81 | 135.51 |
+
+**Row 6's schedule, counts solved at the true rates (the row to paste)**: row 6 (built: folds 5, 3; reductions 1, 1; residual 2^10; 135.58-bit list); stack 2^22, rate 1/4; 87 rounds in the proof's list, 512 more outside it; need 152.32 bits a round; size 519 KiB (E); meets
+
+| Level | Fold | Domain (rows) | Nominal rate | Folded lane lf | True rate | Queries | Bits at the nominal rate | Bits at the true rate |
+|---|---|---|---|---|---|---|---|---|
+| 0 | 5 | 2^19 | 2^-2 | 131,558 | 0.25093 (2^-1.99) | 225 | 152.57 | 152.33 |
+| 1 | 3 | 2^20 | 2^-6 | 16,799 | 0.01602 (2^-5.96) | 156 | 152.51 | 152.42 |
+| 2 | 3 | 2^19 | 2^-8 | 2,461 | 0.00469 (2^-7.73) | 154 | 153.13 | 152.96 |
+| 3 | 3 | 2^18 | 2^-10 | 668 | 0.00255 (2^-8.62) | 153 | 152.78 | 152.44 |
+
+Paste: `initial_folding_factor: 5, subsequent_folding_factor: 3, rs_domain_initial_reduction: 1, rs_domain_subsequent_reduction: 1, residual_max_log: 10`, queries per level [225, 156, 154, 153] (the tree list `[0, 367, 225, 184, 167, 160, 156, 155, 154, 153, 153]` by level rate gives [225, 156, 154, 153]).
+
+**Smallest leaf over the row table's schedules**: folds 5, 3; reductions 3, 3; residual 2^11; stack 2^22, rate 1/4; 84 rounds in the proof's list, 512 more outside it; need 152.31 bits a round; size 467 KiB (E); meets
+
+| Level | Fold | Domain (rows) | Nominal rate | Folded lane lf | True rate | Queries | Bits at the nominal rate | Bits at the true rate |
+|---|---|---|---|---|---|---|---|---|
+| 0 | 5 | 2^19 | 2^-2 | 131,558 | 0.25093 (2^-1.99) | 225 | 152.57 | 152.33 |
+| 1 | 3 | 2^18 | 2^-4 | 16,811 | 0.06413 (2^-3.96) | 168 | 153.31 | 152.93 |
+| 2 | 3 | 2^15 | 2^-4 | 2,478 | 0.07562 (2^-3.73) | 171 | 156.04 | 153.02 |
+
+## System A candidates of yugen-proof-a docs/recursion.md 9.4 and rows 7 to 9
+
+| Candidate | Layer | Stack, rate | Folds; level rates | Queries (row's list) | Need | Weakest round (bits) | Meets | Nearest row that meets: queries | Size KiB (E) |
+|---|---|---|---|---|---|---|---|---|---|
+| row 8 (leaf: folds 6, 3; reductions 3, 3; residual 2^10), W-I | leaf | 2^22, 1/4 | [6, 3, 3]; [2, 5, 5] | [225, 160, 160] | 152.31 | final: 150.05 | no | [226, 160, 163]; 476 KiB | |
+| row 8 with residual 2^5, W-I | leaf | 2^22, 1/4 | [6, 3, 3, 3, 3]; [2, 5, 5, 5, 5] | [225, 160, 160, 160, 160] | 152.33 | final: 21.98 | no | no count reaches the target; nearest: residual 2^7, [226, 160, 163, 179]; 521 KiB | |
+| row 5 shape (folds 5, 3; reductions 1, 1; residual 2^10) | node | 2^24, 1/2 | [5, 3, 3, 3]; [1, 5, 7, 9] | [367, 160, 155, 153] | 152.15 | query0: 152.32 | yes |  | 601 |
+| row 5 shape (folds 5, 3; reductions 1, 1; residual 2^10) | node | 2^24, 1/4 | [5, 3, 3, 3]; [2, 6, 8, 10] | [225, 156, 154, 153] | 152.15 | query1: 152.51 | yes |  | 538 |
+| row 5 shape (folds 5, 3; reductions 1, 1; residual 2^10) | node | 2^29, 1/2 | [5, 3, 3, 3, 3, 3]; [1, 5, 7, 9, 11, 13] | [367, 160, 155, 153, 153, 153] | 152.17 | query0: 152.32 | yes |  | 939 |
+| row 5 shape (folds 5, 3; reductions 1, 1; residual 2^10) | node | 2^29, 1/4 | [5, 3, 3, 3, 3, 3]; [2, 6, 8, 10, 12, 14] | [225, 156, 154, 153, 153, 153] | 152.17 | query1: 152.51 | yes |  | 862 |
+| residual 2^5 | node | 2^24, 1/2 | [5, 3, 3, 3, 3, 3]; [1, 5, 7, 9, 11, 13] | [367, 160, 155, 153, 153, 153] | 152.17 | query0: 152.32 | yes |  | 745 |
+| residual 2^5 | node | 2^24, 1/4 | [5, 3, 3, 3, 3, 3]; [2, 6, 8, 10, 12, 14] | [225, 156, 154, 153, 153, 153] | 152.17 | query1: 152.51 | yes |  | 692 |
+| residual 2^5 | node | 2^29, 1/2 | [5, 3, 3, 3, 3, 3, 3, 3]; [1, 5, 7, 9, 11, 13, 15, 17] | [367, 160, 155, 153, 153, 153, 153, 153] | 152.19 | query0: 152.32 | yes |  | 1,127 |
+| residual 2^5 | node | 2^29, 1/4 | [5, 3, 3, 3, 3, 3, 3, 3]; [2, 6, 8, 10, 12, 14, 16, 18] | [225, 156, 154, 153, 153, 153, 153, 153] | 152.19 | query1: 152.51 | yes |  | 1,060 |
+| reductions 3, 3 | node | 2^24, 1/2 | [5, 3, 3, 3]; [1, 3, 3, 3] | [367, 184, 184, 184] | 152.15 | query0: 152.32 | yes |  | 582 |
+| reductions 3, 3 | node | 2^24, 1/4 | [5, 3, 3, 3]; [2, 4, 4, 4] | [225, 167, 167, 167] | 152.15 | final: 152.35 | yes |  | 500 |
+| reductions 3, 3 | node | 2^29, 1/2 | [5, 3, 3, 3, 3, 3]; [1, 3, 3, 3, 3, 3] | [367, 184, 184, 184, 184, 184] | 152.17 | query0: 152.32 | yes |  | 872 |
+| reductions 3, 3 | node | 2^29, 1/4 | [5, 3, 3, 3, 3, 3]; [2, 4, 4, 4, 4, 4] | [225, 167, 167, 167, 167, 167] | 152.17 | final: 152.31 | yes |  | 756 |
+| fold 6 at level 0 | node | 2^24, 1/2 | [6, 3, 3, 3]; [1, 6, 8, 10] | [367, 156, 154, 153] | 152.15 | query0: 152.31 | yes |  | 663 |
+| fold 6 at level 0 | node | 2^24, 1/4 | [6, 3, 3, 3]; [2, 7, 9, 11] | [225, 155, 153, 153] | 152.15 | query0: 152.56 | yes |  | 570 |
+| fold 6 at level 0 | node | 2^29, 1/2 | [6, 3, 3, 3, 3, 3]; [1, 6, 8, 10, 12, 14] | [367, 156, 154, 153, 153, 153] | 152.17 | query0: 152.32 | yes |  | 1,007 |
+| fold 6 at level 0 | node | 2^29, 1/4 | [6, 3, 3, 3, 3, 3]; [2, 7, 9, 11, 13, 15] | [225, 155, 153, 153, 153, 153] | 152.17 | query0: 152.57 | yes |  | 902 |
+| fold 6, reductions 3, 3 | node | 2^24, 1/2 | [6, 3, 3, 3]; [1, 4, 4, 4] | [367, 167, 167, 167] | 152.15 | final: 152.31 | yes |  | 623 |
+| fold 6, reductions 3, 3 | node | 2^24, 1/4 | [6, 3, 3, 3]; [2, 5, 5, 5] | [225, 160, 160, 160] | 152.15 | query0: 152.56 | yes |  | 522 |
+| fold 6, reductions 3, 3 | node | 2^29, 1/2 | [6, 3, 3, 3, 3, 3]; [1, 4, 4, 4, 4, 4] | [367, 167, 167, 167, 167, 167] | 152.17 | final: 152.23 | yes |  | 899 |
+| fold 6, reductions 3, 3 | node | 2^29, 1/4 | [6, 3, 3, 3, 3, 3]; [2, 5, 5, 5, 5, 5] | [225, 160, 160, 160, 160, 160] | 152.17 | query0: 152.57 | yes |  | 777 |
+| fold 6 and 4, reductions 3, 3 | node | 2^24, 1/2 | [6, 4, 4]; [1, 4, 5] | [367, 167, 160] | 152.14 | query0: 152.31 | yes |  | 636 |
+| fold 6 and 4, reductions 3, 3 | node | 2^24, 1/4 | [6, 4, 4]; [2, 5, 6] | [225, 160, 156] | 152.14 | final: 152.50 | yes |  | 532 |
+| fold 6 and 4, reductions 3, 3 | node | 2^29, 1/2 | [6, 4, 4, 4, 4]; [1, 4, 5, 6, 7] | [367, 167, 160, 156, 155] | 152.17 | query0: 152.32 | yes |  | 953 |
+| fold 6 and 4, reductions 3, 3 | node | 2^29, 1/4 | [6, 4, 4, 4, 4]; [2, 5, 6, 7, 8] | [225, 160, 156, 155, 154] | 152.17 | query2: 152.51 | yes |  | 833 |
+| row 9 (node: folds 5, 3; reductions 1, 1; residual 2^9) | node | 2^24, 1/2 | [5, 3, 3, 3, 3]; [1, 5, 7, 9, 11] | [367, 160, 155, 153, 153] | 152.16 | query0: 152.32 | yes |  | 663 |
+| row 9 (node: folds 5, 3; reductions 1, 1; residual 2^9) | node | 2^24, 1/4 | [5, 3, 3, 3, 3]; [2, 6, 8, 10, 12] | [225, 156, 154, 153, 153] | 152.16 | query1: 152.51 | yes |  | 605 |
+| row 9 (node: folds 5, 3; reductions 1, 1; residual 2^9) | node | 2^29, 1/2 | [5, 3, 3, 3, 3, 3]; [1, 5, 7, 9, 11, 13] | [367, 160, 155, 153, 153, 153] | 152.17 | query0: 152.32 | yes |  | 939 |
+| row 9 (node: folds 5, 3; reductions 1, 1; residual 2^9) | node | 2^29, 1/4 | [5, 3, 3, 3, 3, 3]; [2, 6, 8, 10, 12, 14] | [225, 156, 154, 153, 153, 153] | 152.17 | query1: 152.51 | yes |  | 862 |
+
+Full-arity node statements (E): sub-bundle of 16 leaves 2^28.11 words, merge of 16 2^28.07 words (stack 2^29).
+
+Calibration: leaf non-opening bytes 49,868 B (fitted to the measured row-6 W-I proof, 483,256 B); node non-opening bytes 42,011 B, errors 2^24 stack, residual 2^10, 575,188 B -2.6%; 2^25 stack, residual 2^10, 645,676 B +0.2%; 2^25 stack, residual 2^10, 621,676 B +4.0%; 2^24 stack, residual 2^9, 625,604 B -1.8%
+
+## System A at the tree bound of specification 0.3.2 (20,000 proofs)
+
+Mask counts of the code (yugen-proof-a-zk zero-knowledge.md 18.6, zk-merge-notes.md 3; revision 6): 11 bus layers, 12 Keccak layers, 2 masked chains in S9, column A 2^11, 52 gadget claims: 87 listed rounds (the implementers' run used the tool's larger bus and S9 counts: 88).
+
+**Row 6's schedule solved at 20,000 proofs**: row 6 (built: folds 5, 3; reductions 1, 1; residual 2^10; 135.58-bit list); stack 2^22, rate 1/4; 87 rounds in the proof's list, 512 more outside it; need 152.52 bits a round; size 520 KiB (E); meets
+
+| Level | Fold | Domain (rows) | Nominal rate | Folded lane lf | True rate | Queries | Bits at the nominal rate | Bits at the true rate |
+|---|---|---|---|---|---|---|---|---|
+| 0 | 5 | 2^19 | 2^-2 | 131,559 | 0.25093 (2^-1.99) | 226 | 153.24 | 153.00 |
+| 1 | 3 | 2^20 | 2^-6 | 16,800 | 0.01602 (2^-5.96) | 157 | 153.49 | 153.40 |
+| 2 | 3 | 2^19 | 2^-8 | 2,461 | 0.00469 (2^-7.73) | 154 | 153.13 | 152.96 |
+| 3 | 3 | 2^18 | 2^-10 | 669 | 0.00255 (2^-8.61) | 154 | 153.78 | 153.43 |
+
+Built counts [226, 157, 154, 154]: meet (weakest round 152.96 of 152.52 bits); solved counts [226, 157, 154, 154]; each built count less by one: ['fails', 'fails', 'fails', 'fails'].
+Measured masked proof at these counts: 600,340 B = 586 KiB (M).
+
+Node rows at 20,000 proofs (plain WHIR, row 9):
+
+| Stack, rate | Row 9's list | Weakest round | Need | Meets | Solved counts |
+|---|---|---|---|---|---|
+| 2^24, 1/2 | [367, 160, 155, 153, 153] | query0: 152.32 | 152.35 | **no** | [368, 160, 155, 153, 153] |
+| 2^24, 1/4 | [225, 156, 154, 153, 153] | query1: 152.51 | 152.35 | yes | [225, 156, 154, 153, 153] |
+| 2^29, 1/2 | [367, 160, 155, 153, 153, 153] | query0: 152.32 | 152.36 | **no** | [368, 160, 155, 153, 153, 153] |
+| 2^29, 1/4 | [225, 156, 154, 153, 153, 153] | query1: 152.51 | 152.36 | yes | [225, 156, 154, 153, 153, 153] |
+
+## System B (Binius64), revision 4: counted rounds, 20,000 proofs, the field variants
+
+Tree bound 20,000 proofs. Counted challenges (parameters.md 2a.4): leaf k = 182, every node k <= 663; largest tree sum of (1 + k) = 5,399,296 = 2^22.36: 151.36 bits a round. Row budget 600 challenges a proof on average: **152.52 bits a round** (the row is solved at the budget).
+
+| Rate | Bits a query | Queries | Query round reaches |
+|---|---|---|---|
+| 1/2 | 0.4150 | 368 | 152.73 |
+| 1/4 | 0.6781 | 225 | 152.57 |
+| 1/8 | 0.8301 | 184 | 152.73 |
+| 1/16 | 0.9125 | 168 | 153.31 |
+
+| Challenge field | Leaf: weakest algebraic round (bits) | Node of 2^30 rows: weakest (bits) | Meets | Field needed (bits) |
+|---|---|---|---|---|
+| 2^128 | opening.idx0: 106.0 | fold.0: 97.0 | **no** | 184 |
+| 2^192 | opening.idx0: 170.0 | fold.0: 161.0 | yes | 184 |
+| 2^256 | opening.idx0: 234.0 | fold.0: 225.0 | yes | 184 |
+
+Rate 1/8, zero-knowledge wallet leaf (pin layout) and nodes, by where the objects live (docs/binius-extension-challenges.md). M: measured build; E: estimate.
+
+| Variant | Status | Queries | Leaf k | Wrapper constraints (log2 padded) | Wrapper private wires (log2) | Trace / wrapper / mask symbol (B) | Ring-switch message (bits) | Leaf KiB | Node KiB (2^27 words) | Leaf slot: AND rows, BMUL rows (E) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| pin: all in GF(2^128) | M | 116 (96-bit level) | 175 | 393,216 (2^19) | 98,304 (2^17) | 16 / 16 / 16 | 16,384 | 280 | 368 | 4.23 M, 0.79 M |
+| all in GF(2^256) (as built, cat1) | M | 184 | 182 | 1,441,792 (2^21) | 393,216 (2^19) | 32 / 32 / 32 | 65,536 | 614 | 697 | 8.08 M, 3.16 M |
+| all in GF(2^256), public transpositions direct (W-1) | E | 184 | 178 | 393,216 (2^19) | 393,216 (2^19) | 32 / 32 / 32 | 65,536 | 614 | 697 | 8.08 M, 3.16 M |
+| mixed, ring switch form T, wrapper as is | E | 184 | 182 | 1,376,256 (2^21) | 196,608 (2^18) | 16 / 32 / 32 | 32,768 | 568 | 699 | 7.82 M, 3.16 M |
+| mixed, form T, public transpositions direct (W-1) | E | 184 | 176 | 196,608 (2^18) | 196,608 (2^18) | 16 / 32 / 32 | 32,768 | 568 | 699 | 7.82 M, 3.16 M |
+| mixed, ring switch form F | E | 184 | 171 | 65,536 (2^17) | 65,536 (2^17) | 16 / 32 / 32 | 32,768 | 529 | 699 | 7.49 M, 3.16 M |
+
+Calibration at 256 bits: non-opening bytes leaf 36,532, node 55,300 (fitted to the measured all-GF(2^256) proofs); leaf errors rate 1/2 +1.8%, rate 1/4 -0.6%, rate 1/8 -0.7%, rate 1/16 -1.4%.
+
+Candidate, NOT a row (protocol theorem unconfirmed): the Johnson regime with BCIKS20's proven proximity gap, eta = sqrt(rho)/20:
+
+| Message (log2) | Rate | Queries | Bits a query | Fold round (bits) | Meets |
+|---|---|---|---|---|---|
+| 20 | 1/8 | 107 | 1.430 | 182.2 | yes |
+| 20 | 1/16 | 80 | 1.930 | 178.7 | yes |
+| 27 | 1/8 | 107 | 1.430 | 168.2 | yes |
+| 27 | 1/16 | 80 | 1.930 | 164.7 | yes |
+| 31 | 1/8 | 107 | 1.430 | 160.2 | yes |
+| 31 | 1/16 | 80 | 1.930 | 156.7 | yes |
+
+## System B (Binius64), revision 3 model (superseded: 512 other rounds, 17,477 proofs, estimated layout)
+
+Sub-bundles at rate 1/2, merges at 1/8 (the pin's cheaper choices, parameters.md 3.3):
+
+| Layer | Rate | Statement committed | Queries | Fold arities; terminal | Need (bits) | Field needed (bits) | Size KiB (E) | Under 1.75 MiB | Rows of the slot verifying it in its parent (E) |
+|---|---|---|---|---|---|---|---|---|---|
+| leaf | 1/8 | 2^17 + 2^20 elements (M) | 184 | 4/4/3/3; 512 | 152.16 | 176: GF(2^256) | 700 | yes | 8.7 M |
+| sub-bundle | 1/2 | 139 M rows: 2^27 elements (E) | 367 | 4/3/3/3/3/3; 512 | 152.18 | 181: GF(2^256) | 1,175 | yes | 18.7 M |
+| merge 1 | 1/8 | 298 M rows: 2^28 elements (E) | 184 | 4/4/3/3/3/3/3; 256 | 152.18 | 184: GF(2^256) | 831 | yes | 12.5 M |
+| merge 2 | 1/8 | 200 M rows: 2^27 elements (E) | 184 | 4/4/3/3/3/3; 1,024 | 152.18 | 183: GF(2^256) | 779 | yes | 11.1 M |
+| merge 3 | 1/8 | 177 M rows: 2^27 elements (E) | 184 | 4/4/3/3/3/3; 1,024 | 152.18 | 183: GF(2^256) | 779 | yes | 11.1 M |
+
+Every node at rate 1/8:
+
+| Layer | Rate | Statement committed | Queries | Fold arities; terminal | Need (bits) | Field needed (bits) | Size KiB (E) | Under 1.75 MiB | Rows of the slot verifying it in its parent (E) |
+|---|---|---|---|---|---|---|---|---|---|
+| leaf | 1/8 | 2^17 + 2^20 elements (M) | 184 | 4/4/3/3; 512 | 152.16 | 176: GF(2^256) | 700 | yes | 8.7 M |
+| sub-bundle | 1/8 | 139 M rows: 2^27 elements (E) | 184 | 4/4/3/3/3/3; 1,024 | 152.18 | 183: GF(2^256) | 779 | yes | 11.1 M |
+| merge 1 | 1/8 | 177 M rows: 2^27 elements (E) | 184 | 4/4/3/3/3/3; 1,024 | 152.18 | 183: GF(2^256) | 779 | yes | 11.1 M |
+| merge 2 | 1/8 | 177 M rows: 2^27 elements (E) | 184 | 4/4/3/3/3/3; 1,024 | 152.18 | 183: GF(2^256) | 779 | yes | 11.1 M |
+| merge 3 | 1/8 | 177 M rows: 2^27 elements (E) | 184 | 4/4/3/3/3/3; 1,024 | 152.18 | 183: GF(2^256) | 779 | yes | 11.1 M |
+
+Leaf rate trade (zero-knowledge leaf, committed derivation; pin layout in brackets):
+
+| Leaf rate | Queries | Leaf KiB (E) | Slot rows in the sub-bundle (E) |
+|---|---|---|---|
+| 1/2 | 367 | 1,041 (799) | 15.2 M (12.6 M) |
+| 1/4 | 225 | 760 (601) | 10.0 M (8.3 M) |
+| 1/8 | 184 | 700 (562) | 8.7 M (7.4 M) |
+| 1/16 | 167 | 701 (564) | 8.4 M (7.2 M) |
+
+Calibration (128-bit, measured proofs; doubled `other` at 256 bits): leaf_committed 41,255 B; leaf_pin 32,311 B; node 39,469 B; errors leaf_committed_errors: rate 1/2 -1.3%, rate 1/8 +1.9%; leaf_pin_errors: rate 1/2 -0.9%, rate 1/8 +1.3%; node_errors: 2^22 elements, rate 1/8 +5.7%, 2^22 elements, rate 1/2 -2.7%, 2^23 elements, rate 1/2 -2.3%

@@ -1,0 +1,76 @@
+name: ci
+
+on:
+  push:
+    branches: [upgrade/yugen]
+  pull_request:
+    branches: [upgrade/yugen]
+  workflow_dispatch:
+    inputs:
+      long:
+        description: "Also run the long checks (minutes each; zk-lemma/test_exact.py takes hours and is never run here)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quick:
+    name: Quick checks (standard library)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Scripts under a few seconds each
+        run: |
+          set -e
+          for f in \
+            ext-challenge/test_code.py ext-challenge/test_parallel_repetition.py \
+            ext-challenge/test_ring_switch.py ext-challenge/test_zk_mask.py \
+            johnson-row/test_fold_round.py johnson-row/test_lifted.py \
+            johnson-row/test_lifted_opening.py johnson-row/test_mask_round.py \
+            johnson-row/test_ring_switch_list.py johnson-row/test_rowcalc.py \
+            qrom/test_numbers.py \
+            zk-commit/test_code.py zk-commit/test_narrow_align.py zk-commit/test_product_round.py \
+            zk-commit/test_whir.py zk-commit/test_whir_a.py \
+            zk-lemma/test_bus.py zk-lemma/test_count_root.py zk-lemma/test_gkr.py \
+            zk-lemma/test_gkr4.py zk-lemma/test_handoff.py zk-lemma/test_leak.py \
+            zk-lemma/test_rank.py zk-lemma/test_slices.py \
+            zk-sound/test_affine.py zk-sound/test_basecase_sound.py \
+            zk-sound/test_blinder_sound.py zk-sound/test_mask_batch.py \
+            zk-sound/test_proximity.py zk-sound/test_terminal_dummy_sound.py \
+            zk-sound/test_wi_attacks.py; do
+            echo "== $f"
+            (cd "$(dirname "$f")" && python3 "$(basename "$f")" > /dev/null)
+          done
+      - uses: astral-sh/setup-uv@v6
+      - name: Soundness calculator tests
+        working-directory: soundness
+        run: uv run --frozen pytest -q
+
+  long:
+    name: Long checks (manual)
+    if: github.event_name == 'workflow_dispatch' && inputs.long
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: |
+          set -e
+          for f in zk-commit/test_basecase.py zk-commit/test_blind.py zk-commit/test_fold.py \
+                   zk-commit/test_wm.py zk-lemma/test_dummy_constraints.py \
+                   zk-lemma/test_dummy_terminal.py zk-lemma/test_gadget.py; do
+            echo "== $f"
+            (cd "$(dirname "$f")" && python3 "$(basename "$f")" > /dev/null)
+          done

@@ -1,0 +1,342 @@
+# run 2026-11-18 23:02 PST
+# uptime before: 23:02  up 2 days,  1:02, 9 users, load averages: 3.67 3.23 3.47
+Apple M5
+### 1. rate sweep, folding PCS, fold 4, arity 4
+## args: pcs=folding logh=14 rate=1 fold=4 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/2 fold=4 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 498147 bytes
+Prove time: 0.121s
+Verify time: 0.004s
+Composed security: 101.26 bits
+PCS: Folding
+            68960256  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 357940 bytes
+Prove time: 0.132s
+Verify time: 0.004s
+Composed security: 101.01 bits
+PCS: Folding
+            78577664  maximum resident set size
+## args: pcs=folding logh=14 rate=3 fold=4 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/8 fold=4 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 326899 bytes
+Prove time: 0.154s
+Verify time: 0.004s
+Composed security: 101.22 bits
+PCS: Folding
+            99188736  maximum resident set size
+## args: pcs=folding logh=14 rate=4 fold=4 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/16 fold=4 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 319069 bytes
+Prove time: 0.197s
+Verify time: 0.004s
+Composed security: 101.19 bits
+PCS: Folding
+           136839168  maximum resident set size
+### 2. rate sweep, WHIR unique decoding, arity 2
+## args: pcs=whir regime=ud logh=14 rate=1 fold=4 arity=2
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir regime=ud rate=1/2 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 314540 bytes
+Prove time: 0.151s
+Verify time: 0.003s
+Composed security: 100.69 bits
+PCS: Whir
+WHIR cap height: 7
+WHIR opened positions: 462
+            71417856  maximum resident set size
+## args: pcs=whir regime=ud logh=14 rate=2 fold=4 arity=2
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir regime=ud rate=1/4 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 279443 bytes
+Prove time: 0.163s
+Verify time: 0.003s
+Composed security: 100.64 bits
+PCS: Whir
+WHIR cap height: 7
+WHIR opened positions: 361
+            89571328  maximum resident set size
+## args: pcs=whir regime=ud logh=14 rate=3 fold=4 arity=2
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir regime=ud rate=1/8 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 269911 bytes
+Prove time: 0.203s
+Verify time: 0.003s
+Composed security: 100.61 bits
+PCS: Whir
+WHIR cap height: 6
+WHIR opened positions: 331
+           130629632  maximum resident set size
+## args: pcs=whir regime=ud logh=14 rate=4 fold=4 arity=2
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir regime=ud rate=1/16 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 272859 bytes
+Prove time: 0.273s
+Verify time: 0.003s
+Composed security: 100.49 bits
+PCS: Whir
+WHIR cap height: 6
+WHIR opened positions: 319
+           199147520  maximum resident set size
+### 3. fold sweep, folding PCS, rate 1/4, arity 4
+## args: pcs=folding logh=14 rate=2 fold=1 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=1 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 2 field elements (32 bytes)
+Proof size: 634992 bytes
+Prove time: 0.223s
+Verify time: 0.004s
+Composed security: 101.01 bits
+PCS: Folding
+           129253376  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=2 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=2 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 4 field elements (64 bytes)
+Proof size: 383672 bytes
+Prove time: 0.159s
+Verify time: 0.004s
+Composed security: 101.01 bits
+PCS: Folding
+            91324416  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=3 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=3 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 8 field elements (128 bytes)
+Proof size: 342947 bytes
+Prove time: 0.144s
+Verify time: 0.004s
+Composed security: 101.01 bits
+PCS: Folding
+            83329024  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=5 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=5 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 32 field elements (512 bytes)
+Proof size: 438859 bytes
+Prove time: 0.134s
+Verify time: 0.004s
+Composed security: 101.01 bits
+PCS: Folding
+            76791808  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=6 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=6 arity=4 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 64 field elements (1024 bytes)
+Proof size: 680582 bytes
+Prove time: 0.134s
+Verify time: 0.006s
+Composed security: 101.01 bits
+PCS: Folding
+            78282752  maximum resident set size
+### 4. Merkle arity, folding PCS, rate 1/4
+## args: pcs=folding logh=14 rate=2 fold=4 arity=2
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 328960 bytes
+Prove time: 0.135s
+Verify time: 0.004s
+Composed security: 101.01 bits
+PCS: Folding
+            79511552  maximum resident set size
+### 5. query grinding sweep, folding PCS, rate 1/4
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4 pow=8
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=8 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 341216 bytes
+Prove time: 0.132s
+Verify time: 0.004s
+Composed security: 101.54 bits
+PCS: Folding
+            78479360  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4 pow=16
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=16 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 315976 bytes
+Prove time: 0.148s
+Verify time: 0.004s
+Composed security: 101.41 bits
+PCS: Folding
+            78200832  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4 pow=20
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=20 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 305177 bytes
+Prove time: 0.209s
+Verify time: 0.004s
+Composed security: 101.34 bits
+PCS: Folding
+            78151680  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4 pow=24
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=24 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 296319 bytes
+Prove time: 3.951s
+Verify time: 0.004s
+Composed security: 101.27 bits
+PCS: Folding
+            78053376  maximum resident set size
+### 5b. query grinding, WHIR UD, rate 1/16
+## args: pcs=whir regime=ud logh=14 rate=4 fold=4 arity=2 pow=0
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir regime=ud rate=1/16 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 272859 bytes
+Prove time: 0.267s
+Verify time: 0.003s
+Composed security: 100.49 bits
+PCS: Whir
+WHIR cap height: 6
+WHIR opened positions: 319
+           199213056  maximum resident set size
+## args: pcs=whir regime=ud logh=14 rate=4 fold=4 arity=2 pow=16
+             5750784  maximum resident set size
+## args: pcs=whir regime=ud logh=14 rate=4 fold=4 arity=2 pow=20
+             5750784  maximum resident set size
+### 6. Merkle leaf width, folding PCS, rate 1/4
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4 leaf=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=0 leaf=4, 655 Keccak-f permutations
+Merkle leaf: 4 field elements (64 bytes)
+Proof size: 359024 bytes
+Prove time: 0.145s
+Verify time: 0.004s
+Composed security: 101.01 bits
+PCS: Folding
+            89686016  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4 leaf=64
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=0 leaf=64, 655 Keccak-f permutations
+Merkle leaf: 64 field elements (1024 bytes)
+Proof size: 621358 bytes
+Prove time: 0.133s
+Verify time: 0.005s
+Composed security: 101.01 bits
+PCS: Folding
+            76660736  maximum resident set size
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4 leaf=256
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=0 leaf=256, 655 Keccak-f permutations
+Merkle leaf: 256 field elements (4096 bytes)
+Proof size: 1508203 bytes
+Prove time: 0.130s
+Verify time: 0.006s
+Composed security: 101.01 bits
+PCS: Folding
+            79855616  maximum resident set size
+### 7. WHIR Johnson regime (proven Johnson radius, harness accounting)
+## args: pcs=whir regime=jb logh=14 rate=1 fold=4 arity=2
+            10289152  maximum resident set size
+## args: pcs=whir regime=jb logh=14 rate=2 fold=4 arity=2
+            10289152  maximum resident set size
+## args: pcs=whir regime=jb logh=14 rate=4 fold=4 arity=2
+            10534912  maximum resident set size
+### 8. WHIR UD with GF(2^64) values and GF(2^192) challenges
+## args: pcs=whir-gf192 regime=ud logh=14 rate=1 fold=4 arity=2
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir-gf192 regime=ud rate=1/2 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (128 bytes)
+Proof size: 425515 bytes
+Prove time: 0.730s
+Verify time: 0.004s
+Composed security: 100.46 bits
+PCS: Whir
+WHIR cap height: 7
+WHIR opened positions: 565
+           382681088  maximum resident set size
+## args: pcs=whir-gf192 regime=ud logh=14 rate=2 fold=4 arity=2
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir-gf192 regime=ud rate=1/4 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (128 bytes)
+Proof size: 404439 bytes
+Prove time: 0.728s
+Verify time: 0.004s
+Composed security: 100.48 bits
+PCS: Whir
+WHIR cap height: 7
+WHIR opened positions: 464
+           428457984  maximum resident set size
+## args: pcs=whir-gf192 regime=ud logh=14 rate=4 fold=4 arity=2
+system B, Plonky3 native binary @ fe5e46d7, pcs=whir-gf192 regime=ud rate=1/16 fold=4 arity=2 pow=0 scpow=0 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (128 bytes)
+Proof size: 408108 bytes
+Prove time: 0.916s
+Verify time: 0.004s
+Composed security: 100.68 bits
+PCS: Whir
+WHIR cap height: 6
+WHIR opened positions: 422
+           598163456  maximum resident set size
+### 9. trace-size scaling, folding PCS, rate 1/4, fold 4, arity 4
+## args: pcs=folding logh=12 rate=2 fold=4 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=0 leaf=0, 163 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 314427 bytes
+Prove time: 0.033s
+Verify time: 0.003s
+Composed security: 101.03 bits
+PCS: Folding
+            26935296  maximum resident set size
+## args: pcs=folding logh=13 rate=2 fold=4 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=0 leaf=0, 327 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 333308 bytes
+Prove time: 0.065s
+Verify time: 0.004s
+Composed security: 101.02 bits
+PCS: Folding
+            42827776  maximum resident set size
+## args: pcs=folding logh=15 rate=2 fold=4 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=0 leaf=0, 1310 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 385875 bytes
+Prove time: 0.275s
+Verify time: 0.004s
+Composed security: 100.99 bits
+PCS: Folding
+           145539072  maximum resident set size
+## args: pcs=folding logh=16 rate=2 fold=4 arity=4
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=0 leaf=0, 2621 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 433213 bytes
+Prove time: 0.537s
+Verify time: 0.004s
+Composed security: 100.94 bits
+PCS: Folding
+           278839296  maximum resident set size
+### 10. sumcheck grinding 8 bits per round, folding PCS, rate 1/4
+## args: pcs=folding logh=14 rate=2 fold=4 arity=4 scpow=8
+system B, Plonky3 native binary @ fe5e46d7, pcs=folding regime=ud rate=1/4 fold=4 arity=4 pow=0 scpow=8 leaf=0, 655 Keccak-f permutations
+Merkle leaf: 16 field elements (256 bytes)
+Proof size: 358135 bytes
+Prove time: 0.133s
+Verify time: 0.004s
+Composed security: 101.01 bits
+PCS: Folding
+            78397440  maximum resident set size
+# uptime after: 23:02  up 2 days,  1:03, 9 users, load averages: 3.72 3.27 3.47
+
+### 7b. (supplement) section 7 failed: Johnson over GF(2^128) cannot reach sec=100 ('InsufficientSecurity requested 100, available 98.52' at rate 1/4); 5b failed: WHIR rejects pcs_pow_bits ('WhirIncompatible(PcsPowBits)'). Johnson against unique decoding at sec=90:
+# uptime: 23:03  up 2 days,  1:03, 9 users, load averages: 3.67 3.28 3.48
+## args: pcs=whir regime=ud logh=14 rate=1 fold=4 arity=2 sec=90
+Proof size: 295051 bytes
+Prove time: 0.149s
+Verify time: 0.003s
+Composed security: 90.79 bits
+WHIR opened positions: 417
+## args: pcs=whir regime=ud logh=14 rate=2 fold=4 arity=2 sec=90
+Proof size: 262374 bytes
+Prove time: 0.160s
+Verify time: 0.003s
+Composed security: 90.86 bits
+WHIR opened positions: 326
+## args: pcs=whir regime=ud logh=14 rate=4 fold=4 arity=2 sec=90
+Proof size: 256615 bytes
+Prove time: 0.266s
+Verify time: 0.003s
+Composed security: 91.03 bits
+WHIR opened positions: 288
+## args: pcs=whir regime=jb logh=14 rate=1 fold=4 arity=2 sec=90
+thread 'main' (4856630) panicked at src/main.rs:105:6:
+prove and verify: Security(InsufficientSecurity { requested: 90, available: 88.83700657636481 })
+## args: pcs=whir regime=jb logh=14 rate=2 fold=4 arity=2 sec=90
+thread 'main' (4856635) panicked at src/main.rs:105:6:
+prove and verify: Security(InsufficientSecurity { requested: 90, available: 88.50358516380176 })
+## args: pcs=whir regime=jb logh=14 rate=4 fold=4 arity=2 sec=90
+thread 'main' (4856640) panicked at src/main.rs:105:6:
+prove and verify: Security(InsufficientSecurity { requested: 90, available: 88.50552312036916 })
+# Johnson regime: at sec=90 the harness reports available 88.5-88.8 for every rate; the composed accounting falls short of the per-term target by about 1.5 bits, so the Johnson regime is not measured here.

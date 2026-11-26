@@ -1,0 +1,63 @@
+RECORD (superseded by revision 9; not the calculator's convention): the counts below use the book need (kappa_C + 1 + log2 N + log2(1 + k), or earlier per-layer targets), which for the spBCS transcript holds only under the non-default convention (t >= k_q); no row below is certified. Johnson-regime rows rest on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; Haboeck's route is withdrawn (binius-johnson-row.md 0.1); the 102- and 77-query rows are withdrawn (thin margins). The certified rows are printed by `yugen-soundness` (no flag) or `--rev9`.
+
+Revision 6. Tree of 20,000 proofs, 256-bit digests, no grinding, unique decoding. Condition Q under Sharp-Grubbs (ePrint 2026/2615) Theorem 6.6 (2) for the spBCS transcript (qrom-compilation.md 4); zero knowledge under Theorem 6.6 (3), (4) for leaf proofs (zk-quantum.md 3).
+
+## Message counts (SG26 Definition I.1; estimates until the transcript modules report them)
+
+| System | Source | N_V | N_P | m | c | c' | 6 c' | q_IOP | log2 l_max | k_q | longest stream (B) | n_pos (leaf) | L_leaf (B) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A | listed rounds 87 + OTHER_ROUNDS 512 | 599 | 599 | 2 | 2,396 | 2,397 | 14,382 (2^13.81) | 1,552 | 26 | 45,852 (2^15.48) | 1154 | 2^21.17 | 512 |
+| B | row budget 600 challenges a proof | 600 | 600 | 2 | 2,400 | 2,401 | 14,406 (2^13.81) | 1,104 | 31 | 38,832 (2^15.24) | 713 | 2^23.25 | 512 |
+
+## QROM bits of the tree (Theorem 6.6 (2), N = 20,000; condition Q: >= 64, hard failure)
+
+| System, transcript form | Provenance | e (bits) | C1 | C2 = 6 c' (x 8 with Lemma X) | IOP term | Hash term | Stream term (log2, any t) | QROM bits | Margin over 64 |
+|---|---|---|---|---|---|---|---|---|---|
+| A, spBCS, SHAKE256 stream | Published | 152.96 | 6 | 14,382 | 67.54 | 75.63 | -4593.0 | 67.54 | +3.54 |
+| B, spBCS, SHAKE256 stream (default) | Published | 152.73 | 6 | 14,406 | 67.43 | 75.63 | -2829.1 | 67.43 | +3.43 |
+| B, spBCS, counter-mode SHA-256 stream | Adapted (Lemma X) | 152.73 | 24 | 115,248 | 66.43 | 74.63 | -2829.1 | 66.43 | +2.43 |
+
+Records (revision 5, Theorem Q; not certified): A form X C1 = 6, C2 = 24: 67.54; B form C (constants unproved: no write-back) C1 = 24, C2 = 240: 66.43. Needs: A 145.87, B 145.87 (SHAKE) / 147.87 (counter) bits a round for the IOP term alone; condition C binds (B's need 152.52).
+
+## Condition C under the ROM part of Theorem 6.6 (2) (finding Q-5; not applied to the certified rows)
+
+The certified need uses the book's Theorems 25.2.1 and 31.2.1, `(t + k) eps` with k the rounds, for Construction 25.1.1; for the spBCS transcript the published classical bound is SG26's `(t + k_q)(eps_k + c' (t + k_q)/2^256)`. At t = 1 that charges the verifier's k_q queries.
+
+| System | k_q | Need, every t >= 1 | Need, t >= k_q | Certified need (book, k rounds) | Weakest round | Margin, every t | Margin, t >= k_q |
+|---|---|---|---|---|---|---|---|
+| A | 45,852 | 158.77 | 144.29 | 152.52 | 152.96 | -5.81 | +8.67 |
+| B | 38,832 | 158.53 | 144.29 | 152.52 | 152.73 | -5.80 | +8.45 |
+
+## Zero knowledge of leaf proofs (Theorem 6.6 (3), everlasting, QROM; 6.6 (4), unconditional WI)
+
+Every figure is the stated bound minus the IOP's term (Q eps_hvzk for (3), 2 Q eps_hvzk for (4)): eps_hvzk is open for both systems (zk-quantum.md 5). eps_ov = 0 (every challenge set a power of two). 64-byte leaf salts (eps_leaf = 2^-129.0 at L_leaf = 512 B).
+
+| System | Proof salt b_s (B) | t | One proof | A wallet (2^16 proofs) | The pool (2^20 proofs) | Largest term at the pool | WI (6.6 (4)), pool, L = 2^24 bits |
+|---|---|---|---|---|---|---|---|
+| A | 32 | 2^64 | 2^-62.0 | 2^-46.0 | 2^-42.0 | salt (4Qt/2^(4 b_s)) | 2^-86.8 |
+| A | 32 | 2^128 | 1 (vacuous) | 1 (vacuous) | 1 (vacuous) | salt (4Qt/2^(4 b_s)) | 2^-86.8 |
+| A | 48 | 2^64 | 2^-107.8 | 2^-91.8 | 2^-87.8 | leaf (Q n_pos eps_leaf) | 2^-86.8 |
+| A | 48 | 2^128 | 2^-62.0 | 2^-46.0 | 2^-42.0 | salt (4Qt/2^(4 b_s)) | 2^-86.8 |
+| A | 64 (D-b) | 2^64 | 2^-107.8 | 2^-91.8 | 2^-87.8 | leaf (Q n_pos eps_leaf) | 2^-86.8 |
+| A | 64 (D-b) | 2^128 | 2^-107.8 | 2^-91.8 | 2^-87.8 | leaf (Q n_pos eps_leaf) | 2^-86.8 |
+| B | 32 | 2^64 | 2^-62.0 | 2^-46.0 | 2^-42.0 | salt (4Qt/2^(4 b_s)) | 2^-84.7 |
+| B | 32 | 2^128 | 1 (vacuous) | 1 (vacuous) | 1 (vacuous) | salt (4Qt/2^(4 b_s)) | 2^-84.7 |
+| B | 48 | 2^64 | 2^-105.7 | 2^-89.7 | 2^-85.7 | leaf (Q n_pos eps_leaf) | 2^-84.7 |
+| B | 48 | 2^128 | 2^-62.0 | 2^-46.0 | 2^-42.0 | salt (4Qt/2^(4 b_s)) | 2^-84.7 |
+| B | 64 (D-b) | 2^64 | 2^-105.7 | 2^-89.7 | 2^-85.7 | leaf (Q n_pos eps_leaf) | 2^-84.7 |
+| B | 64 (D-b) | 2^128 | 2^-105.7 | 2^-89.7 | 2^-85.7 | leaf (Q n_pos eps_leaf) | 2^-84.7 |
+
+Leaf salt length (64-byte proof salt, t = 2^64, the pool): b_l = 32 B: A 1 (vacuous), B 1 (vacuous); b_l = 48 B: A 2^-23.8, B 2^-21.7; b_l = 64 B: A 2^-87.8, B 2^-85.7; b_l = 72 B: A 2^-119.8, B 2^-117.7; b_l = 76 B: A 2^-135.8, B 2^-133.7. Node proofs carry no zero-knowledge requirement (D-c).
+
+## leanVM's eps_aff (CWYZ26 Theorem 4.10, (4.13)) at leanVM as shipped (GF(2^128), stack 2^20, rate 1/16)
+
+Cross-check only: no certified Yugen row uses it (unique decoding everywhere). Agreement at the calculator's Johnson point sqrt(rho)(1 + 1/20); the witness search is leanVM's `find_witness`.
+
+| Level | n | d | A | m | D | M | B | eps_aff (bits) | leanVM's round (eps_aff + 2 l / q, bits) | DKT26 line count (bits) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0 | 2^24 | 2^20 | 4,404,020 | 9 | 528 | 37 | 4,399,924 | 123.05 | 121.46 | 88.41 |
+| 1 | 2^21 | 2^14 | 194,632 | 11 | 2537 | 130 | 194,568 | 121.27 | 119.69 | 88.41 |
+| 2 | 2^20 | 2^10 | 34,407 | 21 | 6896 | 698 | 34,403 | 119.67 | 118.10 | 86.41 |
+| 3 | 2^19 | 2^6 | 6,083 | | | | | no witness (leanVM's search) | | 84.39 |
+
+CWYZ26 Remark 5.3 reproduced: n = 2^20, d = 2^18, A = 576,717, m = 3, D = 49, B = 567,980: M = 6, l = 6, delta = 2^-182.17, 125.42 bits (the paper: about 125.42).

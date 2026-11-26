@@ -1,0 +1,7 @@
+target/
+.DS_Store
+.tools-venv/
+soundness/.venv/
+*.tmp
+__pycache__/
+.pytest_cache/

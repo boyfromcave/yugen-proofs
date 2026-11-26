@@ -1,0 +1,28 @@
+ok   the rule is the support of multiplication by X at all 124 slots of a level (slots where it differs: 0; the old rule differs at 124)
+ok   model: folds [2, 1], Q [3, 2], witness rows 1: offsets narrow [12, 16] wide [16, 20]; a coefficient reaches a weighed slot: True; honest runs rejected 12/12
+ok   model: folds [1], Q [2], witness rows 1: offsets narrow [8] wide [8] (same layout); a coefficient reaches a weighed slot: False; honest runs rejected 0/12
+ok   model: folds [1], Q [2], witness rows 2: offsets narrow [8] wide [8] (same layout); a coefficient reaches a weighed slot: False; honest runs rejected 0/12
+ok   model: folds [2], Q [2], witness rows 1: offsets narrow [12] wide [12] (same layout); a coefficient reaches a weighed slot: False; honest runs rejected 0/12
+ok   model: folds [1, 1], Q [2, 2], witness rows 2: offsets narrow [8, 12] wide [8, 12] (same layout); a coefficient reaches a weighed slot: False; honest runs rejected 0/12
+ok   model: folds [2], Q [3], witness rows 1: offsets narrow [12] wide [16]; a coefficient reaches a weighed slot: True; honest runs rejected 12/12
+ok   model: folds [1], Q [3], witness rows 3: offsets narrow [12] wide [12] (same layout); a coefficient reaches a weighed slot: False; honest runs rejected 0/12
+ok   model: folds [1], Q [4], witness rows 1: offsets narrow [8] wide [8] (same layout); a coefficient reaches a weighed slot: False; honest runs rejected 0/12
+ok   real prover: folds (2, 1, 7), 7 queries: predicted accepted, accepted (the old rule predicted refused)
+ok   real prover: folds (2, 1, 7), 8 queries: predicted accepted, accepted (the old rule predicted refused)
+ok   real prover: folds (2, 1, 7), 3 queries: predicted accepted, accepted
+ok   real prover: folds (2, 1, 7), 5 queries: predicted accepted, accepted
+ok   real prover: folds (2, 1, 7), 2 queries: predicted refused, refused
+ok   real prover: folds (2, 2, 7), 3 queries: predicted accepted, accepted (the old rule predicted refused)
+ok   real prover: folds (2, 2, 7), 7 queries: predicted refused, refused
+ok   real prover: folds (3, 2, 5), 4 queries: predicted refused, refused
+ok   real prover: folds (3, 2, 5), 6 queries: predicted refused, refused
+ok   real prover: folds (3, 2, 5), 7 queries: predicted refused, refused
+ok   real prover: folds (3, 3, 7), 6 queries: predicted refused, refused
+ok   real prover: folds (4, 2, 7), 5 queries: predicted accepted, accepted (the old rule predicted refused)
+ok   real prover: folds (4, 2, 7), 13 queries: predicted accepted, accepted (the old rule predicted refused)
+ok   real prover: folds (4, 4, 7), 13 queries: predicted accepted, accepted (the old rule predicted refused)
+ok   real prover: folds (5, 3, 10), 6 queries: predicted accepted, accepted
+ok   real prover: folds (5, 3, 10), 28 queries: predicted refused, refused
+ok   real prover: folds (5, 3, 10), 30 queries: predicted refused, refused
+ok   the old rule mispredicts 6 of 17 real shapes (recorded: 6)
+FAILURES 0

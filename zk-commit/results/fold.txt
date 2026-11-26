@@ -1,0 +1,11 @@
+lane identity P(x) = f0(q(x)) + (x/b0) f1(q(x)): 200/200 random checks hold
+PASS T = Q 2^Lc, coset, masked final: hiding 120, leaking 0, rank B at the accepting dimension 120/120
+PASS T = Q 2^Lc, coset, masked final (Q=3, Lc=1): hiding 120, leaking 0, rank B at the accepting dimension 120/120
+PASS T = Q 2^Lc, coset, masked final (Lc=3, Q=1): hiding 120, leaking 0, rank B at the accepting dimension 120/120
+PASS T = (Q-1) 2^Lc: too little randomness: hiding 0, leaking 120, rank B at the accepting dimension 0/120
+PASS T = Q 2^(Lc-1): budget of one level less: hiding 0, leaking 120, rank B at the accepting dimension 0/120
+PASS linear domain, a query in U: hiding 0, leaking 120, rank B at the accepting dimension 0/120
+PASS final polynomial in clear: hiding 0, leaking 120, rank B at the accepting dimension 0/120
+PASS enumeration GF(16), n=1, one fold, one query, T = Q 2^Lc: identical 128, different 0 (all gamma, all positions, every randomness value)
+PASS enumeration GF(16), n=1, one fold, one query, T too small: identical 0, different 128 (all gamma, all positions, every randomness value)
+FAILURES 0

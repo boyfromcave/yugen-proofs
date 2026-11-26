@@ -1,0 +1,139 @@
+RECORD (superseded by revision 9; not the calculator's convention): the counts below use the book need (kappa_C + 1 + log2 N + log2(1 + k), or earlier per-layer targets), which for the spBCS transcript holds only under the non-default convention (t >= k_q); no row below is certified. Johnson-regime rows rest on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; Haboeck's route is withdrawn (binius-johnson-row.md 0.1); the 102- and 77-query rows are withdrawn (thin margins). The certified rows are printed by `yugen-soundness` (no flag) or `--rev9`.
+
+### Named targets
+
+| Target | NIST | Chain classical (proven) | Per layer | Chain QROM (proven, CMS19 C1=6) | Per layer | Attack bits per round | Digest, attack rule | Digest, proven rule | Min. challenge field |
+|---|---|---|---|---|---|---|---|---|---|
+| cat1 | 1 | 128 | 130 | 64 | 66 | 128 | 256 | 264 | GF(2^192) |
+| cat3 | 3 | 192 | 194 | 96 | 98 | 192 | 384 | 392 | GF(2^256) |
+
+### cat1: every layer, rate 1/4, query grind 20, digest 256 bits
+
+| System | Layer | Regime | Field | Rate | Queries per round | Query grind | Classical (IOP) | QROM (IOP) | Checks | Size (KiB) | Verify (ms) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| A | leaf | UD (proven) | 2^192 | 1/4 | 171, 122, 117, 116, 116 | 20 | 130.1 | 66.2 | CQGH | 534 | 8.1 |
+| A | bundle | UD (proven) | 2^192 | 1/4 | 172, 122, 117, 117, 117, 117 | 20 | 130.3 | 66.4 | CQGH | 685 | 11.4 |
+| A | merge1 | UD (proven) | 2^192 | 1/4 | 172, 122, 117, 117, 117, 117 | 20 | 130.3 | 66.4 | CQGH | 685 | 11.4 |
+| A | merge2 | UD (proven) | 2^192 | 1/4 | 171, 122, 117, 116, 116 | 20 | 130.1 | 66.2 | CQGH | 554 | 8.8 |
+| A | leaf | UD (proven) | 2^256 | 1/4 | 171, 122, 117, 116, 116 | 20 | 130.1 | 66.2 | CQGH | 602 | 8.1 |
+| A | bundle | UD (proven) | 2^256 | 1/4 | 172, 122, 117, 117, 117, 117 | 20 | 130.3 | 66.4 | CQGH | 768 | 11.9 |
+| A | merge1 | UD (proven) | 2^256 | 1/4 | 172, 122, 117, 117, 117, 117 | 20 | 130.3 | 66.4 | CQGH | 768 | 11.9 |
+| A | merge2 | UD (proven) | 2^256 | 1/4 | 171, 122, 117, 116, 116 | 20 | 130.1 | 66.2 | CQGH | 622 | 9.2 |
+| A | leaf | Johnson DKT26 (unconfirmed) | 2^192 | 1/4 | 125, 48, 30, 22, 17 | 20 | 130.2 | 66.3 | CQGH | 240 | 3.4 |
+| A | bundle | Johnson DKT26 (unconfirmed) | 2^192 | 1/4 | 126, 48, 30, 22, 17, 14 | 20 | 130.3 | 66.5 | CQGH | 276 | 4.4 |
+| A | merge1 | Johnson DKT26 (unconfirmed) | 2^192 | 1/4 | 126, 48, 30, 22, 17, 14 | 20 | 130.3 | 66.5 | CQGH | 276 | 4.4 |
+| A | merge2 | Johnson DKT26 (unconfirmed) | 2^192 | 1/4 | 125, 48, 30, 22, 17 | 20 | 130.2 | 66.3 | CQGH | 248 | 3.7 |
+| A | leaf | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 125, 48, 30, 22, 17 | 20 | 130.2 | 66.3 | CQGH | 264 | 3.4 |
+| A | bundle | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 126, 48, 30, 22, 17, 14 | 20 | 130.3 | 66.5 | CQGH | 302 | 4.5 |
+| A | merge1 | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 126, 48, 30, 22, 17, 14 | 20 | 130.3 | 66.5 | CQGH | 302 | 4.5 |
+| A | merge2 | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 125, 48, 30, 22, 17 | 20 | 130.2 | 66.3 | CQGH | 272 | 3.8 |
+| B | leaf | UD (proven) | 2^192 | 1/4 | 171, 121, 117, 116 | 20 | 130.2 | 66.0 | CQGH | 437 | 4.6 |
+| B | bundle | UD (proven) | 2^192 | 1/4 | 171 | 20 | 130.2 | 66.2 | CQGH | 930 | 8.6 |
+| B | merge1 | UD (proven) | 2^192 | 1/4 | 171 | 20 | 130.2 | 66.2 | CQGH | 930 | 8.6 |
+| B | merge2 | UD (proven) | 2^192 | 1/4 | 171 | 20 | 130.3 | 66.2 | CQGH | 891 | 8.0 |
+| B | leaf | UD (proven) | 2^256 | 1/4 | 171, 121, 117, 116 | 20 | 130.2 | 66.0 | CQGH | 503 | 4.6 |
+| B | bundle | UD (proven) | 2^256 | 1/4 | 171 | 20 | 130.2 | 66.2 | CQGH | 1092 | 9.2 |
+| B | merge1 | UD (proven) | 2^256 | 1/4 | 171 | 20 | 130.2 | 66.2 | CQGH | 1092 | 9.2 |
+| B | merge2 | UD (proven) | 2^256 | 1/4 | 171 | 20 | 130.3 | 66.2 | CQGH | 1054 | 8.6 |
+| B | leaf | Johnson DKT26 (unconfirmed) | 2^192 | 1/4 | 125, 48, 30, 22 | 20 | 130.6 | 66.3 | CQGH | 196 | 2.1 |
+| B | bundle | Johnson DKT26 (unconfirmed) | 2^192 | 1/4 | 125 | 20 | 130.5 | 66.3 | CQGH | 699 | 6.5 |
+| B | merge1 | Johnson DKT26 (unconfirmed) | 2^192 | 1/4 | 125 | 20 | 130.5 | 66.3 | CQGH | 699 | 6.5 |
+| B | merge2 | Johnson DKT26 (unconfirmed) | 2^192 | 1/4 | 125 | 20 | 130.6 | 66.3 | CQGH | 671 | 6.0 |
+| B | leaf | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 125, 48, 30, 22 | 20 | 130.6 | 66.3 | CQGH | 220 | 2.1 |
+| B | bundle | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 125 | 20 | 130.5 | 66.3 | CQGH | 820 | 6.9 |
+| B | merge1 | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 125 | 20 | 130.5 | 66.3 | CQGH | 820 | 6.9 |
+| B | merge2 | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 125 | 20 | 130.6 | 66.3 | CQGH | 792 | 6.5 |
+
+### cat3: every layer, rate 1/4, query grind 20, digest 384 bits
+
+| System | Layer | Regime | Field | Rate | Queries per round | Query grind | Classical (IOP) | QROM (IOP) | Checks | Size (KiB) | Verify (ms) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| A | leaf | UD (proven) | 2^256 | 1/4 | 266, 189, 181, 180, 180 | 20 | 194.1 | 98.1 | CQGH | 1058 | 13.7 |
+| A | bundle | UD (proven) | 2^256 | 1/4 | 266, 189, 182, 181, 181, 181 | 20 | 194.3 | 98.4 | CQGH | 1405 | 18.7 |
+| A | merge1 | UD (proven) | 2^256 | 1/4 | 266, 189, 182, 181, 181, 181 | 20 | 194.3 | 98.4 | CQGH | 1405 | 18.7 |
+| A | merge2 | UD (proven) | 2^256 | 1/4 | 266, 189, 181, 180, 180 | 20 | 194.1 | 98.1 | CQGH | 1120 | 14.6 |
+| A | leaf | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 194, 75, 46, 34, 26 | 20 | 194.1 | 98.3 | CQGH | 454 | 5.7 |
+| A | bundle | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 194, 75, 46, 34, 27, 22 | 20 | 194.1 | 98.4 | CQGH | 540 | 7.1 |
+| A | merge1 | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 194, 75, 46, 34, 27, 22 | 20 | 194.1 | 98.4 | CQGH | 540 | 7.1 |
+| A | merge2 | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 194, 75, 46, 34, 26 | 20 | 194.1 | 98.3 | CQGH | 477 | 6.1 |
+| B | leaf | UD (proven) | 2^256 | 1/4 | 265, 188, 181, 180 | 20 | 194.3 | 98.0 | CQGH | 878 | 7.5 |
+| B | bundle | UD (proven) | 2^256 | 1/4 | 266 | 20 | 194.7 | 98.4 | CQGH | 1942 | 14.9 |
+| B | merge1 | UD (proven) | 2^256 | 1/4 | 266 | 20 | 194.7 | 98.4 | CQGH | 1942 | 14.9 |
+| B | merge2 | UD (proven) | 2^256 | 1/4 | 265 | 20 | 194.0 | 98.1 | CQGH | 1845 | 13.9 |
+| B | leaf | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 194, 74, 46, 34 | 20 | 194.1 | 98.1 | CQGH | 384 | 3.4 |
+| B | bundle | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 194 | 20 | 194.6 | 98.4 | CQGH | 1455 | 11.2 |
+| B | merge1 | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 194 | 20 | 194.6 | 98.4 | CQGH | 1455 | 11.2 |
+| B | merge2 | Johnson DKT26 (unconfirmed) | 2^256 | 1/4 | 194 | 20 | 194.7 | 98.4 | CQGH | 1389 | 10.5 |
+
+### Leaf: rate trade at 256-bit challenges, query grind 20 (prover time and memory: estimate on 1 M5 thread)
+
+| Target | System | Rate | Queries | Size (KiB) | Verify (ms) | Prove (s) | Measured RSS at GF(2^128) (MB) |
+|---|---|---|---|---|---|---|---|
+| cat1 | A | 1/2 | 280, 127, 118, 116, 116 | 678 | 8.9 | 3.52 | 890 |
+| cat1 | A | 1/4 | 171, 122, 117, 116, 116 | 602 | 8.1 | 4.79 | 1300 |
+| cat1 | A | 1/8 | 140, 119, 117, 116, 116 | 591 | 8.2 | 7.60 | 2121 |
+| cat1 | A | 1/16 | 127, 118, 116, 116, 116 | 596 | 8.5 | 13.53 | 3631 |
+| cat1 | B | 1/2 | 279, 127, 117, 116 | 540 | 4.9 | 1.63 | 71 |
+| cat1 | B | 1/4 | 171, 121, 117, 116 | 503 | 4.6 | 1.64 | 90 |
+| cat1 | B | 1/8 | 140, 119, 116, 116 | 504 | 4.7 | 1.74 | 131 |
+| cat1 | B | 1/16 | 127, 117, 116, 116 | 514 | 4.9 | 1.91 | 199 |
+| cat3 | A | 1/2 | 434, 198, 182, 181, 180 | 1182 | 15.1 | 3.52 | 890 |
+| cat3 | A | 1/4 | 266, 189, 181, 180, 180 | 1058 | 13.7 | 4.79 | 1300 |
+| cat3 | A | 1/8 | 217, 184, 181, 180, 180 | 1046 | 13.8 | 7.60 | 2121 |
+| cat3 | A | 1/16 | 198, 182, 181, 180, 180 | 1067 | 14.2 | 13.53 | 3631 |
+| cat3 | B | 1/2 | 433, 197, 182, 180 | 938 | 8.0 | 1.63 | 71 |
+| cat3 | B | 1/4 | 265, 188, 181, 180 | 878 | 7.5 | 1.64 | 90 |
+| cat3 | B | 1/8 | 217, 184, 181, 180 | 889 | 7.7 | 1.74 | 131 |
+| cat3 | B | 1/16 | 197, 182, 180, 180 | 916 | 8.1 | 1.91 | 199 |
+
+### Leaf: query grinding trade, cat1, 256-bit challenges, rate 1/4
+
+| System | Query grind | Queries | Size (KiB) | Grinding (Keccak-f) | Grinding (s, M5 thread) |
+|---|---|---|---|---|---|
+| A | 0 | 201, 143, 137, 136, 136 | 694 | 2^2.3 | 0.00 |
+| A | 12 | 183, 130, 125, 124, 124 | 639 | 2^14.3 | 0.00 |
+| A | 16 | 177, 126, 121, 120, 120 | 620 | 2^18.3 | 0.04 |
+| A | 20 | 171, 122, 117, 116, 116 | 602 | 2^22.3 | 0.68 |
+| A | 24 | 165, 118, 113, 112, 112 | 583 | 2^26.3 | 10.89 |
+| A | 28 | 159, 113, 109, 108, 108 | 564 | 2^30.3 | 174.31 |
+| B | 0 | 200, 142, 137, 136 | 579 | 2^2.0 | 0.00 |
+| B | 12 | 183, 130, 125, 124 | 535 | 2^14.0 | 0.00 |
+| B | 16 | 177, 126, 121, 120 | 520 | 2^18.0 | 0.03 |
+| B | 20 | 171, 121, 117, 116 | 503 | 2^22.0 | 0.54 |
+| B | 24 | 165, 117, 113, 112 | 488 | 2^26.0 | 8.72 |
+| B | 28 | 159, 113, 109, 108 | 473 | 2^30.0 | 139.45 |
+
+### GF(2^128) challenges at cat1: grinding the algebraic rounds would need (unique decoding, rate 1/16)
+
+| System | Layer | Weakest algebraic round (bits) | Needed | Grind per algebraic round | Algebraic rounds | Work (Keccak-f) | Hours, M5 thread |
+|---|---|---|---|---|---|---|---|
+| A | leaf | 100.0 | 135.8 | 36 | 22 | 2^40.5 | 54.5 |
+| A | bundle | 96.0 | 136.0 | 41 | 26 | 2^45.7 | 2062.6 |
+| A | merge1 | 96.0 | 136.0 | 41 | 26 | 2^45.7 | 2062.6 |
+| A | merge2 | 98.0 | 135.8 | 38 | 22 | 2^42.5 | 218.2 |
+| B | leaf | 105.0 | 135.6 | 31 | 16 | 2^35.0 | 1.2 |
+| B | bundle | 96.0 | 135.7 | 40 | 24 | 2^44.6 | 952.0 |
+| B | merge1 | 96.0 | 135.7 | 40 | 24 | 2^44.6 | 952.0 |
+| B | merge2 | 97.0 | 135.6 | 39 | 23 | 2^43.5 | 456.1 |
+
+### Digest rule: proven-bound digests (cat1 264 bits, cat3 392 bits), leaf, rate 1/4, grind 20
+
+| System | Layer | Regime | Field | Rate | Queries per round | Query grind | Classical (IOP) | QROM (IOP) | Checks | Size (KiB) | Verify (ms) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| A | leaf | UD (proven) | 2^256 | 1/4 | 171, 122, 117, 116, 116 | 20 | 130.1 | 66.2 | CQGH | 609 | 8.7 |
+| B | leaf | UD (proven) | 2^256 | 1/4 | 171, 121, 117, 116 | 20 | 130.2 | 66.0 | CQGH | 509 | 4.8 |
+| A | leaf | UD (proven) | 2^256 | 1/4 | 266, 189, 181, 180, 180 | 20 | 194.1 | 98.1 | CQGH | 1068 | 13.7 |
+| B | leaf | UD (proven) | 2^256 | 1/4 | 265, 188, 181, 180 | 20 | 194.3 | 98.0 | CQGH | 887 | 7.5 |
+
+### B recursion layers with WHIR instead of the folding PCS (alternative; not at the pin in Plonky3-recursion), rate 1/8
+
+| Target | Layer | Query grind | Schedule | Queries | Size (KiB, E) | Verify (ms, E) |
+|---|---|---|---|---|---|---|
+| cat1 | bundle | 20 | shape first=6 k=4 residual=10 | [140, 117, 116, 116] | 765 | 7.9 |
+| cat1 | bundle | 0 | shape first=5 k=4 residual=11 | [164, 138, 136, 136] | 875 | 9.0 |
+| cat1 | merge2 | 20 | shape first=5 k=4 residual=10 | [140, 117, 116, 116] | 704 | 7.4 |
+| cat1 | merge2 | 0 | shape first=5 k=4 residual=10 | [164, 138, 136, 136] | 809 | 8.6 |
+| cat3 | bundle | 20 | shape first=5 k=4 residual=11 | [217, 182, 180, 180] | 1388 | 12.3 |
+| cat3 | bundle | 0 | shape first=5 k=4 residual=11 | [241, 202, 200, 200] | 1521 | 13.5 |
+| cat3 | merge2 | 20 | shape first=5 k=4 residual=10 | [217, 182, 180, 180] | 1298 | 11.7 |
+| cat3 | merge2 | 0 | shape first=5 k=4 residual=10 | [241, 202, 200, 200] | 1426 | 12.9 |

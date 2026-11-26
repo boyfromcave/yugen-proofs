@@ -1,0 +1,3 @@
+GF(4): 4 witnesses with different v, all blinders and masks: view laws identical in 40 of 40 challenge sets; honest checks pass from the stated head in 40 of 40; control no blinder: different in 40; control G unshifted: head check fails in 40
+GF(16): 16 witnesses with different v, all blinders and masks: view laws identical in 40 of 40 challenge sets; honest checks pass from the stated head in 40 of 40; control no blinder: different in 40; control G unshifted: head check fails in 40
+RESULT: PASS

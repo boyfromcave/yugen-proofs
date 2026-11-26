@@ -1,0 +1,7 @@
+ok    A: GF(16), n = 8, k = 3: coset code = linear-domain code = novel-basis span (4096 words), minimum distance 6
+ok    A: GF(16), n = 8, k = 5: coset code = linear-domain code = novel-basis span (1048576 words), minimum distance 4
+ok    A: GF(16), n = 8, k = 6: coset code = linear-domain code = novel-basis span (16777216 words), minimum distance 3
+ok    B: all 4096 pairs: pairs not jointly within the radius have at most 4 good gamma (theorem: at most n = 4)
+ok    B: Lemma 2, 4000 sampled lane quadruples: not jointly within the radius => at most 4 good gamma (<= n = 4)
+ok    C: 1500 sampled (F, G): not jointly within the radius => at most 32 good (alpha, beta) (<= n q = 32)
+FAILURES 0

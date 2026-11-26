@@ -1,0 +1,12 @@
+layout, GF(16), kappa = 1, 300 honest runs each: accepted (a) every lane 24, (b) all-G lane, no guard 26, (c) all-G lane with kappa guard slots 300
+ok    kappa = 1: layout (c) is complete (the folded aux slot holds the coefficient)
+ok    kappa = 1: layouts (a) and (b) are not complete (finding F-1)
+layout, GF(16), kappa = 2, 300 honest runs each: accepted (a) every lane 17, (b) all-G lane, no guard 21, (c) all-G lane with kappa guard slots 300
+ok    kappa = 2: layout (c) is complete (the folded aux slot holds the coefficient)
+ok    kappa = 2: layouts (a) and (b) are not complete (finding F-1)
+one affine round, GF(8), exact game value, honest layout (c): 0.3438
+one affine round, GF(8), exact game value, aux in every lane: 0.3438
+one affine round, GF(8), exact game value, random aux and guard slots: 0.3438
+ok    honest layout: 0.3438 <= 1 - (1-1/q)(1-2/q) = 0.3438
+ok    any committed table: 0.3438 <= 1 - (1-1/q)(1-3/q) = 0.4531
+FAILURES 0

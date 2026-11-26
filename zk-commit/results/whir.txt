@@ -1,0 +1,13 @@
+PASS two levels (folds 2,1), GF(2^8): tuples 156, verifier accepts 156, hiding 156, leaking 0, uniform on accepting set 156, rank B [33], accepting dimension 33, secrets w=8 z=36, view entries 39
+PASS three levels (folds 1,1,1), GF(2^8): tuples 106, verifier accepts 106, hiding 106, leaking 0, uniform on accepting set 106, rank B [33], accepting dimension 33, secrets w=4 z=35, view entries 39
+PASS two levels (folds 2,2), 3+2 queries, 2 OOD, GF(2^8): tuples 46, verifier accepts 46, hiding 46, leaking 0, uniform on accepting set 46, rank B [46], accepting dimension 46, secrets w=16 z=52, view entries 53
+PASS one level (fold 1), GF(2^4): tuples 206, verifier accepts 206, hiding 206, leaking 0, uniform on accepting set 206, rank B [10], accepting dimension 10, secrets w=2 z=10, view entries 13
+PASS two levels, GF(2^6): tuples 156, verifier accepts 156, hiding 156, leaking 0, uniform on accepting set 156, rank B [18], accepting dimension 18, secrets w=2 z=19, view entries 22
+tamper: 39/39 single-entry changes rejected; wrong claim rejected: True
+negative controls (each must leak):
+PASS linear domain, a row inside U: tuples 60, verifier accepts 60, hiding 0, leaking 60, uniform on accepting set 0, rank B [23, 25, 26, 27, 28, 29], accepting dimension 33, secrets w=8 z=36, view entries 39
+PASS one randomness coefficient too few: tuples 60, verifier accepts 60, hiding 0, leaking 60, uniform on accepting set 0, rank B [27], accepting dimension 30, secrets w=8 z=27, view entries 36
+PASS no sumcheck mask: tuples 60, verifier accepts 60, hiding 0, leaking 60, uniform on accepting set 0, rank B [25], accepting dimension 33, secrets w=8 z=28, view entries 39
+PASS Libra's mask in a 2-round batch: tuples 60, verifier accepts 60, hiding 0, leaking 60, uniform on accepting set 0, rank B [31], accepting dimension 33, secrets w=8 z=36, view entries 39
+PASS no base-case mask: tuples 60, verifier accepts 60, hiding 0, leaking 60, uniform on accepting set 0, rank B [21], accepting dimension 33, secrets w=8 z=24, view entries 39
+FAILURES 0

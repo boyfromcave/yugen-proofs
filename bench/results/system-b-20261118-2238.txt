@@ -1,0 +1,16 @@
+# run 2026-11-18 22:38 PST
+# uptime before: 22:38  up 2 days, 38 mins, 9 users, load averages: 3.29 3.64 4.53
+Apple M5
+system B (Plonky3 0.9.0-rc.2, KoalaBear, FRI, Keccak, HidingFriPcs) config=run_d4_digest256
+  keccak-f permutations      : 128 (24 rows each; log_blowup 1, queries 100, arity 2^1, pow query/commit/batch 16/0/0, random codewords 4)
+  proof size (postcard)      : 1428394 bytes (1394.9 KiB)
+  prove (trace gen + prove)  : mean 0.694 s, min 0.681 s over 3 runs
+  verify                     : mean 4.73 ms, min 4.62 ms
+          1670840320  maximum resident set size
+system B (Plonky3 0.9.0-rc.2, KoalaBear, FRI, Keccak, HidingFriPcs) config=run_d8_digest384
+  keccak-f permutations      : 128 (24 rows each; log_blowup 4, queries 110, arity 2^3, pow query/commit/batch 24/16/16, random codewords 8)
+  proof size (postcard)      : 1809036 bytes (1766.6 KiB)
+  prove (trace gen + prove)  : mean 4.246 s, min 3.727 s over 2 runs
+  verify                     : mean 5.80 ms, min 5.73 ms
+          3659055104  maximum resident set size
+# uptime after: 22:38  up 2 days, 38 mins, 9 users, load averages: 3.01 3.56 4.48

@@ -1,0 +1,23 @@
+{
+  "what": "Input of soundness/src/yugen_soundness/census.py: the round census of system A's leaf and node proofs (finding M-3 of docs/theorem-s-referee.md; docs/round-census-a.md). Program shapes are the parameters the verifier walk reads from the announced sizes; measured counts are the verifier messages the built native verifier counts (spBCS, verifier::spbcs::tally, j_v).",
+  "verifier": "yugen-proof-a HEAD 15b9993, vendor/leanMultisig/crates/verifier/src (lib.rs walk, bus.rs, keccak.rs, ring_switch.rs, zk.rs verify_gadget, wi.rs verify_wi, whir.rs verify_whir, transcript.rs sumcheck); read with git show, nothing run",
+  "programs": {
+    "wallet-mode0": {
+      "bus_depth": 21,
+      "table_rounds": 17,
+      "keccak_log_steps": 9,
+      "keccak_depth": 12,
+      "n_constraints": 2,
+      "gadget_log_len": 11,
+      "gadget_claims": 52,
+      "source": "bus depth 21, gadget 2^11 and 52 claims: yugen-proof-a docs/zero-knowledge.md 18 (corrections counted from the proof) and 17.5; table sumcheck 17 rounds (SET) and the KECCAK table at 2^9 steps: zero-knowledge.md 11.1 (wallet statement sizes); a state every 2 rounds (12 layers): 17.5; n_constraints 2: layout.rs (only JUMP has constraints, jump_constraints returns 2). The census of this program reproduces the measured j_v of both the masked row 8 (445) and the plain row 7 (411), which is the check on these figures."
+    }
+  },
+  "measured": [
+    {"row": "row 8 (masked in a tree)", "mode": 0, "stack": 22, "rate": 2, "queries": [234, 166, 169, 186], "j_v": 445, "program": "wallet-mode0", "source": "yugen-proof-a bench/results/kq-report-20261119.txt, native, leaf-row8-mode0 and leaf-e-ml0-mode0"},
+    {"row": "row 8 (masked in a tree)", "mode": 1, "stack": 21, "rate": 2, "queries": [234, 166, 172, 228], "j_v": 409, "program": null, "source": "yugen-proof-a bench/results/kq-report-20261119.txt, native, leaf-row8-mode1"},
+    {"row": "row 7 (plain leaf)", "mode": 0, "stack": 22, "rate": 2, "queries": [233, 165, 165, 166], "j_v": 411, "program": "wallet-mode0", "source": "yugen-proof-a bench/results/kq-report-20261119.txt, native, leaf-row7-mode0"},
+    {"row": "row 9 (node)", "mode": 0, "stack": 25, "rate": 1, "queries": [382, 174, 174, 174, 174, 177], "j_v": 501, "program": null, "source": "yugen-proof-a bench/results/kq-report-20261119.txt, native, node-row9-sub1 (S of one leaf)"},
+    {"row": "row 9 (node)", "mode": 0, "stack": 27, "rate": 1, "queries": [383, 174, 174, 174, 174, 175, 181], "j_v": 592, "program": null, "source": "yugen-proof-a bench/results/kq-report-20261119.txt, native, node-d-m7-merge-mode0 and node-d-mm7-merge-mode0 (the largest of the row-9 lines: S(6) 580, M of 6 591, M of 7 592)"}
+  ]
+}

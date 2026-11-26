@@ -1,0 +1,137 @@
+# exact real-vs-simulated transcript distributions (statistical distance, exact rationals)
+## A. plain sumcheck over {0,1}^n, characteristic 2
+GF(2^2) n=1 d=1 plain   stair      coeffs= 2 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=1 plain   stair_full coeffs= 3 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=1 plain   cfs        coeffs= 2 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=1 plain   weighted   coeffs= 2 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.0000
+GF(2^2) n=1 d=1 plain   libra      coeffs= 3 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=2 plain   stair      coeffs= 3 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=2 plain   stair_full coeffs= 4 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=2 plain   cfs        coeffs= 3 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=2 plain   weighted   coeffs= 3 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.0000
+GF(2^2) n=1 d=2 plain   libra      coeffs= 4 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=3 plain   stair      coeffs= 4 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=3 plain   stair_full coeffs= 5 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=3 plain   cfs        coeffs= 4 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=3 plain   weighted   coeffs= 4 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.0000
+GF(2^2) n=1 d=3 plain   libra      coeffs= 5 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=1 plain   stair      coeffs= 3 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=1 plain   stair_full coeffs= 5 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=1 plain   cfs        coeffs= 4 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=1 plain   weighted   coeffs= 4 r:all(16) cases=   96 equal=   72 maxSD=0.7500 meanSD=0.187500
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.2500
+GF(2^2) n=2 d=1 plain   libra      coeffs= 5 r:all(16) cases=   96 equal=    0 maxSD=0.7500 meanSD=0.750000
+GF(2^2) n=2 d=2 plain   stair      coeffs= 5 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=2 plain   stair_full coeffs= 7 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=2 plain   cfs        coeffs= 9 r:sample(12) cases=   72 equal=   72 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=2 plain   weighted   coeffs= 6 r:all(16) cases=   96 equal=   72 maxSD=0.9375 meanSD=0.234375
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.2500
+GF(2^2) n=2 d=2 plain   libra      coeffs= 7 r:all(16) cases=   96 equal=    0 maxSD=0.9375 meanSD=0.937500
+GF(2^2) n=2 d=3 plain   stair      coeffs= 7 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=3 plain   stair_full coeffs= 9 r:sample(12) cases=   72 equal=   72 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=3 plain   cfs        skipped (mask space too large to enumerate)
+GF(2^2) n=2 d=3 plain   weighted   coeffs= 8 r:all(16) cases=   96 equal=   72 maxSD=0.9844 meanSD=0.246094
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.2500
+GF(2^2) n=2 d=3 plain   libra      coeffs= 9 r:sample(12) cases=   72 equal=    0 maxSD=0.9844 meanSD=0.984375
+GF(2^2) n=3 d=1 plain   stair      coeffs= 4 r:all(64) cases=  384 equal=  384 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=1 plain   stair_full coeffs= 7 r:all(64) cases=  384 equal=  384 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=1 plain   cfs        coeffs= 8 r:sample(50) cases=  300 equal=  300 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=1 plain   weighted   coeffs= 6 r:all(64) cases=  384 equal=  216 maxSD=0.9375 meanSD=0.375000
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.5000
+GF(2^2) n=3 d=1 plain   libra      coeffs= 7 r:all(64) cases=  384 equal=    0 maxSD=0.9375 meanSD=0.937500
+GF(2^2) n=3 d=2 plain   stair      coeffs= 7 r:all(64) cases=  384 equal=  384 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=2 plain   stair_full coeffs=10 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=2 plain   cfs        skipped (mask space too large to enumerate)
+GF(2^2) n=3 d=2 plain   weighted   coeffs= 9 r:sample(12) cases=   72 equal=   36 maxSD=0.9961 meanSD=0.488281
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.5000
+GF(2^2) n=3 d=2 plain   libra      coeffs=10 r:sample(8) cases=   48 equal=    0 maxSD=0.9961 meanSD=0.996094
+GF(2^2) n=3 d=3 plain   stair      coeffs=10 r:sample(9) cases=   18 equal=   18 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=3 plain   stair_full skipped (mask space too large to enumerate)
+GF(2^2) n=3 d=3 plain   cfs        skipped (mask space too large to enumerate)
+GF(2^2) n=3 d=3 plain   weighted   skipped (mask space too large to enumerate)
+GF(2^2) n=3 d=3 plain   libra      skipped (mask space too large to enumerate)
+GF(2^4) n=1 d=1 plain   stair      coeffs= 2 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=1 plain   stair_full coeffs= 3 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=1 plain   cfs        coeffs= 2 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=1 plain   weighted   coeffs= 2 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.0000
+GF(2^4) n=1 d=1 plain   libra      coeffs= 3 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=2 plain   stair      coeffs= 3 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=2 plain   stair_full coeffs= 4 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=2 plain   cfs        coeffs= 3 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=2 plain   weighted   coeffs= 3 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.0000
+GF(2^4) n=1 d=2 plain   libra      coeffs= 4 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=3 plain   stair      coeffs= 4 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=3 plain   stair_full coeffs= 5 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=3 plain   cfs        coeffs= 4 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=3 plain   weighted   coeffs= 4 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.0000
+GF(2^4) n=1 d=3 plain   libra      coeffs= 5 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=1 plain   stair      coeffs= 3 r:sample(64) cases=  384 equal=  384 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=1 plain   stair_full coeffs= 5 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=1 plain   cfs        coeffs= 4 r:sample(50) cases=  300 equal=  300 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=1 plain   weighted   coeffs= 4 r:sample(50) cases=  300 equal=  276 maxSD=0.9375 meanSD=0.075000
+    weighted: every distinguishable r has some r_k = 1, k < n: True; bound (n-1)/|F| = 0.0625
+GF(2^4) n=2 d=1 plain   libra      coeffs= 5 r:sample(8) cases=   48 equal=    0 maxSD=0.9375 meanSD=0.937500
+GF(2^4) n=2 d=2 plain   stair      coeffs= 5 r:sample(9) cases=   18 equal=   18 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=2 plain   stair_full skipped (mask space too large to enumerate)
+GF(2^4) n=2 d=2 plain   cfs        skipped (mask space too large to enumerate)
+GF(2^4) n=2 d=2 plain   weighted   skipped (mask space too large to enumerate)
+GF(2^4) n=2 d=2 plain   libra      skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 plain   stair      coeffs= 4 r:sample(50) cases=  300 equal=  300 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=3 d=1 plain   stair_full skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 plain   cfs        skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 plain   weighted   skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 plain   libra      skipped (mask space too large to enumerate)
+## B. eq-weighted sumcheck (weights (1+tau_k, tau_k), reduced round messages)
+GF(2^2) n=1 d=2 eq      libra      coeffs= 4 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=1 d=2 eq      stair_u    coeffs= 4 r:all(4) cases=   24 equal=   24 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=1 eq      libra      coeffs= 5 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=1 eq      stair_u    coeffs= 5 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=2 eq      libra      coeffs= 7 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=2 eq      stair_u    coeffs= 7 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=3 eq      libra      coeffs= 9 r:sample(12) cases=   72 equal=   72 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=2 d=3 eq      stair_u    coeffs= 9 r:sample(12) cases=   72 equal=   72 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=1 eq      libra      coeffs= 7 r:all(64) cases=  384 equal=  384 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=1 eq      stair_u    coeffs= 7 r:all(64) cases=  384 equal=  384 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=2 eq      libra      coeffs=10 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=2 eq      stair_u    coeffs=10 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=3 eq      libra      coeffs= 5 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=1 d=3 eq      stair_u    coeffs= 5 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=1 eq      libra      coeffs= 5 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=1 eq      stair_u    coeffs= 5 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=2 eq      libra      skipped (mask space too large to enumerate)
+GF(2^4) n=2 d=2 eq      stair_u    skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 eq      libra      skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 eq      stair_u    skipped (mask space too large to enumerate)
+## C. arbitrary nonzero weight pairs, mask with lam_k(u_k) = 1
+GF(2^2) n=2 d=2 general stair_u    coeffs= 7 r:all(16) cases=   96 equal=   96 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=1 general stair_u    coeffs= 7 r:all(64) cases=  384 equal=  384 maxSD=0.0000 meanSD=0.000000
+GF(2^2) n=3 d=2 general stair_u    coeffs=10 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=1 general stair_u    coeffs= 5 r:sample(8) cases=   48 equal=   48 maxSD=0.0000 meanSD=0.000000
+GF(2^4) n=2 d=2 general stair_u    skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 general stair_u    skipped (mask space too large to enumerate)
+## D. deterministic adaptive verifier (challenges chosen from the messages), GF(2^2), from the definition
+GF(2^2) n=2 d=2 stair     strategy=hash      SD=0.0000
+GF(2^2) n=2 d=2 stair     strategy=aim-at-1  SD=0.0000
+GF(2^2) n=2 d=2 weighted  strategy=hash      SD=0.2344
+GF(2^2) n=2 d=2 weighted  strategy=aim-at-1  SD=0.5859
+GF(2^2) n=2 d=2 libra     strategy=hash      SD=0.9375
+GF(2^2) n=2 d=2 libra     strategy=aim-at-1  SD=0.9375
+GF(2^2) n=3 d=1 stair     strategy=hash      SD=0.0000
+GF(2^2) n=3 d=1 stair     strategy=aim-at-1  SD=0.0000
+GF(2^2) n=3 d=1 weighted  strategy=hash      SD=0.3750
+GF(2^2) n=3 d=1 weighted  strategy=aim-at-1  SD=0.7500
+GF(2^2) n=3 d=1 libra     strategy=hash      SD=0.9375
+GF(2^2) n=3 d=1 libra     strategy=aim-at-1  SD=0.9375
+GF(2^2) n=3 d=2 stair     strategy=hash      SD=0.0000
+GF(2^2) n=3 d=2 stair     strategy=aim-at-1  SD=0.0000
+GF(2^2) n=3 d=2 weighted  strategy=hash      SD=0.4248
+GF(2^2) n=3 d=2 weighted  strategy=aim-at-1  SD=0.8423
+GF(2^2) n=3 d=2 libra     strategy=hash      SD=0.9961
+GF(2^2) n=3 d=2 libra     strategy=aim-at-1  SD=0.9961
+RESULT: PASS

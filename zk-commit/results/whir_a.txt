@@ -1,0 +1,12 @@
+ok   one level, fold 1, Q = 2, GF(256) [folded lanes 11]: completeness 124/124, one changed entry rejected 123/124; zero knowledge and uniformity 124/124, (rank B, dim Acc) = [(20, 20)]
+ok   one level, fold 2, Q = 2, GF(256) [folded lanes 16]: completeness 64/64, one changed entry rejected 63/64; zero knowledge and uniformity 64/64, (rank B, dim Acc) = [(33, 33)]
+ok   two levels, folds 1/1, Q = 2/2, GF(256) [folded lanes 11/15]: completeness 64/64, one changed entry rejected 63/64; zero knowledge and uniformity 64/64, (rank B, dim Acc) = [(33, 33)]
+ok   two levels, folds 2/1, Q = 3/2, GF(256) [folded lanes 21/23]: completeness 30/30, one changed entry rejected 30/30; zero knowledge and uniformity 30/30, (rank B, dim Acc) = [(53, 53)]
+ok   one level, fold 1, Q = 2, GF(64) [folded lanes 11]: completeness 80/80, one changed entry rejected 80/80; zero knowledge and uniformity 80/80, (rank B, dim Acc) = [(20, 20)]
+ok   control: no mask [folded lanes 11]: completeness 40/40, one changed entry rejected 40/40; leak 40/40
+ok   control: no base-case mask [folded lanes 11]: completeness 40/40, one changed entry rejected 40/40; leak 40/40
+ok   control: one random coefficient too few [folded lanes 10]: completeness 40/40, one changed entry rejected 40/40; leak 40/40
+ok   control: linear domain, an opened row in U_top [folded lanes 11/15]: completeness 40/40, one changed entry rejected 39/40; leak 40/40
+ok   control: offset aligned to t instead of t + kappa (fold 2): honest view rejected in 30/30 runs (F-7)
+ok   control: every-lane aux layout: honest view rejected in 60/60 runs (F-1)
+FAILURES 0

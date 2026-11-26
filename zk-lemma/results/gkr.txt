@@ -1,0 +1,5 @@
+# masked GKR layer chain, GF(2^2), exact
+blinded chain, Z != 0: joint distribution equal to the simulator's in 67 of 67 (witness, challenge) cases, each over all 16 blinders and all 4^6 + 4^5 mask polynomials
+excluded event ry in {0,1} (Z = 0): 77 of 77 cases publish v1(0), v1(1) unblinded
+blinder off: 40 of 40 witness pairs with equal P and equal leaf claims have different layer claims
+RESULT: PASS

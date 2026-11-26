@@ -1,0 +1,14 @@
+# masked bus terminals: exact statistical distance to the witness-free simulator
+GF(2^2) T=2: additive SD=0  multiplicative SD=0  message SD=0.25000 (bound (T-1)/|F| = 0.25000)
+GF(2^2) T=3: additive SD=0  multiplicative SD=0  message SD=0.43750 (bound (T-1)/|F| = 0.50000)
+GF(2^2) T=4: additive SD=0  multiplicative SD=0  message SD=0.57812 (bound (T-1)/|F| = 0.75000)
+GF(2^4) T=2: additive SD=0  multiplicative SD=0  message SD=0.06250 (bound (T-1)/|F| = 0.06250)
+GF(2^4) T=3: additive SD=0  multiplicative SD=0  message SD=0.12109 (bound (T-1)/|F| = 0.12500)
+GF(2^8) T=2: additive SD=0  multiplicative SD=0  message SD=0.00391 (bound (T-1)/|F| = 0.00391)
+# fractional bus (sigma_t = P_t / Q_t, both published): messages between neighbours plus one
+# self-cancelling pair per table; conditional on no zero denominator
+GF(2^2) T=2: (terminals, denominators) against (message-masked terminals, uniform nonzero denominators): SD=0
+GF(2^2) T=3: (terminals, denominators) against (message-masked terminals, uniform nonzero denominators): SD=0
+GF(2^4) T=2: (terminals, denominators) against (message-masked terminals, uniform nonzero denominators): SD=0
+GF(2^4) T=3: (terminals, denominators) against (message-masked terminals, uniform nonzero denominators): SD=0
+RESULT: PASS

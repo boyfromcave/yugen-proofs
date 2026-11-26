@@ -1,0 +1,6 @@
+# linear opening gadget: exact real-vs-simulated view, all prover and simulator randomness
+GF(2^2) length 4 (mask 3, pad 1): pad weight nonzero: equal 216, different 0; pad weight zero: equal 0, different 168
+GF(2^2) length 4 (mask 2, pad 2): pad weight nonzero: equal 192, different 0; pad weight zero: equal 0, different 64
+GF(2^2) length 8 (mask 7, pad 1): pad weight nonzero: equal 28, different 0; pad weight zero: equal 0, different 28
+GF(2^4) length 2 (mask 1, pad 1): pad weight nonzero: equal 1440, different 0; pad weight zero: equal 0, different 96
+RESULT: PASS

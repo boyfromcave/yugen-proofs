@@ -1,0 +1,17 @@
+# count root with one free leaf: part A, zero knowledge (K = GF(4) in F = GF(16))
+honest count roots (products of powers of g): [1, 6, 7] = K* = [1, 6, 7]
+leaf uniform on F*: R_c e uniform on F* for all 3 roots: True
+leaf uniform on K*: R_c e uniform on K* for all 3 roots: True
+leaf uniform on F*, any nonzero root in F: uniform on F*: True
+control, no leaf: distance between two witnesses with different roots: 1
+control, additive mask R_c + e, e uniform nonzero: largest distance 1/15
+control, K-word leaf with a root outside K*: distance from uniform on K*: 1 (a coset of K*)
+control, the leaf also published in clear: largest distance 1
+# part B, soundness of the memory argument with the leaf (exhaustive)
+memory argument, K = GF(4), 2 cells, 2 reads: 65536 assignments, 6 accepted without the leaf
+with the leaf: accepted set equal to the plain one for each of the 3 nonzero e: True; accepted with e = 0: 0
+forged reads accepted: plain 0, with the leaf (all e) 0
+control, no nonzero check: 308 balanced assignments contain a forged read
+control, additive mask (accept iff R_c + e != 0): 924 forged acceptances over the nonzero e
+control, 3 = |K*| reads forming a cycle of counts at a non-entry: accepted: True (the read bound, not the leaf, excludes it; unchanged by the leaf)
+RESULT: PASS

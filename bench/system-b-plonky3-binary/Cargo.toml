@@ -1,0 +1,19 @@
+[package]
+name = "yugen-bench-b-plonky3-binary"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "Step 0.3 smoke benchmark: smallest Keccak-hashing proof in system B (Plonky3 native binary stack)."
+
+[workspace]
+
+[dependencies]
+# System B: Plonky3, pinned to commit fe5e46d7 (the p3-*-v0.9.0-rc.2 release tags).
+p3-examples = { git = "https://github.com/Plonky3/Plonky3", rev = "fe5e46d755b8a7d9069778361e21b33e5978b377" }
+p3-binary-field = { git = "https://github.com/Plonky3/Plonky3", rev = "fe5e46d755b8a7d9069778361e21b33e5978b377" }
+p3-keccak-air = { git = "https://github.com/Plonky3/Plonky3", rev = "fe5e46d755b8a7d9069778361e21b33e5978b377" }
+p3-sumcheck = { git = "https://github.com/Plonky3/Plonky3", rev = "fe5e46d755b8a7d9069778361e21b33e5978b377" }
+p3-matrix = { git = "https://github.com/Plonky3/Plonky3", rev = "fe5e46d755b8a7d9069778361e21b33e5978b377" }
+
+[profile.release]
+lto = "thin"

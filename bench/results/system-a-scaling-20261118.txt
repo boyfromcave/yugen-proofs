@@ -1,0 +1,60 @@
+# run 2026-11-18 23:03 PST, leanVM @ 84780fb4, 1 thread, nice 10, 2 runs each
+# uptime before: 23:03  up 2 days,  1:03, 9 users, load averages: 3.73 3.32 3.49
+Apple M5
+## args: 512 2 1 1
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 512 (VM cycles 526, log_inv_rate 1, threads 1)
+  proof size                 : 180440 bytes (176.2 KiB)
+  prove                      : mean 0.045 s, min 0.044 s over 2 runs
+  verify                     : mean 2.53 ms, min 2.45 ms
+            17285120  maximum resident set size
+## args: 512 2 2 1
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 512 (VM cycles 526, log_inv_rate 2, threads 1)
+  proof size                 : 127152 bytes (124.2 KiB)
+  prove                      : mean 0.047 s, min 0.047 s over 2 runs
+  verify                     : mean 2.00 ms, min 1.96 ms
+            17645568  maximum resident set size
+## args: 512 2 3 1
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 512 (VM cycles 526, log_inv_rate 3, threads 1)
+  proof size                 : 106404 bytes (103.9 KiB)
+  prove                      : mean 0.057 s, min 0.057 s over 2 runs
+  verify                     : mean 1.88 ms, min 1.83 ms
+            19529728  maximum resident set size
+## args: 512 2 4 1
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 512 (VM cycles 526, log_inv_rate 4, threads 1)
+  proof size                 : 95832 bytes (93.6 KiB)
+  prove                      : mean 0.051 s, min 0.050 s over 2 runs
+  verify                     : mean 1.71 ms, min 1.67 ms
+            25067520  maximum resident set size
+## args: 2048 2 1 1
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 2048 (VM cycles 2062, log_inv_rate 1, threads 1)
+  proof size                 : 199024 bytes (194.4 KiB)
+  prove                      : mean 0.099 s, min 0.098 s over 2 runs
+  verify                     : mean 2.67 ms, min 2.65 ms
+            34045952  maximum resident set size
+## args: 2048 2 2 1
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 2048 (VM cycles 2062, log_inv_rate 2, threads 1)
+  proof size                 : 137136 bytes (133.9 KiB)
+  prove                      : mean 0.118 s, min 0.118 s over 2 runs
+  verify                     : mean 2.13 ms, min 2.12 ms
+            37896192  maximum resident set size
+## args: 2048 2 3 1
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 2048 (VM cycles 2062, log_inv_rate 3, threads 1)
+  proof size                 : 114236 bytes (111.6 KiB)
+  prove                      : mean 0.116 s, min 0.115 s over 2 runs
+  verify                     : mean 1.95 ms, min 1.93 ms
+            50380800  maximum resident set size
+## args: 2048 2 4 1
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 2048 (VM cycles 2062, log_inv_rate 4, threads 1)
+  proof size                 : 102772 bytes (100.4 KiB)
+  prove                      : mean 0.142 s, min 0.140 s over 2 runs
+  verify                     : mean 1.90 ms, min 1.87 ms
+            74694656  maximum resident set size
+# uptime after: 23:03  up 2 days,  1:03, 9 users, load averages: 3.59 3.30 3.48

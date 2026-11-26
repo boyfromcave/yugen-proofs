@@ -1,0 +1,39 @@
+# run 2026-11-18 23:10 PST: leanVM @ 84780fb4, 128 compressions + 2^15-iteration squaring loop (about 2^19.2 VM cycles, the leaf's estimated size), 1 thread, nice 10, 1 run each; Keccak-f rate bench
+Apple M5
+# uptime: 23:10  up 2 days,  1:10, 9 users, load averages: 6.06 12.45 8.71
+## args: 128 1 1 1 15
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 589976, log_inv_rate 1, threads 1)
+  proof size                 : 290584 bytes (283.8 KiB)
+  prove                      : mean 0.948 s, min 0.948 s over 1 runs
+  verify                     : mean 2.96 ms, min 2.96 ms
+           889815040  maximum resident set size
+# uptime: 23:10  up 2 days,  1:10, 9 users, load averages: 5.74 12.28 8.67
+## args: 128 1 2 1 15
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 589976, log_inv_rate 2, threads 1)
+  proof size                 : 202664 bytes (197.9 KiB)
+  prove                      : mean 1.371 s, min 1.371 s over 1 runs
+  verify                     : mean 2.31 ms, min 2.31 ms
+          1299759104  maximum resident set size
+# uptime: 23:10  up 2 days,  1:10, 9 users, load averages: 5.74 12.28 8.67
+## args: 128 1 3 1 15
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 589976, log_inv_rate 3, threads 1)
+  proof size                 : 170628 bytes (166.6 KiB)
+  prove                      : mean 2.305 s, min 2.305 s over 1 runs
+  verify                     : mean 2.19 ms, min 2.19 ms
+          2121482240  maximum resident set size
+# uptime: 23:10  up 2 days,  1:10, 9 users, load averages: 5.74 12.28 8.67
+## args: 128 1 4 1 15
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 589976, log_inv_rate 4, threads 1)
+  proof size                 : 153688 bytes (150.1 KiB)
+  prove                      : mean 4.284 s, min 4.284 s over 1 runs
+  verify                     : mean 2.02 ms, min 2.02 ms
+          3631349760  maximum resident set size
+# uptime: 23:10  up 2 days,  1:10, 9 users, load averages: 5.44 12.11 8.63
+## keccak-rate 26 (x2)
+keccak-f[1600] x 2^26: 8.720 s, 7.70 M permutations/s, check a92c10cc64b0352b
+keccak-f[1600] x 2^26: 8.742 s, 7.68 M permutations/s, check a92c10cc64b0352b
+# uptime after: 23:10  up 2 days,  1:10, 9 users, load averages: 4.73 11.52 8.50

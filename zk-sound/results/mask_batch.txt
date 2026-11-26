@@ -1,0 +1,13 @@
+kappa=1 GF(4) every aux table (4^6): lane-constant aux 0.6250, any aux 0.6250; proven sum bound 1.0000, product form 0.8125
+ok    GF(4) kappa=1: exact optimum 0.6250 <= product-form bound 0.8125
+ok    GF(4) kappa=1: lane-constant optimum equals 1 - (1 - 1/q)(1 - 2/q) = 0.6250
+ok    GF(4) kappa=1: lane-varying aux rows gain +0.0000 (the (d+1)/q effect)
+kappa=1 GF(8) every cubic effective mask (8^4): lane-constant aux 0.3438, any aux 0.3750; proven sum bound 0.5000, product form 0.4531
+ok    GF(8) kappa=1: exact optimum 0.3750 <= product-form bound 0.4531
+ok    GF(8) kappa=1: lane-constant optimum equals 1 - (1 - 1/q)(1 - 2/q) = 0.3438
+ok    GF(8) kappa=1: lane-varying aux rows gain +0.0312 (the (d+1)/q effect)
+kappa=2 GF(8) 200 searched aux tables: lane-constant 0.5078, best found 0.5312; product-form bound 0.6582, sum bound 0.8750
+ok    GF(8) kappa=2: best exact game value 0.5312 <= 0.6582
+ok    GF(8) kappa=2: lane-constant optimum equals 1 - (1 - 1/q)(1 - 2/q)^2 = 0.5078
+ok    control: G sent after rho is accepted with probability 1.00 (must be 1: the order matters)
+FAILURES 0

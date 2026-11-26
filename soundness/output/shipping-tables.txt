@@ -1,0 +1,101 @@
+RECORD (superseded by revision 9; not the calculator's convention): the counts below use the book need (kappa_C + 1 + log2 N + log2(1 + k), or earlier per-layer targets), which for the spBCS transcript holds only under the non-default convention (t >= k_q); no row below is certified. Johnson-regime rows rest on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; Haboeck's route is withdrawn (binius-johnson-row.md 0.1); the 102- and 77-query rows are withdrawn (thin margins). The certified rows are printed by `yugen-soundness` (no flag) or `--rev9`.
+
+Tree: 64 leaves a sub-bundle, merges of 16, two merge levels: 16,384 leaves, 16,657 proofs (2^14.02); union bound over the proofs, one attempt; 512 rounds outside the openings counted in k; no grinding; unique decoding; challenge field GF(2^256) for the sizes.
+
+### cat1, whole tree, leaf rate 1/4, node rate 1/4; B nodes with one stacked commitment (shipping)
+
+| System | Layer | Opening | Rate | Statement committed | Queries per round (E) | Folds, final | Field needed (bits, E) | Bits per round needed | Size KiB (E) | Under 1.75 MiB | Verifier Keccak-f: model / in circuit (E) | Relative prover cost (E) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A | leaf | W-I | 1/4 | 2^22 words (M) | 225, 156, 154 | 5/3/3 to 2^11 | 177: GF(2^192) | 152.2 | 449 | yes | 7,915 / 9,351 | 3 |
+| A | sub-bundle | plain | 1/4 | 2^29.72 words (E) | 225, 160, 153, 153, 153 | 4/4/4/4/4 to 2^10 | 185: GF(2^192) | 152.1 | 852 | yes | 18,540 / 21,904 | 768 |
+| A | merge1 | plain | 1/4 | 2^28.63 words (E) | 225, 154, 153, 153 | 6/4/4/4 to 2^11 | 184: GF(2^192) | 152.1 | 773 | yes | 14,772 / 17,452 | 384 |
+| A | merge2 | plain | 1/4 | 2^28.37 words (E) | 225, 154, 153, 153 | 6/4/4/4 to 2^11 | 184: GF(2^192) | 152.1 | 773 | yes | 14,772 / 17,452 | 384 |
+| B | leaf | W-M + preprocessed (plain) | 1/4 | 2^18 + 2^18 preprocessed words (M) | 226, 160; 225, 160 | 4/3 to 2^11; 4/3 to 2^11 | 173: GF(2^192) | 152.1 | 834 | yes | 8,627 / 12,501 | 40 |
+| B | sub-bundle | plain, one stacked commitment | 1/4 | 2^31.05 + 2^27.86 GF(2^128) (E) | 225, 156, 153, 153, 153 | 5/4/4/4/4 to 2^11 | 187: GF(2^192) | 152.1 | 1,472 to 1,919 | only at the low end | 20,581 / 26,360 | 219,546 |
+| B | merge1 | plain, one stacked commitment | 1/4 | 2^29.14 + 2^26.94 GF(2^128) (E) | 225, 160, 153, 153, 153 | 4/4/4/4/4 to 2^10 | 185: GF(2^192) | 152.1 | 1,342 to 1,790 | yes | 18,765 / 24,255 | 54,886 |
+| B | merge2 | plain, one stacked commitment | 1/4 | 2^29.14 + 2^26.82 GF(2^128) (E) | 225, 160, 153, 153, 153 | 4/4/4/4/4 to 2^10 | 185: GF(2^192) | 152.1 | 1,342 to 1,790 | yes | 18,765 / 24,255 | 54,886 |
+
+### cat1, whole tree, leaf rate 1/4, node rate 1/4; B nodes as built (two commitments)
+
+| System | Layer | Opening | Rate | Statement committed | Queries per round (E) | Folds, final | Field needed (bits, E) | Bits per round needed | Size KiB (E) | Under 1.75 MiB | Verifier Keccak-f: model / in circuit (E) | Relative prover cost (E) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| B | leaf | W-M + preprocessed (plain) | 1/4 | 2^18 + 2^18 preprocessed words (M) | 226, 160; 225, 160 | 4/3 to 2^11; 4/3 to 2^11 | 173: GF(2^192) | 152.1 | 834 | yes | 8,627 / 12,501 | 40 |
+| B | sub-bundle | plain, dense + packed (two) | 1/4 | 2^31.05 + 2^27.86 GF(2^128) (E) | 225, 156, 153, 153, 153; 225, 156, 153, 153 | 5/4/4/4/4 to 2^11; 5/4/4/4 to 2^11 | 187: GF(2^192) | 152.2 | 2,244 to 2,691 | **no** | 34,934 / 42,999 | 233,267 |
+| B | merge1 | plain, dense + packed (two) | 1/4 | 2^29.82 + 2^27.64 GF(2^128) (E) | 225, 160, 154, 153, 153; 225, 160, 154, 153 | 4/4/4/4/4 to 2^10; 4/4/4/4 to 2^12 | 185: GF(2^192) | 152.1 | 2,135 to 2,583 | **no** | 33,014 / 40,774 | 68,608 |
+| B | merge2 | plain, dense + packed (two) | 1/4 | 2^29.83 + 2^27.57 GF(2^128) (E) | 225, 160, 154, 153, 153; 225, 160, 154, 153 | 4/4/4/4/4 to 2^10; 4/4/4/4 to 2^12 | 185: GF(2^192) | 152.1 | 2,135 to 2,583 | **no** | 33,014 / 40,774 | 68,608 |
+
+### cat3, whole tree, leaf rate 1/4, node rate 1/4; B nodes with one stacked commitment (shipping)
+
+| System | Layer | Opening | Rate | Statement committed | Queries per round (E) | Folds, final | Field needed (bits, E) | Bits per round needed | Size KiB (E) | Under 1.75 MiB | Verifier Keccak-f: model / in circuit (E) | Relative prover cost (E) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A | leaf | W-I | 1/4 | 2^22 words (M) | 321, 219 | 6/4 to 2^12 | 241: GF(2^256) | 216.2 | 717 | yes | 8,806 / 10,403 | 3 |
+| A | sub-bundle | plain | 1/4 | 2^29.83 words (E) | 319, 219, 217, 217 | 6/4/4/4 to 2^12 | 249: GF(2^256) | 216.1 | 1,403 | yes | 22,414 / 26,480 | 768 |
+| A | merge1 | plain | 1/4 | 2^28.86 words (E) | 319, 219, 217, 217 | 6/4/4/4 to 2^11 | 248: GF(2^256) | 216.1 | 1,297 | yes | 21,442 / 25,332 | 384 |
+| A | merge2 | plain | 1/4 | 2^28.80 words (E) | 319, 219, 217, 217 | 6/4/4/4 to 2^11 | 248: GF(2^256) | 216.1 | 1,297 | yes | 21,442 / 25,332 | 384 |
+| B | leaf | W-M + preprocessed (plain) | 1/4 | 2^18 + 2^18 preprocessed words (M) | 322, 227; 319, 227 | 4/3 to 2^11; 4/3 to 2^11 | 237: GF(2^256) | 216.1 | 1,147 | yes | 12,889 / 17,442 | 40 |
+| B | sub-bundle | plain, one stacked commitment | 1/4 | 2^31.43 + 2^28.34 GF(2^128) (E) | 319, 222, 217, 217, 217 | 5/4/4/4/4 to 2^11 | 251: GF(2^256) | 216.1 | 2,227 to 2,675 | **no** | 29,795 / 37,041 | 219,546 |
+| B | merge1 | plain, one stacked commitment | 1/4 | 2^29.53 + 2^27.43 GF(2^128) (E) | 319, 227, 218, 217, 217 | 4/4/4/4/4 to 2^10 | 249: GF(2^256) | 216.1 | 2,026 to 2,474 | **no** | 27,227 / 34,065 | 54,886 |
+| B | merge2 | plain, one stacked commitment | 1/4 | 2^29.53 + 2^27.31 GF(2^128) (E) | 319, 227, 218, 217, 217 | 4/4/4/4/4 to 2^10 | 249: GF(2^256) | 216.1 | 2,026 to 2,474 | **no** | 27,227 / 34,065 | 54,886 |
+
+### cat3, whole tree, leaf rate 1/4, node rate 1/4; B nodes as built (two commitments)
+
+| System | Layer | Opening | Rate | Statement committed | Queries per round (E) | Folds, final | Field needed (bits, E) | Bits per round needed | Size KiB (E) | Under 1.75 MiB | Verifier Keccak-f: model / in circuit (E) | Relative prover cost (E) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| B | leaf | W-M + preprocessed (plain) | 1/4 | 2^18 + 2^18 preprocessed words (M) | 322, 227; 319, 227 | 4/3 to 2^11; 4/3 to 2^11 | 237: GF(2^256) | 216.1 | 1,147 | yes | 12,889 / 17,442 | 40 |
+| B | sub-bundle | plain, dense + packed (two) | 1/4 | 2^31.43 + 2^28.34 GF(2^128) (E) | 319, 222, 217, 217, 217; 319, 222, 217, 217 | 5/4/4/4/4 to 2^11; 5/4/4/4 to 2^12 | 251: GF(2^256) | 216.2 | 3,639 to 4,087 | **no** | 51,620 / 62,344 | 246,989 |
+| B | merge1 | plain, dense + packed (two) | 1/4 | 2^30.25 + 2^28.18 GF(2^128) (E) | 319, 222, 217, 217, 217; 319, 222, 217, 217 | 5/4/4/4/4 to 2^10; 5/4/4/4 to 2^12 | 250: GF(2^256) | 216.2 | 3,551 to 3,999 | **no** | 50,428 / 60,962 | 137,216 |
+| B | merge2 | plain, dense + packed (two) | 1/4 | 2^30.25 + 2^28.15 GF(2^128) (E) | 319, 222, 217, 217, 217; 319, 222, 217, 217 | 5/4/4/4/4 to 2^10; 5/4/4/4 to 2^12 | 250: GF(2^256) | 216.2 | 3,551 to 3,999 | **no** | 50,428 / 60,962 | 137,216 |
+
+### Leaf rate trade (node rate 1/4, B nodes stacked): the leaf, and what 64 of them cost the sub-bundle
+
+| Target | System | Leaf rate | Leaf queries | Leaf size KiB | Verifier Keccak-f of one leaf: model / in circuit | Cost of verifying one leaf in the sub-bundle | Leaf relative prover cost | Sub-bundle statement | Sub-bundle size KiB |
+|---|---|---|---|---|---|---|---|---|---|
+| cat1 | A | 1/2 | 370, 160, 155 | 514 | 9,092 / 10,742 | 498,081 cycles, 15,191,465 words | 1.5 | 2^29.86 words (E) | 852 |
+| cat1 | A | 1/4 | 225, 156, 154 | 449 | 7,915 / 9,351 | 454,227 cycles, 13,853,937 words | 3.0 | 2^29.72 words (E) | 852 |
+| cat1 | A | 1/8 | 184, 154, 153 | 438 | 7,836 / 9,258 | 451,280 cycles, 13,764,042 words | 6.0 | 2^29.71 words (E) | 852 |
+| cat1 | B | 1/2 | 377, 167; 367, 167 | 982 | 10,442 / 14,605 | 14,605 Keccak-f, 5,686,920 witnesses | 20.1 | 2^31.41 + 2^28.09 GF(2^128) (E) | 1,472 to 1,919 |
+| cat1 | B | 1/4 | 226, 160; 225, 160 | 834 | 8,627 / 12,501 | 12,501 Keccak-f, 4,415,940 witnesses | 40.2 | 2^31.05 + 2^27.86 GF(2^128) (E) | 1,472 to 1,919 |
+| cat1 | B | 1/8 | 184, 156; 184, 156 | 800 | 8,406 / 12,246 | 12,246 Keccak-f, 4,039,200 witnesses | 80.4 | 2^30.92 + 2^27.83 GF(2^128) (E) | 1,472 to 1,919 |
+| cat3 | A | 1/2 | 529, 227, 220 | 826 | 12,452 / 14,711 | 623,272 cycles, 19,009,798 words | 1.5 | 2^30.18 words (E) | 1,570 |
+| cat3 | A | 1/4 | 321, 219 | 717 | 8,806 / 10,403 | 487,403 cycles, 14,865,782 words | 3.0 | 2^29.83 words (E) | 1,403 |
+| cat3 | A | 1/8 | 262, 218 | 684 | 8,422 / 9,950 | 473,102 cycles, 14,429,606 words | 6.0 | 2^29.78 words (E) | 1,403 |
+| cat3 | B | 1/2 | 542, 237; 521, 237 | 1,371 | 15,953 / 20,995 | 20,995 Keccak-f, 7,587,180 witnesses | 20.1 | 2^31.83 + 2^28.61 GF(2^128) (E) | 2,227 to 2,675 |
+| cat3 | B | 1/4 | 322, 227; 319, 227 | 1,147 | 12,889 / 17,442 | 17,442 Keccak-f, 5,757,300 witnesses | 40.2 | 2^31.43 + 2^28.34 GF(2^128) (E) | 2,227 to 2,675 |
+| cat3 | B | 1/8 | 262, 222; 261, 222 | 1,104 | 12,470 / 16,957 | 16,957 Keccak-f, 5,227,380 witnesses | 80.4 | 2^31.29 + 2^28.30 GF(2^128) (E) | 2,227 to 2,675 |
+
+### Node rate trade, cat1 (leaf 1/4): node size and what the parent pays per child
+
+| System | Node rate | Sub-bundle KiB | Merge KiB | In-circuit Keccak-f to verify a merge child | Merge relative prover cost |
+|---|---|---|---|---|---|
+| A | 1/2 | 926 | 870 | 25,342 | 192 |
+| A | 1/4 | 852 | 773 | 17,452 | 384 |
+| A | 1/8 | 832 | 752 | 17,223 | 768 |
+| B | 1/2 | 1,595 to 2,042 | 1,437 to 1,884 | 26,659 | 27,443 |
+| B | 1/4 | 1,472 to 1,919 | 1,342 to 1,790 | 24,255 | 54,886 |
+| B | 1/8 | 1,449 to 1,896 | 1,329 to 1,776 | 24,085 | 109,773 |
+
+### Proven-rule digests (264 bits), cat1, shipping rates
+
+| System | Layer | Size KiB at 256-bit digests | at 264-bit digests |
+|---|---|---|---|
+| A | leaf | 449 | 455 |
+| A | sub-bundle | 852 | 867 |
+| A | merge1 | 773 | 784 |
+| A | merge2 | 773 | 784 |
+| B | leaf | 834 | 840 |
+| B | sub-bundle | 1,472 to 1,919 | 1,489 to 1,936 |
+| B | merge1 | 1,342 to 1,790 | 1,358 to 1,805 |
+| B | merge2 | 1,342 to 1,790 | 1,358 to 1,805 |
+
+### Calibration (fit point; error of the model at every measured point)
+
+| Quantity | Constant | Errors |
+|---|---|---|
+| A leaf size | non-PCS transcript 9,004 B at 128-bit (x2 at 256) | row 1, rate 1/4, salt 0 +0.0%; row 1, rate 1/2, salt 0 +2.2%; row 3, rate 1/4, salt 32 -0.1%; row 0, rate 1/4, salt 0 -6.1%; row 0, rate 1/2, salt 0 +1.0% |
+| A node size | x0.963 on model + transcript | bundle of 1, rate 1/2 +1.2%; bundle of 8, rate 1/4 +1.7%; merge of two bundles of 4, rate 1/4 -2.8% |
+| A in-circuit Keccak-f per verified leaf | x1.181 on the model (16-byte cells) | row 0, rate 1/2 +1.2%; row 0, rate 1/4 -1.5%; row 4, rate 1/2 -2.0%; row 4, rate 1/4 +2.4% |
+| A cycles per verified proof | 88,479 + 17.52 x Keccak-f; x1.8 at 256 bits (E) | row 0, rate 1/2 -6.2%; row 0, rate 1/4 +5.7%; row 4, rate 1/2 -1.3%; row 4, rate 1/4 +2.9% |
+| B leaf size (WHIR) | non-PCS transcript 123,064 B at 128-bit (x2 at 256) | WHIR, rate 1/4 -0.7%; WHIR, rate 1/2 +0.9%; WHIR, rate 1/8 -0.3% |
+| B leaf size (folding PCS, 793,916 B) | own fit: transcript 381,580 B | folding, rate 1/4, own fit +0.0%; folding, rate 1/2, own fit -2.5%; folding, rate 1/4, with the WHIR runs' transcript -32.6%; folding, rate 1/2, with the WHIR runs' transcript -28.6% |
+| B node size | non-PCS 458,139 B at 128-bit (low end x1, high end x2 at 256) | layer proof 1235695 B -1.8%; layer proof 1191423 B +1.9% |
+| B in-circuit Keccak-f per verified proof | 2,500 + x1.159 on the model | fitted to the one measured point (19,634) |

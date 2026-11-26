@@ -1,0 +1,20 @@
+RECORD (superseded by revision 9; not the calculator's convention): the counts below use the book need (kappa_C + 1 + log2 N + log2(1 + k), or earlier per-layer targets), which for the spBCS transcript holds only under the non-default convention (t >= k_q); no row below is certified. Johnson-regime rows rest on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; Haboeck's route is withdrawn (binius-johnson-row.md 0.1); the 102- and 77-query rows are withdrawn (thin margins). The certified rows are printed by `yugen-soundness` (no flag) or `--rev9`.
+
+| System | Layer | Target | Field | Rate | Schedule | Queries per round | Query grind | Size UD, proven (KiB, E) | Verify UD (ms, E) | Prover factor (E) | Size Johnson DKT26, unconfirmed (KiB, E) | Grind 0: queries / size (KiB, E) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| A | leaf | cat1 | 2^256 | 1/4 | WHIR folds 5/3/3/3, final 2^10 | 171, 119, 117, 116 | 20 | 443 | 7.4 | 3 | 232 | 200, 139, 137, 136 / 503 |
+| A | bundle | cat1 | 2^256 | 1/8 | WHIR folds 6/4/4/4, final 2^10 | 140, 117, 116, 116 | 20 | 589 | 9.0 | 48 | 235 | 164, 137, 136, 136 / 674 |
+| A | merge1 | cat1 | 2^256 | 1/8 | WHIR folds 6/4/4/4, final 2^10 | 140, 117, 116, 116 | 20 | 589 | 9.0 | 48 | 235 | 164, 137, 136, 136 / 674 |
+| A | merge2 | cat1 | 2^256 | 1/8 | WHIR folds 5/4/4/4, final 2^9 | 140, 117, 116, 116 | 20 | 512 | 8.1 | 12 | 199 | 164, 138, 136, 136 / 587 |
+| A | leaf | cat3 | 2^256 | 1/4 | WHIR folds 5/4/4, final 2^11 | 265, 184, 181 | 20 | 751 | 9.3 | 3 | 403 | 295, 205, 201 / 820 |
+| A | bundle | cat3 | 2^256 | 1/8 | WHIR folds 5/4/4/4, final 2^11 | 217, 182, 180, 180 | 20 | 1056 | 14.0 | 48 | 413 | 241, 202, 200, 200 / 1156 |
+| A | merge1 | cat3 | 2^256 | 1/8 | WHIR folds 5/4/4/4, final 2^11 | 217, 182, 180, 180 | 20 | 1056 | 14.0 | 48 | 413 | 241, 202, 200, 200 / 1156 |
+| A | merge2 | cat3 | 2^256 | 1/8 | WHIR folds 6/4/4, final 2^12 | 217, 181, 180 | 20 | 879 | 10.0 | 12 | 430 | 241, 201, 200 / 953 |
+| B | leaf | cat1 | 2^256 | 1/4 | WHIR folds 5/4, final 2^10 | 171, 119 | 20 | 325 | 2.6 | 8 | 210 | 200, 139 / 365 |
+| B | bundle | cat1 | 2^256 | 1/8 | folding PCS fold 4, final 2^8 | 140 | 20 | 850 | 7.8 | 3797 | 524 | 164 / 980 |
+| B | merge1 | cat1 | 2^256 | 1/8 | folding PCS fold 4, final 2^8 | 140 | 20 | 850 | 7.8 | 3797 | 524 | 164 / 980 |
+| B | merge2 | cat1 | 2^256 | 1/8 | folding PCS fold 4, final 2^11 | 140 | 20 | 779 | 6.6 | 1899 | 514 | 164 / 885 |
+| B | leaf | cat3 | 2^256 | 1/4 | WHIR folds 5/3, final 2^11 | 265, 184 | 20 | 522 | 3.8 | 8 | 353 | 295, 205 / 563 |
+| B | bundle | cat3 | 2^256 | 1/8 | folding PCS fold 4, final 2^12 | 217 | 20 | 1507 | 11.1 | 3797 | 993 | 241 / 1640 |
+| B | merge1 | cat3 | 2^256 | 1/8 | folding PCS fold 4, final 2^12 | 217 | 20 | 1507 | 11.1 | 3797 | 993 | 241 / 1640 |
+| B | merge2 | cat3 | 2^256 | 1/8 | folding PCS fold 4, final 2^11 | 217 | 20 | 1356 | 10.4 | 1899 | 866 | 241 / 1482 |

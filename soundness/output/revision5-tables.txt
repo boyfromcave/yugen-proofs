@@ -1,0 +1,104 @@
+RECORD (superseded by revision 9; not the calculator's convention): the counts below use the book need (kappa_C + 1 + log2 N + log2(1 + k), or earlier per-layer targets), which for the spBCS transcript holds only under the non-default convention (t >= k_q); no row below is certified. Johnson-regime rows rest on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; Haboeck's route is withdrawn (binius-johnson-row.md 0.1); the 102- and 77-query rows are withdrawn (thin margins). The certified rows are printed by `yugen-soundness` (no flag) or `--rev9`.
+
+Revision 5. Tree bound 20,000 proofs, 512 rounds outside each proof's listed rounds in k, no grinding, unique decoding, GF(2^256) challenges, 256-bit digests. Finding W-1: system A's plain query rounds at the true rate (2^mu + k)/2^(mu + r).
+
+## W-1: rows 7 and 9 at the list's counts, nominal against true rate
+
+| Row | Stack, rate | Levels: mu | Level rates r | List counts | Need | Weakest, nominal | Weakest, true | Margin, true |
+|---|---|---|---|---|---|---|---|---|
+| row 7 | 2^22, 1/4 | 16, 13, 10, 7 | 2, 5, 5, 5 | 226, 161, 161, 161 | 152.343 | 153.24 | 153.24 | +0.90 |
+| row 7 | 2^22, 1/2 | 16, 13, 10, 7 | 1, 4, 4, 4 | 369, 168, 168, 168 | 152.343 | 153.15 | 152.97 | +0.63 |
+| row 9 | 2^24, 1/2 | 18, 15, 12, 9, 6, 3 | 1, 4, 4, 4, 4, 4 | 369, 168, 168, 168, 168, 168 | 152.365 | 153.15 | 148.02 | **-4.35** |
+| row 9 | 2^24, 1/4 | 18, 15, 12, 9, 6, 3 | 2, 5, 5, 5, 5, 5 | 226, 161, 161, 161, 161, 161 | 152.365 | 153.24 | 151.23 | **-1.14** |
+| row 9 | 2^25, 1/2 | 19, 16, 13, 10, 7, 4 | 1, 4, 4, 4, 4, 4 | 369, 168, 168, 168, 168, 168 | 152.365 | 153.15 | 150.65 | **-1.72** |
+| row 9 | 2^25, 1/4 | 19, 16, 13, 10, 7, 4 | 2, 5, 5, 5, 5, 5 | 226, 161, 161, 161, 161, 161 | 152.365 | 153.24 | 152.54 | +0.17 |
+| row 9 | 2^26, 1/2 | 20, 17, 14, 11, 8, 5 | 1, 4, 4, 4, 4, 4 | 369, 168, 168, 168, 168, 168 | 152.365 | 153.15 | 151.97 | **-0.39** |
+| row 9 | 2^26, 1/4 | 20, 17, 14, 11, 8, 5 | 2, 5, 5, 5, 5, 5 | 226, 161, 161, 161, 161, 161 | 152.365 | 153.24 | 153.19 | +0.83 |
+| row 9 | 2^27, 1/2 | 21, 18, 15, 12, 9, 6, 3 | 1, 4, 4, 4, 4, 4, 4 | 369, 168, 168, 168, 168, 168, 168 | 152.375 | 153.15 | 148.02 | **-4.36** |
+| row 9 | 2^27, 1/4 | 21, 18, 15, 12, 9, 6, 3 | 2, 5, 5, 5, 5, 5, 5 | 226, 161, 161, 161, 161, 161, 161 | 152.375 | 153.24 | 151.23 | **-1.15** |
+| row 9 | 2^28, 1/2 | 22, 19, 16, 13, 10, 7, 4 | 1, 4, 4, 4, 4, 4, 4 | 369, 168, 168, 168, 168, 168, 168 | 152.375 | 153.15 | 150.65 | **-1.73** |
+| row 9 | 2^28, 1/4 | 22, 19, 16, 13, 10, 7, 4 | 2, 5, 5, 5, 5, 5, 5 | 226, 161, 161, 161, 161, 161, 161 | 152.375 | 153.24 | 152.54 | +0.16 |
+| row 9 | 2^29, 1/2 | 23, 20, 17, 14, 11, 8, 5 | 1, 4, 4, 4, 4, 4, 4 | 369, 168, 168, 168, 168, 168, 168 | 152.375 | 153.15 | 151.97 | **-0.40** |
+| row 9 | 2^29, 1/4 | 23, 20, 17, 14, 11, 8, 5 | 2, 5, 5, 5, 5, 5, 5 | 226, 161, 161, 161, 161, 161, 161 | 152.375 | 153.24 | 153.19 | +0.82 |
+| row 9 | 2^30, 1/2 | 24, 21, 18, 15, 12, 9, 6, 3 | 1, 4, 4, 4, 4, 4, 4, 4 | 369, 168, 168, 168, 168, 168, 168, 168 | 152.386 | 153.15 | 148.02 | **-4.37** |
+| row 9 | 2^30, 1/4 | 24, 21, 18, 15, 12, 9, 6, 3 | 2, 5, 5, 5, 5, 5, 5, 5 | 226, 161, 161, 161, 161, 161, 161, 161 | 152.386 | 153.24 | 151.23 | **-1.16** |
+
+## Corrected schedules: the rule (every query round >= 153.0 bits at the true rate) and the minimal counts
+
+Deltas against the list's counts: opening bytes a proof; Keccak-f of verifying one such proof in its parent (full paths, upper figure); cycles (E) = Keccak-f x measured cycles per modelled Keccak-f (28.9 for a leaf, 19.8 for a node child; recursion.md 9.10).
+
+| Row | Stack, rate | Rule counts | Margin | Bytes | Keccak-f | Cycles (E) | Minimal counts | Margin | Bytes | Keccak-f |
+|---|---|---|---|---|---|---|---|---|---|---|
+| row 7 | 2^22, 1/4 | 226, 161, 161, 161 | +0.90 | +0 | +0 | +0 | 225, 160, 160, 160 | +0.22 | -2,158 | -73 |
+| row 7 | 2^22, 1/2 | 369, 168, 168, 169 | +0.79 | +325 | +13 | +375 | 368, 167, 167, 168 | +0.01 | -1,676 | -56 |
+| row 9 | 2^24, 1/2 | 369, 168, 168, 168, 169, 174 | +0.78 | +1,829 | +66 | +1,309 | 368, 167, 167, 168, 168, 173 | +0.02 | -588 | -17 |
+| row 9 | 2^24, 1/4 | 226, 161, 161, 161, 161, 163 | +0.74 | +462 | +20 | +397 | 225, 160, 160, 160, 160, 163 | +0.20 | -2,279 | -74 |
+| row 9 | 2^25, 1/2 | 369, 168, 168, 168, 169, 171 | +0.78 | +1,012 | +43 | +853 | 368, 167, 167, 168, 168, 170 | +0.02 | -1,506 | -45 |
+| row 9 | 2^25, 1/4 | 226, 161, 161, 161, 161, 162 | +0.88 | +263 | +11 | +218 | 225, 160, 160, 160, 160, 161 | +0.17 | -2,901 | -99 |
+| row 9 | 2^26, 1/2 | 369, 168, 168, 168, 168, 170 | +0.77 | +522 | +22 | +436 | 368, 167, 167, 167, 168, 169 | +0.01 | -2,252 | -74 |
+| row 9 | 2^26, 1/4 | 226, 161, 161, 161, 161, 161 | +0.83 | +0 | +0 | +0 | 225, 160, 160, 160, 160, 161 | +0.20 | -3,061 | -104 |
+| row 9 | 2^27, 1/2 | 369, 168, 168, 168, 168, 169, 174 | +0.77 | +1,829 | +66 | +1,309 | 368, 167, 167, 167, 168, 168, 173 | +0.01 | -1,361 | -44 |
+| row 9 | 2^27, 1/4 | 226, 161, 161, 161, 161, 161, 163 | +0.73 | +462 | +20 | +397 | 225, 160, 160, 160, 160, 160, 163 | +0.19 | -3,087 | -102 |
+| row 9 | 2^28, 1/2 | 369, 168, 168, 168, 168, 169, 171 | +0.77 | +1,012 | +43 | +853 | 368, 167, 167, 167, 168, 168, 170 | +0.01 | -2,311 | -73 |
+| row 9 | 2^28, 1/4 | 226, 161, 161, 161, 161, 161, 162 | +0.87 | +263 | +11 | +218 | 225, 160, 160, 160, 160, 160, 161 | +0.16 | -3,741 | -128 |
+| row 9 | 2^29, 1/2 | 369, 168, 168, 168, 168, 168, 170 | +0.76 | +522 | +22 | +436 | 368, 167, 167, 167, 168, 168, 169 | +0.02 | -2,636 | -86 |
+| row 9 | 2^29, 1/4 | 226, 161, 161, 161, 161, 161, 161 | +0.82 | +0 | +0 | +0 | 225, 160, 160, 160, 160, 160, 161 | +0.19 | -3,933 | -134 |
+| row 9 | 2^30, 1/2 | 369, 168, 168, 168, 168, 168, 169, 174 | +0.76 | +1,829 | +66 | +1,309 | 368, 167, 167, 167, 168, 168, 168, 173 | +0.01 | -1,745 | -56 |
+| row 9 | 2^30, 1/4 | 226, 161, 161, 161, 161, 161, 161, 163 | +0.72 | +462 | +20 | +397 | 225, 160, 160, 160, 160, 160, 160, 163 | +0.18 | -3,990 | -133 |
+
+Node row 9 at rate 1/2, worst shape (2^24): +1,829 B a node proof, +66 Keccak-f and +1,309 cycles (E) per child verified, x 16 children = +1,056 Keccak-f, +20,938 cycles (E) a full merge.
+
+Rule counts by level rate r and mu (k = 3 folds; the list's count is the limit):
+
+| r | list | mu = 3 | mu = 4 | mu = 5 | mu = 6 | mu = 7 | mu = 8 | mu = 9 | mu = 10 | mu = 11 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | 369 | 625 | 468 | 413 | 390 | 379 | 374 | 372 | 370 | 370 |
+| 2 | 226 | 267 | 245 | 235 | 231 | 228 | 227 | 227 | 226 | 226 |
+| 4 | 168 | 174 | 171 | 170 | 169 | 169 | 168 | 168 | 168 | 168 |
+| 5 | 161 | 163 | 162 | 161 | 161 | 161 | 161 | 161 | 161 | 161 |
+
+## W-I rows (true rates of the hiding layout; salts 512 bits, the size includes them)
+
+| Row | Rate | Counts | Need | Weakest | Margin | Size KiB (E) | True rates |
+|---|---|---|---|---|---|---|---|
+| row 8 at the list | 1/4 | 226, 161, 161, 161 | 152.517 | 138.33 | **-14.19** | 535 | 2^-1.99, 2^-4.93, 2^-4.50, 2^-3.29 |
+| row 8 minimal | 1/4 | 226, 160, 163, 179 | 152.517 | 152.54 | +0.02 | 544 | 2^-1.99, 2^-4.93, 2^-4.50, 2^-3.23 |
+| row 8 at 153.0 bits | 1/4 | 227, 161, 164, 180 | 152.517 | 153.43 | +0.92 | 546 | 2^-1.99, 2^-4.93, 2^-4.50, 2^-3.22 |
+| row 8 at the list | 1/2 | 369, 168, 168, 168 | 152.517 | 122.10 | **-30.42** | 637 | 2^-0.98, 2^-3.93, 2^-3.50, 2^-2.26 |
+| row 8 minimal | 1/2 | 374, 168, 174, 219 | 152.517 | 152.56 | +0.05 | 666 | 2^-0.98, 2^-3.93, 2^-3.49, 2^-2.10 |
+| row 8 at 153.0 bits | 1/2 | 375, 169, 175, 220 | 152.517 | 153.19 | +0.67 | 668 | 2^-0.98, 2^-3.93, 2^-3.49, 2^-2.10 |
+| zero-knowledge leaf (row 6 schedule) | 1/4 | 226, 157, 154, 154 | 152.517 | 152.96 | +0.44 | 542 | 2^-1.99, 2^-5.96, 2^-7.73, 2^-8.61 |
+
+## QROM bits of the tree (Theorem Q, N = 20,000, lambda = 256; condition Q: >= 64, hard failure)
+
+| System, form | C1 | C2 | e (bits) | IOP term | Hash term | QROM bits | Margin over 64 |
+|---|---|---|---|---|---|---|---|
+| A, form X (weakest corrected round) | 6 | 24 | 152.96 | 67.54 | 78.71 | 67.54 | +3.54 |
+| A, form X, a_V folded in | 12 | 96 | 152.96 | 67.04 | 78.04 | 67.04 | +3.04 |
+| B, form C (weakest round, 184 queries) | 24 | 240 | 152.73 | 66.43 | 77.60 | 66.43 | +2.43 |
+| A, form X, at e = 152.343 (qrom-compilation.md 6) | 6 | 24 | 152.34 | 67.24 | 78.71 | 67.24 | +3.24 |
+| B, form C, at e = 152.343 (qrom-compilation.md 6) | 24 | 240 | 152.34 | 66.24 | 77.60 | 66.24 | +2.24 |
+
+Conditional on the CMS-form transcripts (qrom-compilation.md 4: form X for A, form C for B); the transcripts as built are outside Theorem 8.6 and Theorem Q (C-7). With 192-bit digests form C would fail condition Q (hash term 56.27): the calculator refuses such a row.
+
+## Salt length (Theorem ZQ with Lemma H; N_u = 2^24 unopened salted leaves a proof, n_b <= 2^12)
+
+| Salt (bits) | Per leaf | Per proof | Per tree (2^14 leaf proofs) | Over all 20,000 proofs | Bytes an opened leaf (added) | Row 8 at 1/4: opened leaves, bytes added a proof | B leaf (2 x 184 opened): bytes added | A leaf Keccak-f (level 0 / later) | B leaf SHA-256 blocks (mixed / all-256) |
+|---|---|---|---|---|---|---|---|---|---|
+| 256 (built) | 1 (vacuous) | 1 (vacuous) | 1 (vacuous) | 1 (vacuous) | 32 (+0) | 732, +0 | +0 | 5 / 3 | 2 / 2 |
+| 384 | 2^-64 | 2^-40 | 2^-26 | 2^-26 | 48 (+16) | 732, +11,712 | +5,888 | 5 / 3 | 2 / 2 |
+| 512 (lead) (selected) | 2^-128 | 2^-104 | 2^-90 | 2^-90 | 64 (+32) | 732, +23,424 | +11,776 | 5 / 3 | 2 / 3 |
+| 576 | 2^-160 | 2^-136 | 2^-122 | 2^-122 | 72 (+40) | 732, +29,280 | +14,720 | 5 / 3 | 2 / 3 |
+
+Form C (system B) adds k^2 / 2^257 (k chain links, below 2^-237 at k <= 600) and zeta_IOP < 2^-240 a proof: neither changes a figure above. Per-tree figures are a union over the proofs.
+
+## System B rows (rate 1/8, |K| = 2^256, need 152.52 bits a round at the 600-challenge budget, Theorem Q's C1 = 24)
+
+| Row | Status | Queries | Query bits | Weakest algebraic term | Bits | Meets |
+|---|---|---|---|---|---|---|
+| unique decoding | **certified** | 184 | 152.73 | first X fold | 226.00 | yes |
+| Johnson, m = 10, Haboeck route | **candidate, under referee review** | 107 | 152.97 | first X fold | 169.34 | yes |
+| Johnson, m = 10, DKT26 route | **candidate, under referee review** | 107 | 152.97 | first X fold | 211.41 | yes |
+| Johnson, m = 153, DKT26 route | **candidate, under referee review** | 102 | 152.52 | first X fold | 199.80 | yes |
+
+Category 3 (216.52 bits): unique decoding 261 queries (weakest 226.00, meets); Johnson DKT26 m = 3 170 queries, weakest 216.16: refused. Candidate rows are never reported as certified.

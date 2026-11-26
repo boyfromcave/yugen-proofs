@@ -1,0 +1,12 @@
+GF(8), n = 4, k = 2, Q = 2: 4096 committed pairs, 32515 (pair, false claim) games, each solved exactly
+  joint distance 0: largest game value 0.1797
+  joint distance 1: largest game value 0.3438
+  joint distance 2: largest game value 0.3438
+ok    codeword pairs: optimum 0.1797 <= 1/q + (1-1/q)((k-1)/n)^Q = 0.1797
+ok    pairs with one corrupted row: optimum 0.3438 <= 1/q + (1-1/q)(k/n)^Q = 0.3438
+ok    pairs outside the radius: optimum 0.3438 <= n/q + (1-(e+1)/n)^Q = 0.7500
+ok    all pairs: optimum 0.3438 <= document bound (n+1)/q + ((1+rho)/2)^Q = 1.1875
+  worst close pair (f, g, T) = ((0, 0, 0, 1), (0, 0, 0, 0), 3), worst far pair = ((0, 0, 1, 1), (0, 0, 0, 0), 0)
+ok    control: position drawn before P* (Q = 1): accepted in 4160/4160 cases (must be all: the order matters)
+ok    control: Gcol chosen after c: accepted in 104/104 cases (must be all: the order matters)
+FAILURES 0

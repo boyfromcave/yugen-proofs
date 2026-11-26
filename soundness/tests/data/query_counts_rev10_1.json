@@ -1,0 +1,9710 @@
+{
+"1|every-t|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+233,
+162,
+159,
+159
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+234,
+161,
+159
+],
+"meets on an estimated k_q by +0.0289 bits, under the k_q guard 0.2550: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+233,
+166,
+168,
+185
+],
+"meets on an estimated k_q by +0.1058 bits, under the k_q guard 0.2148: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+1,
+[
+386,
+174,
+180,
+228
+],
+"meets on an estimated k_q by +0.0186 bits, under the k_q guard 0.1954: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+21,
+2,
+[
+234,
+166,
+172,
+228
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+1,
+[
+386,
+174,
+180,
+228
+],
+"meets on an estimated k_q by +0.0186 bits, under the k_q guard 0.1954: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+381,
+174,
+174,
+174,
+174,
+180
+],
+"meets on an estimated k_q by +0.0011 bits, under the k_q guard 0.1580: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+177
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175
+],
+"meets on an estimated k_q by +0.0989 bits, under the k_q guard 0.1461: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175,
+180
+],
+"meets on an estimated k_q by +0.0979 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175,
+177
+],
+"meets on an estimated k_q by +0.0456 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+383,
+174,
+174,
+174,
+174,
+174,
+176
+],
+"meets on an estimated k_q by +0.0575 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+383,
+174,
+174,
+174,
+174,
+175,
+175,
+181
+],
+"meets on an estimated k_q by +0.0043 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+233,
+166,
+166,
+166,
+166,
+169
+],
+"meets on an estimated k_q by +0.0571 bits, under the k_q guard 0.1656: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+233,
+166,
+166,
+166,
+166,
+167
+],
+"meets on an estimated k_q by +0.0016 bits, under the k_q guard 0.1595: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+167
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+167,
+169
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+166,
+168
+],
+"meets on an estimated k_q by +0.1109 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+166,
+167
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+234,
+166,
+166,
+166,
+167,
+167,
+167,
+169
+],
+"meets on an estimated k_q by +0.0033 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+192
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+174
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+192
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+174
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+111
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+111
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+82
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+82
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 7 (plain leaf)",
+22,
+2,
+[
+233,
+165,
+165,
+165
+],
+"meets on an estimated k_q by +0.1920 bits, under the k_q guard 0.2220: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 7 (plain leaf)",
+22,
+1,
+[
+380,
+173,
+173,
+173
+],
+"meets on an estimated k_q by +0.0081 bits, under the k_q guard 0.2059: not certified until task T-1 reports k_q"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+192
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+111
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+82
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+235
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4, as built|ud|None",
+0,
+2,
+[
+226
+],
+"DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+171
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"1|every-t|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+233,
+162,
+159,
+159
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+234,
+161,
+159
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+233,
+166,
+168,
+185
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+1,
+[
+386,
+174,
+180,
+228
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+21,
+2,
+[
+234,
+166,
+172,
+228
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+1,
+[
+386,
+174,
+180,
+228
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+381,
+174,
+174,
+174,
+174,
+180
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+177
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175,
+180
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175,
+177
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+383,
+174,
+174,
+174,
+174,
+174,
+176
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+383,
+174,
+174,
+174,
+174,
+175,
+175,
+181
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+233,
+166,
+166,
+166,
+166,
+169
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+233,
+166,
+166,
+166,
+166,
+167
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+167
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+167,
+169
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+166,
+168
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+166,
+167
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+234,
+166,
+166,
+166,
+167,
+167,
+167,
+169
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+192
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+174
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+192
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+174
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+111
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+111
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+82
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+82
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 7 (plain leaf)",
+22,
+2,
+[
+233,
+165,
+165,
+165
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 7 (plain leaf)",
+22,
+1,
+[
+380,
+173,
+173,
+173
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+192
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+111
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+82
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+235
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4, as built|ud|None",
+0,
+2,
+[
+226
+],
+"DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+171
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"1|t-ge-kq|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+226,
+157,
+154,
+154
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+227,
+157,
+155
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+226,
+160,
+163,
+179
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+1,
+[
+374,
+168,
+174,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+21,
+2,
+[
+227,
+161,
+166,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+1,
+[
+374,
+168,
+174,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+368,
+167,
+167,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+368,
+167,
+167,
+168,
+168,
+170
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+169
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+170
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+169
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 7 (plain leaf)",
+22,
+2,
+[
+225,
+160,
+160,
+160
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 7 (plain leaf)",
+22,
+1,
+[
+368,
+167,
+167,
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+225
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4, as built|ud|None",
+0,
+2,
+[
+226
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+165
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"1|t-ge-kq|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+226,
+157,
+154,
+154
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+227,
+157,
+155
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+226,
+160,
+163,
+179
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+1,
+[
+374,
+168,
+174,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+21,
+2,
+[
+227,
+161,
+166,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+1,
+[
+374,
+168,
+174,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+368,
+167,
+167,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+368,
+167,
+167,
+168,
+168,
+170
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+169
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+170
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+169
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 7 (plain leaf)",
+22,
+2,
+[
+225,
+160,
+160,
+160
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 7 (plain leaf)",
+22,
+1,
+[
+368,
+167,
+167,
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+225
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4, as built|ud|None",
+0,
+2,
+[
+226
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+165
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"2|every-t|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+233,
+162,
+159,
+159
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+234,
+161,
+159
+],
+"meets on an estimated k_q by +0.0289 bits, under the k_q guard 0.2550: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+233,
+166,
+168,
+185
+],
+"meets on an estimated k_q by +0.1058 bits, under the k_q guard 0.2148: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+1,
+[
+386,
+174,
+180,
+228
+],
+"meets on an estimated k_q by +0.0186 bits, under the k_q guard 0.1954: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+21,
+2,
+[
+234,
+166,
+172,
+228
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+1,
+[
+386,
+174,
+180,
+228
+],
+"meets on an estimated k_q by +0.0186 bits, under the k_q guard 0.1954: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+381,
+174,
+174,
+174,
+174,
+180
+],
+"meets on an estimated k_q by +0.0011 bits, under the k_q guard 0.1580: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+177
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175
+],
+"meets on an estimated k_q by +0.0989 bits, under the k_q guard 0.1461: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175,
+180
+],
+"meets on an estimated k_q by +0.0979 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175,
+177
+],
+"meets on an estimated k_q by +0.0456 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+383,
+174,
+174,
+174,
+174,
+174,
+176
+],
+"meets on an estimated k_q by +0.0575 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+383,
+174,
+174,
+174,
+174,
+175,
+175,
+181
+],
+"meets on an estimated k_q by +0.0043 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+233,
+166,
+166,
+166,
+166,
+169
+],
+"meets on an estimated k_q by +0.0571 bits, under the k_q guard 0.1656: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+233,
+166,
+166,
+166,
+166,
+167
+],
+"meets on an estimated k_q by +0.0016 bits, under the k_q guard 0.1595: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+167
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+167,
+169
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+166,
+168
+],
+"meets on an estimated k_q by +0.1109 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+166,
+167
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+234,
+166,
+166,
+166,
+167,
+167,
+167,
+169
+],
+"meets on an estimated k_q by +0.0033 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+192
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+174
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+192
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+174
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+111
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+111
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+82
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+82
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+192
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+111
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+82
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+235
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+171
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"2|every-t|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+233,
+162,
+159,
+159
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+234,
+161,
+159
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+233,
+166,
+168,
+185
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+1,
+[
+386,
+174,
+180,
+228
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+21,
+2,
+[
+234,
+166,
+172,
+228
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+1,
+[
+386,
+174,
+180,
+228
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+381,
+174,
+174,
+174,
+174,
+180
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+177
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175,
+180
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+382,
+174,
+174,
+174,
+174,
+175,
+177
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+383,
+174,
+174,
+174,
+174,
+174,
+176
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+383,
+174,
+174,
+174,
+174,
+175,
+175,
+181
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+233,
+166,
+166,
+166,
+166,
+169
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+233,
+166,
+166,
+166,
+166,
+167
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+167
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+167,
+169
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+166,
+168
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+234,
+166,
+166,
+166,
+166,
+166,
+167
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+234,
+166,
+166,
+166,
+167,
+167,
+167,
+169
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+192
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+174
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+192
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+174
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+111
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+111
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+82
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+82
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+192
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+111
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+82
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+235
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+171
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"2|t-ge-kq|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+226,
+157,
+154,
+154
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+227,
+157,
+155
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+226,
+160,
+163,
+179
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+1,
+[
+374,
+168,
+174,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+21,
+2,
+[
+227,
+161,
+166,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+1,
+[
+374,
+168,
+174,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+368,
+167,
+167,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+368,
+167,
+167,
+168,
+168,
+170
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+169
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+170
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+169
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+225
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+165
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"2|t-ge-kq|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+226,
+157,
+154,
+154
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+227,
+157,
+155
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+226,
+160,
+163,
+179
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+1,
+[
+374,
+168,
+174,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+21,
+2,
+[
+227,
+161,
+166,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+1,
+[
+374,
+168,
+174,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+368,
+167,
+167,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+368,
+167,
+167,
+168,
+168,
+170
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+169
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+170
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+169
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+368,
+167,
+167,
+167,
+168,
+168,
+168,
+173
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+161
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+225,
+160,
+160,
+160,
+160,
+160,
+160,
+163
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+168
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+184
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+107
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+80
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+225
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+165
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"3|every-t|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+329,
+228,
+224,
+223
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+331,
+228,
+224
+],
+"meets on an estimated k_q by +0.1297 bits, under the k_q guard 0.2103: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+330,
+233,
+238,
+301
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+330,
+233,
+238,
+301
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+537,
+244,
+244,
+245,
+245,
+253
+],
+"meets on an estimated k_q by +0.0489 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+537,
+244,
+244,
+245,
+245,
+249
+],
+"meets on an estimated k_q by +0.0417 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+537,
+245,
+245,
+245,
+245,
+247
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+246,
+254
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+249
+],
+"meets on an estimated k_q by +0.1176 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+247
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+246,
+254
+],
+"meets on an estimated k_q by +0.0527 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+328,
+233,
+233,
+233,
+234,
+237
+],
+"meets on an estimated k_q by +0.0180 bits, under the k_q guard 0.1388: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+329,
+233,
+233,
+233,
+234,
+235
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+329,
+233,
+233,
+233,
+233,
+234
+],
+"meets on an estimated k_q by +0.0340 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+238
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+236
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+235
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+330,
+234,
+234,
+234,
+234,
+234,
+234,
+238
+],
+"meets on an estimated k_q by +0.0360 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+269
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+245
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+269
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+245
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+156
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+156
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+116
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+116
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+269
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+156
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+116
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+330
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+240
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"3|every-t|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+329,
+228,
+224,
+223
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+331,
+228,
+224
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+330,
+233,
+238,
+301
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+330,
+233,
+238,
+301
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+537,
+244,
+244,
+245,
+245,
+253
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+537,
+244,
+244,
+245,
+245,
+249
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+537,
+245,
+245,
+245,
+245,
+247
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+246,
+254
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+249
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+247
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+246,
+254
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+328,
+233,
+233,
+233,
+234,
+237
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+329,
+233,
+233,
+233,
+234,
+235
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+329,
+233,
+233,
+233,
+233,
+234
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+238
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+236
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+235
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+330,
+234,
+234,
+234,
+234,
+234,
+234,
+238
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+269
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+245
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+269
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+245
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+156
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+156
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+116
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+116
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+269
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+156
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+116
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+330
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+240
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"3|t-ge-kq|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+321,
+222,
+219,
+218
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+323,
+223,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+322,
+228,
+232,
+293
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+322,
+228,
+232,
+293
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+522,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+242
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+240
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+242
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+240
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+229
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+228
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+229
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+228
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+238
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+238
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+320
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+233
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"3|t-ge-kq|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+321,
+222,
+219,
+218
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+323,
+223,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+322,
+228,
+232,
+293
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+322,
+228,
+232,
+293
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+522,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+242
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+240
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+242
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+240
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+229
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+228
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+229
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+228
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+238
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+238
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+320
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+233
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"4|every-t|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+329,
+228,
+224,
+223
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+331,
+228,
+224
+],
+"meets on an estimated k_q by +0.1297 bits, under the k_q guard 0.2103: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+330,
+233,
+238,
+301
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+330,
+233,
+238,
+301
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+537,
+244,
+244,
+245,
+245,
+253
+],
+"meets on an estimated k_q by +0.0489 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+537,
+244,
+244,
+245,
+245,
+249
+],
+"meets on an estimated k_q by +0.0417 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+537,
+245,
+245,
+245,
+245,
+247
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+246,
+254
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+249
+],
+"meets on an estimated k_q by +0.1176 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+247
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+246,
+254
+],
+"meets on an estimated k_q by +0.0527 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+328,
+233,
+233,
+233,
+234,
+237
+],
+"meets on an estimated k_q by +0.0180 bits, under the k_q guard 0.1388: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+329,
+233,
+233,
+233,
+234,
+235
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+329,
+233,
+233,
+233,
+233,
+234
+],
+"meets on an estimated k_q by +0.0340 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+238
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+236
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+235
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+330,
+234,
+234,
+234,
+234,
+234,
+234,
+238
+],
+"meets on an estimated k_q by +0.0360 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+269
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+245
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+269
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+245
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+156
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+156
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+116
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+116
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+269
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+156
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+116
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+330
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+240
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"4|every-t|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+329,
+228,
+224,
+223
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+331,
+228,
+224
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+330,
+233,
+238,
+301
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+330,
+233,
+238,
+301
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+537,
+244,
+244,
+245,
+245,
+253
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+537,
+244,
+244,
+245,
+245,
+249
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+537,
+245,
+245,
+245,
+245,
+247
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+246,
+254
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+249
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+247
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+538,
+245,
+245,
+245,
+245,
+245,
+246,
+254
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+328,
+233,
+233,
+233,
+234,
+237
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+329,
+233,
+233,
+233,
+234,
+235
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+329,
+233,
+233,
+233,
+233,
+234
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+238
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+236
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+329,
+234,
+234,
+234,
+234,
+234,
+235
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+330,
+234,
+234,
+234,
+234,
+234,
+234,
+238
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+269
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+245
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+269
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+245
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+156
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+156
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+116
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+116
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+269
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+156
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+116
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+330
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+240
+],
+"DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"4|t-ge-kq|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+321,
+222,
+219,
+218
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+323,
+223,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+322,
+228,
+232,
+293
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+322,
+228,
+232,
+293
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+522,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+242
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+240
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+242
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+240
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+229
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+228
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+229
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+228
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+238
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+238
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+320
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+233
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"4|t-ge-kq|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+321,
+222,
+219,
+218
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+323,
+223,
+219
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+322,
+228,
+232,
+293
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+322,
+228,
+232,
+293
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+522,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+242
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+240
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+242
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+240
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+522,
+238,
+238,
+238,
+238,
+238,
+239,
+246
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+229
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+228
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+229
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+228
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+320,
+227,
+227,
+227,
+227,
+227,
+227,
+231
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+238
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+238
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified; DOES NOT MEET the need"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+261
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+152
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+113
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+320
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+233
+],
+"non-default convention (t >= k_q), not certified; DOES NOT MEET the need; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"5|every-t|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+424,
+294,
+289,
+288
+],
+"certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+427,
+294,
+290
+],
+"meets on an estimated k_q by +0.0653 bits, under the k_q guard 0.1831: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+425,
+301,
+311,
+405
+],
+"meets on an estimated k_q by +0.1097 bits, under the k_q guard 0.1528: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+425,
+301,
+311,
+405
+],
+"meets on an estimated k_q by +0.1097 bits, under the k_q guard 0.1528: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+692,
+315,
+315,
+315,
+316,
+326
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+692,
+315,
+315,
+315,
+316,
+321
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+692,
+315,
+315,
+315,
+315,
+318
+],
+"meets on an estimated k_q by +0.1179 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+693,
+315,
+315,
+315,
+315,
+317,
+327
+],
+"meets on an estimated k_q by +0.0279 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+693,
+315,
+315,
+315,
+315,
+316,
+321
+],
+"meets on an estimated k_q by +0.0530 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+693,
+315,
+315,
+315,
+315,
+316,
+318
+],
+"meets on an estimated k_q by +0.0390 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+693,
+316,
+316,
+316,
+316,
+316,
+317,
+327
+],
+"meets on an estimated k_q by +0.0284 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+423,
+301,
+301,
+301,
+301,
+306
+],
+"meets on an estimated k_q by +0.0865 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+423,
+301,
+301,
+301,
+301,
+303
+],
+"meets on an estimated k_q by +0.0289 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+302
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+302,
+306
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+301,
+304
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+301,
+302
+],
+"certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+301,
+302,
+307
+],
+"meets on an estimated k_q by +0.0541 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+347
+],
+"certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+315
+],
+"meets on an estimated k_q by +0.1238 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+347
+],
+"certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+315
+],
+"meets on an estimated k_q by +0.1238 bits, under the k_q guard 0.1375: not certified until task T-1 reports k_q"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+201
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+201
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+149
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+149
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+347
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+201
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+149
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+425
+],
+"certified (unique decoding; no Johnson-regime statement used; every t, Sharp-Grubbs ePrint 2026/2615 Theorem 6.6 (2); classical hash part on condition H's attack rule)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+309
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"5|every-t|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+424,
+294,
+289,
+288
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+427,
+294,
+290
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+425,
+301,
+311,
+405
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+425,
+301,
+311,
+405
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+692,
+315,
+315,
+315,
+316,
+326
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+692,
+315,
+315,
+315,
+316,
+321
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+692,
+315,
+315,
+315,
+315,
+318
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+693,
+315,
+315,
+315,
+315,
+317,
+327
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+693,
+315,
+315,
+315,
+315,
+316,
+321
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+693,
+315,
+315,
+315,
+315,
+316,
+318
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+693,
+316,
+316,
+316,
+316,
+316,
+317,
+327
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+423,
+301,
+301,
+301,
+301,
+306
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+423,
+301,
+301,
+301,
+301,
+303
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+302
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+302,
+306
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+301,
+304
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+301,
+302
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+424,
+301,
+301,
+301,
+301,
+301,
+302,
+307
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+347
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+315
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+347
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+315
+],
+"not certified: fails k_q guard, classical hash part (proven)"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+201
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+201
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+149
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+149
+],
+"candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+347
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+201
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+149
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+425
+],
+"not certified: fails classical hash part (proven)"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+309
+],
+"CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"5|t-ge-kq|attack-rule": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+415,
+288,
+283,
+282
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+419,
+289,
+285
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+417,
+295,
+305,
+395
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+417,
+295,
+305,
+395
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+676,
+308,
+308,
+308,
+309,
+319
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+313
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+310
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+309,
+319
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+308,
+313
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+308,
+310
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+308,
+309,
+319
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+414,
+294,
+294,
+294,
+295,
+299
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+296
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+295
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+295,
+299
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+294,
+296
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+294,
+295
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+294,
+295,
+299
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+338
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+308
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+338
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+308
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+197
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+197
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+146
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+146
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+338
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+197
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+146
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+414
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+302
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+],
+"5|t-ge-kq|proven": [
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 0",
+22,
+2,
+[
+415,
+288,
+283,
+282
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 6 (standalone masked), mode 1",
+20,
+2,
+[
+419,
+289,
+285
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 0",
+22,
+2,
+[
+417,
+295,
+305,
+395
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"leaf",
+"row 8 (masked in a tree), mode 1",
+22,
+2,
+[
+417,
+295,
+305,
+395
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+1,
+[
+676,
+308,
+308,
+308,
+309,
+319
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+313
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+310
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+309,
+319
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+308,
+313
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+308,
+310
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+1,
+[
+676,
+308,
+308,
+308,
+308,
+308,
+309,
+319
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+24,
+2,
+[
+414,
+294,
+294,
+294,
+295,
+299
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+25,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+296
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+26,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+295
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+27,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+295,
+299
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+28,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+294,
+296
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+29,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+294,
+295
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"A",
+"node",
+"row 9 (node)",
+30,
+2,
+[
+414,
+294,
+294,
+294,
+294,
+294,
+295,
+299
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+3,
+[
+338
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S)",
+20,
+4,
+[
+308
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+3,
+[
+338
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words",
+27,
+4,
+[
+308
+],
+"non-default convention (t >= k_q), not certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 19)",
+20,
+3,
+[
+197
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 19)",
+27,
+3,
+[
+197
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"leaf",
+"zero-knowledge leaf (form T, route S), Johnson m = 10 (list 31)",
+20,
+4,
+[
+146
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row",
+"B",
+"node",
+"node, 2^27 words, Johnson m = 10 (list 31)",
+27,
+4,
+[
+146
+],
+"non-default convention (t >= k_q), not certified; candidate, rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT, and the lemmas of binius-johnson-row.md; never certified"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, unique decoding, 1/8|ud|None",
+0,
+3,
+[
+338
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/8|dkt|10",
+0,
+3,
+[
+197
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B leaf + node, Johnson m = 10, 1/16|dkt|10",
+0,
+4,
+[
+146
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT"
+],
+[
+"Row8",
+"B",
+"",
+"B node, unique decoding, 1/4|ud|None",
+0,
+2,
+[
+414
+],
+"non-default convention (t >= k_q), not certified; unique decoding"
+],
+[
+"Row8",
+"B",
+"",
+"B node, Johnson m = 10, 1/4|dkt|10",
+0,
+2,
+[
+302
+],
+"non-default convention (t >= k_q), not certified; CANDIDATE, not certified; rests on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; arithmetic only: no lemma stated or refereed at this rate, no build"
+]
+]
+}

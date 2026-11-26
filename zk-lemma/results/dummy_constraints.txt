@@ -1,0 +1,7 @@
+part1 GF(16): every alpha1 != alpha2 nonzero: TV = (q-1)/q^2 = 15/256, (u, v) uniform, alpha1 = alpha2 off the formula: PASS
+control one dummy constraint: TV = 15/16 (far from uniform): PASS
+part2 GF(4): joint (A, B, C, s_pre) noise, worst TV = 561/8192 (= 561/8192) <= 2(q-1)/q^2 = 3/8; each coupling step <= delta = 3/16: PASS
+control alpha = (1, 2, 0, 1): TV = 405/2048 > delta = 3/16: PASS
+control alpha = (0, 1, 1, 2): TV = 405/2048 > delta = 3/16: PASS
+control alpha1 = alpha2, alpha3 = alpha4: TV = 285/4096 > 561/8192: PASS
+control no precommit dummies: TV = 3/4 (s_pre unmasked): PASS

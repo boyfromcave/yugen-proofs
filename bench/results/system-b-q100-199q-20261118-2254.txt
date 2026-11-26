@@ -1,0 +1,9 @@
+# run 2026-11-18 22:54 PST (q100 with the calculator's unique-decoding query count)
+# uptime before: 22:54  up 2 days, 54 mins, 9 users, load averages: 3.16 3.17 3.69
+system B (Plonky3 0.9.0-rc.2, KoalaBear, FRI, Keccak, HidingFriPcs) config=run_d8_digest384
+  keccak-f permutations      : 128 (24 rows each; log_blowup 4, queries 199, arity 2^3, pow query/commit/batch 24/16/16, random codewords 8)
+  proof size (postcard)      : 3080009 bytes (3007.8 KiB)
+  prove (trace gen + prove)  : mean 3.416 s, min 3.416 s over 1 runs
+  verify                     : mean 8.50 ms, min 8.50 ms
+          1627308032  maximum resident set size
+# uptime after: 22:54  up 2 days, 54 mins, 9 users, load averages: 3.06 3.15 3.68

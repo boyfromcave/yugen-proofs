@@ -1,0 +1,50 @@
+RECORD (superseded by revision 9; not the calculator's convention): the counts below use the book need (kappa_C + 1 + log2 N + log2(1 + k), or earlier per-layer targets), which for the spBCS transcript holds only under the non-default convention (t >= k_q); no row below is certified. Johnson-regime rows rest on DKT26 (Dao, Kominers, Thaler, ePrint 2026/2056), a PREPRINT; Haboeck's route is withdrawn (binius-johnson-row.md 0.1); the 102- and 77-query rows are withdrawn (thin margins). The certified rows are printed by `yugen-soundness` (no flag) or `--rev9`.
+
+
+### cat1, per proof (design basis: 4-layer chain)
+
+| System | Layer | Opening | Queries per round | Lane lengths (coefficients) | Rates | Bits needed per round | Size (KiB, E) |
+|---|---|---|---|---|---|---|---|
+| A | leaf | not hiding | 171, 119, 117, 116 | 2^19, 2^16, 2^13, 2^10 | 2^-2, 2^-6, 2^-8, 2^-10 | 135.6 | 443 |
+| A | leaf | W-I | 172, 119, 117, 117 | 524721, 65786, 8440, 1272 | 0.25021, 0.01568, 0.00402, 0.00121 | 136.1 | 456 |
+| B | leaf | not hiding | 171, 119 | 2^14, 2^10 | 2^-2, 2^-6 | 135.6 | 325 |
+| B | leaf | W-I | 173, 119 | 16813, 1271 | 0.25655, 0.01939 | 135.6 | 341 |
+| B | leaf | W-M (full mask) | 172, 119 | as not hiding, plus a mask polynomial of 2^19 elements of F | 2^-2, 2^-6 | 135.6 | 497 |
+| A | bundle | not hiding (R-9) | 140, 117, 116, 116 | WHIR folds 6/4/4/4, final 2^10 | 2^-3 at level 0 | 135.6 | 589 |
+| B | bundle | not hiding (R-9) | 140 | folding PCS fold 4, final 2^8 | 2^-3 at level 0 | 135.6 | 850 |
+
+### cat1, tree of 1700 proofs, union model, 1 attempt(s)
+
+| System | Layer | Opening | Queries per round | Lane lengths (coefficients) | Rates | Bits needed per round | Size (KiB, E) |
+|---|---|---|---|---|---|---|---|
+| A | leaf | not hiding | 183, 127, 125, 125 | 2^19, 2^16, 2^13, 2^10 | 2^-2, 2^-6, 2^-8, 2^-10 | 144.0 | 468 |
+| A | leaf | W-I | 185, 128, 126, 126 | 524734, 65923, 8577, 1409 | 0.25021, 0.01572, 0.00409, 0.00134 | 144.9 | 488 |
+| B | leaf | not hiding | 182, 127 | 2^14, 2^10 | 2^-2, 2^-6 | 143.3 | 340 |
+| B | leaf | W-I | 185, 128 | 16825, 1280 | 0.25673, 0.01953 | 143.6 | 359 |
+| B | leaf | W-M (full mask) | 183, 127 | as not hiding, plus a mask polynomial of 2^19 elements of F | 2^-2, 2^-6 | 143.4 | 524 |
+| A | bundle | not hiding (R-9) | 150, 125, 125, 125 | WHIR folds 6/4/4/4, final 2^10 | 2^-3 at level 0 | 144.3 | 625 |
+| B | bundle | not hiding (R-9) | 150 | folding PCS fold 4, final 2^8 | 2^-3 at level 0 | 144.2 | 904 |
+
+### cat1, tree of 1700 proofs, shared query budget
+
+| System | Layer | Opening | Queries per round | Lane lengths (coefficients) | Rates | Bits needed per round | Size (KiB, E) |
+|---|---|---|---|---|---|---|---|
+| A | leaf | not hiding | 183, 127, 125, 125 | 2^19, 2^16, 2^13, 2^10 | 2^-2, 2^-6, 2^-8, 2^-10 | 143.9 | 468 |
+| A | leaf | W-I | 185, 128, 126, 126 | 524734, 65923, 8577, 1409 | 0.25021, 0.01572, 0.00409, 0.00134 | 144.8 | 488 |
+| B | leaf | not hiding | 182, 127 | 2^14, 2^10 | 2^-2, 2^-6 | 143.2 | 340 |
+| B | leaf | W-I | 185, 128 | 16825, 1280 | 0.25673, 0.01953 | 143.5 | 359 |
+| B | leaf | W-M (full mask) | 183, 127 | as not hiding, plus a mask polynomial of 2^19 elements of F | 2^-2, 2^-6 | 143.3 | 524 |
+| A | bundle | not hiding (R-9) | 150, 125, 125, 125 | WHIR folds 6/4/4/4, final 2^10 | 2^-3 at level 0 | 144.2 | 625 |
+| B | bundle | not hiding (R-9) | 150 | folding PCS fold 4, final 2^8 | 2^-3 at level 0 | 144.1 | 904 |
+
+### cat1, tree of 1700 proofs, union model, 2^20 attempts
+
+| System | Layer | Opening | Queries per round | Lane lengths (coefficients) | Rates | Bits needed per round | Size (KiB, E) |
+|---|---|---|---|---|---|---|---|
+| A | leaf | not hiding | 213, 148, 145, 145 | 2^19, 2^16, 2^13, 2^10 | 2^-2, 2^-6, 2^-8, 2^-10 | 164.0 | 528 |
+| A | leaf | W-I | 214, 149, 146, 146 | 524763, 65944, 8597, 1429 | 0.25023, 0.01572, 0.00410, 0.00136 | 164.9 | 549 |
+| B | leaf | not hiding | 212, 147 | 2^14, 2^10 | 2^-2, 2^-6 | 163.3 | 381 |
+| B | leaf | W-I | 215, 149 | 16855, 1429 | 0.25719, 0.02180 | 163.6 | 408 |
+| B | leaf | W-M (full mask) | 213, 147 | as not hiding, plus a mask polynomial of 2^19 elements of F | 2^-2, 2^-6 | 163.4 | 594 |
+| A | bundle | not hiding (R-9) | 174, 146, 145, 145 | WHIR folds 6/4/4/4, final 2^10 | 2^-3 at level 0 | 164.3 | 712 |
+| B | bundle | not hiding (R-9) | 174 | folding PCS fold 4, final 2^8 | 2^-3 at level 0 | 164.2 | 1034 |

@@ -1,0 +1,5 @@
+PASS hiding construction: 24 cases, 8^6 tapes each; identical 24, different 0; enumeration and rank criterion disagree in 0
+PASS no base-case mask: 24 cases, 8^2 tapes each; identical 0, different 24; enumeration and rank criterion disagree in 0
+PASS no encoding randomness: 24 cases, 8^4 tapes each; identical 0, different 24; enumeration and rank criterion disagree in 0
+PASS linear domain: 24 cases, 8^6 tapes each; identical 12, different 12; enumeration and rank criterion disagree in 0
+FAILURES 0

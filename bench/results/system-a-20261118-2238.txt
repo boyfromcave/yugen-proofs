@@ -1,0 +1,29 @@
+# run 2026-11-18 22:38 PST
+# uptime before: 22:38  up 2 days, 38 mins, 9 users, load averages: 3.49 3.68 4.55
+Apple M5
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 142, log_inv_rate 1, threads 1)
+  proof size                 : 167480 bytes (163.6 KiB)
+  prove                      : mean 0.060 s, min 0.048 s over 3 runs
+  verify                     : mean 2.54 ms, min 2.44 ms
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 142, log_inv_rate 2, threads 1)
+  proof size                 : 119824 bytes (117.0 KiB)
+  prove                      : mean 0.083 s, min 0.079 s over 3 runs
+  verify                     : mean 1.87 ms, min 1.81 ms
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 142, log_inv_rate 3, threads 1)
+  proof size                 : 101828 bytes (99.4 KiB)
+  prove                      : mean 0.071 s, min 0.069 s over 3 runs
+  verify                     : mean 1.76 ms, min 1.68 ms
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 142, log_inv_rate 4, threads 1)
+  proof size                 : 91608 bytes (89.5 KiB)
+  prove                      : mean 0.051 s, min 0.051 s over 3 runs
+  verify                     : mean 1.59 ms, min 1.57 ms
+system A (leanVM @ 84780fb4, stable prover, GF(2^128), WHIR, Keccak)
+  keccak compressions        : 128 (VM cycles 142, log_inv_rate 4, threads 4)
+  proof size                 : 91608 bytes (89.5 KiB)
+  prove                      : mean 0.021 s, min 0.021 s over 3 runs
+  verify                     : mean 1.61 ms, min 1.58 ms
+# uptime after: 22:38  up 2 days, 38 mins, 9 users, load averages: 3.49 3.68 4.55

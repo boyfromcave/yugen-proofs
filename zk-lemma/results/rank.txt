@@ -1,0 +1,75 @@
+# rank of the map mask coefficients -> view; claim for the staircase mask: 1 + n d for every r
+## A. exhaustive over all r in F^n
+GF(2^2) n=1 d=1 want= 2 | stair(2): 2x4 | stair_full(3): 2x4 | weighted(2): 2x4 | libra(3): 2x4 |
+GF(2^2) n=1 d=2 want= 3 | stair(3): 3x4 | stair_full(4): 3x4 | weighted(3): 3x4 | libra(4): 3x4 |
+GF(2^2) n=1 d=3 want= 4 | stair(4): 4x4 | stair_full(5): 4x4 | weighted(4): 4x4 | libra(5): 4x4 |
+GF(2^2) n=2 d=1 want= 3 | stair(3): 3x16 | stair_full(5): 3x16 | weighted(4): 2x4,3x12 | libra(5): 2x16 |
+GF(2^2) n=2 d=2 want= 5 | stair(5): 5x16 | stair_full(7): 5x16 | weighted(6): 3x4,5x12 | libra(7): 3x16 |
+GF(2^2) n=2 d=3 want= 7 | stair(7): 7x16 | stair_full(9): 7x16 | weighted(8): 4x4,7x12 | libra(9): 4x16 |
+GF(2^2) n=3 d=1 want= 4 | stair(4): 4x64 | stair_full(7): 4x64 | weighted(6): 2x16,3x12,4x36 | libra(7): 2x64 |
+GF(2^2) n=3 d=2 want= 7 | stair(7): 7x64 | stair_full(10): 7x64 | weighted(9): 3x16,5x12,7x36 | libra(10): 3x64 |
+GF(2^2) n=3 d=3 want=10 | stair(10): 10x64 | stair_full(13): 10x64 | weighted(12): 4x16,7x12,10x36 | libra(13): 4x64 |
+GF(2^2) n=4 d=1 want= 5 | stair(5): 5x256 | stair_full(9): 5x256 | weighted(8): 2x64,3x48,4x36,5x108 | libra(9): 2x256 |
+GF(2^2) n=4 d=2 want= 9 | stair(9): 9x256 | stair_full(13): 9x256 | weighted(12): 3x64,5x48,7x36,9x108 | libra(13): 3x256 |
+GF(2^2) n=4 d=3 want=13 | stair(13): 13x256 | stair_full(17): 13x256 | weighted(16): 4x64,7x48,10x36,13x108 | libra(17): 4x256 |
+GF(2^2) n=5 d=1 want= 6 | stair(6): 6x1024 | stair_full(11): 6x1024 | weighted(10): 2x256,3x192,4x144,5x108,6x324 | libra(11): 2x1024 |
+GF(2^2) n=5 d=2 want=11 | stair(11): 11x1024 | stair_full(16): 11x1024 | weighted(15): 3x256,5x192,7x144,9x108,11x324 | libra(16): 3x1024 |
+GF(2^2) n=5 d=3 want=16 | stair(16): 16x1024 | stair_full(21): 16x1024 | weighted(20): 4x256,7x192,10x144,13x108,16x324 | libra(21): 4x1024 |
+GF(2^4) n=1 d=1 want= 2 | stair(2): 2x16 | stair_full(3): 2x16 | weighted(2): 2x16 | libra(3): 2x16 |
+GF(2^4) n=1 d=2 want= 3 | stair(3): 3x16 | stair_full(4): 3x16 | weighted(3): 3x16 | libra(4): 3x16 |
+GF(2^4) n=1 d=3 want= 4 | stair(4): 4x16 | stair_full(5): 4x16 | weighted(4): 4x16 | libra(5): 4x16 |
+GF(2^4) n=2 d=1 want= 3 | stair(3): 3x256 | stair_full(5): 3x256 | weighted(4): 2x16,3x240 | libra(5): 2x256 |
+GF(2^4) n=2 d=2 want= 5 | stair(5): 5x256 | stair_full(7): 5x256 | weighted(6): 3x16,5x240 | libra(7): 3x256 |
+GF(2^4) n=2 d=3 want= 7 | stair(7): 7x256 | stair_full(9): 7x256 | weighted(8): 4x16,7x240 | libra(9): 4x256 |
+GF(2^4) n=3 d=1 want= 4 | stair(4): 4x4096 | stair_full(7): 4x4096 | weighted(6): 2x256,3x240,4x3600 | libra(7): 2x4096 |
+GF(2^4) n=3 d=2 want= 7 | stair(7): 7x4096 | stair_full(10): 7x4096 | weighted(9): 3x256,5x240,7x3600 | libra(10): 3x4096 |
+GF(2^4) n=3 d=3 want=10 | stair(10): 10x4096 | stair_full(13): 10x4096 | weighted(12): 4x256,7x240,10x3600 | libra(13): 4x4096 |
+   (entries are rank x number of r; weighted: full rank exactly when no r_k = 1 with k < n)
+## B. mixed degrees per variable, eq weights and arbitrary weights, exhaustive over r, GF(2^2)
+plain degs=[1, 3, 2] stair: ranks [7] want 7
+eq    degs=[1, 3, 2] libra and stair_u: rank 7 for 64 tau and all r: True
+general weights degs=[1, 3, 2] stair_u: rank 7 for 12 random weight vectors and all r: True
+plain degs=[5, 3] stair: ranks [9] want 9
+eq    degs=[5, 3] libra and stair_u: rank 9 for 16 tau and all r: True
+general weights degs=[5, 3] stair_u: rank 9 for 12 random weight vectors and all r: True
+plain degs=[5, 3, 3] stair: ranks [12] want 12
+eq    degs=[5, 3, 3] libra and stair_u: rank 12 for 64 tau and all r: True
+general weights degs=[5, 3, 3] stair_u: rank 12 for 12 random weight vectors and all r: True
+plain degs=[2, 1, 1, 3] stair: ranks [8] want 8
+eq    degs=[2, 1, 1, 3] libra and stair_u: rank 8 for 27 tau and all r: True
+general weights degs=[2, 1, 1, 3] stair_u: rank 8 for 12 random weight vectors and all r: True
+## C. the leaf's sizes: random and adversarial r
+GF(2^8) n=8 d=2 stair: ranks [17] over 16 r, want 17; libra rank 3 of 25 coefficients
+GF(2^8) n=16 d=3 stair: ranks [49] over 16 r, want 49; libra rank 4 of 65 coefficients
+GF(2^8) n=23 d=2 stair: ranks [47] over 16 r, want 47; libra rank 3 of 70 coefficients
+GF(2^8) n=23 d=3 stair: ranks [70] over 16 r, want 70; libra rank 4 of 93 coefficients
+GF(2^8) n=25 d=2 stair: ranks [51] over 16 r, want 51; libra rank 3 of 76 coefficients
+GF(2^8) n=27 d=2 stair: ranks [55] over 16 r, want 55; libra rank 3 of 82 coefficients
+GF(2^8) n=27 d=3 stair: ranks [82] over 16 r, want 82; libra rank 4 of 109 coefficients
+GF(2^128) n=23 d=2 stair: ranks [47] over 3 r, want 47; libra rank 3 of 70 coefficients
+GF(2^128) n=27 d=3 stair: ranks [82] over 3 r, want 82; libra rank 4 of 109 coefficients
+GF(2^8) n=8 d=2 weighted: rank 17 (no r_k = 1), rank 7 (r_3 = 1), want 17
+GF(2^8) n=10 d=3 weighted: rank 31 (no r_k = 1), rank 10 (r_3 = 1), want 31
+## D. two witnesses with equal sum and equal f(r): identically distributed views (GF(2^8), random r)
+stair     n=2 d=1: 40/40
+stair     n=3 d=1: 40/40
+stair     n=2 d=2: 40/40
+stair     n=3 d=2: 40/40
+stair     n=4 d=2: 40/40
+stair     n=3 d=3: 40/40
+stair     n=5 d=2: 40/40
+weighted  n=2 d=1: 40/40
+weighted  n=3 d=1: 40/40
+weighted  n=2 d=2: 40/40
+weighted  n=3 d=2: 40/40
+weighted  n=4 d=2: 40/40
+weighted  n=3 d=3: 40/40
+weighted  n=5 d=2: 40/40
+libra     n=2 d=1: 40/40
+libra     n=3 d=1: 0/40
+libra     n=2 d=2: 0/40
+libra     n=3 d=2: 0/40
+libra     n=4 d=2: 0/40
+libra     n=3 d=3: 0/40
+libra     n=5 d=2: 0/40
+RESULT: PASS

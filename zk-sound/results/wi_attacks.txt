@@ -1,0 +1,32 @@
+one level: GF(16), fold 1, lane length 6 (carried 1, aux 3, gap, 2 random) on a coset of 8 points, Q = 2; every (rho, gamma, c) and every position enumerated
+ok    honest prover, true claim: accepted with probability 1.0000
+ok    false claim, final-message swap only: accepted 0.53136 <= case bound 0.53136
+ok    + G aimed at one rho: accepted 0.53136 <= case bound 0.53136
+ok    + round message with chosen roots: accepted 0.53136 <= case bound 0.53136
+ok    + mu aimed at one c (all gambles): accepted 0.53136 <= case bound 0.53136
+ok    all gambles, rho aimed at 0: accepted 0.53136 <= case bound 0.53136
+ok    all gambles + lane-varying aux rows (cubic round polynomial): accepted 0.53583 <= case bound 0.56484
+radius attack: 1 corrupted rows (the unique-decoding radius), decoded claim false, prover plays the other polynomial: accepted 0.58984; predicted 1 - (1 - 1/q)(1 - ((lrow-1+e)/N)^Q) = 0.58984; document's terms 1/q + ((1+rho)/2)^Q = 0.82812
+ok    radius attack meets its prediction and stays under 1/q + ((1+rho)/2)^Q
+spliced oracle outside the radius (4 of 8 rows agree with the polynomial the prover plays): accepted 0.29688; predicted 0.29688; proven for a word this far: n/q + (1 - dist)^Q with (1 - dist)^Q = 0.25000
+ok    spliced oracle: accepted exactly on the agreeing rows, or when c = 0 (inside the n/q term)
+ok    non-codeword extra column with the gambles: accepted 0.07224 <= 0.53136
+one level: GF(64), fold 1, lane length 7 (carried 1, aux 3, gap, 3 random) on a coset of 32 points, Q = 3; 2500 sampled (rho, gamma, c), every position enumerated; sampling tolerance 0.02
+ok    honest prover, true claim: accepted with probability 1.0000
+ok    false claim, final-message swap only: accepted 0.06302 <= case bound 0.06747
+ok    + G aimed at one rho: accepted 0.06461 <= case bound 0.06747
+ok    + round message with chosen roots: accepted 0.06699 <= case bound 0.06747
+ok    + mu aimed at one c (all gambles): accepted 0.07057 <= case bound 0.06747
+ok    all gambles, rho aimed at 0: accepted 0.06620 <= case bound 0.06747
+ok    all gambles + lane-varying aux rows (cubic round polynomial): accepted 0.07335 <= case bound 0.08252
+radius attack: 12 corrupted rows (the unique-decoding radius), decoded claim false, prover plays the other polynomial: accepted 0.18949; predicted 1 - (1 - 1/q)(1 - ((lrow-1+e)/N)^Q) = 0.19082; document's terms 1/q + ((1+rho)/2)^Q = 0.24191
+ok    radius attack meets its prediction and stays under 1/q + ((1+rho)/2)^Q
+spliced oracle outside the radius (18 of 32 rows agree with the polynomial the prover plays): accepted 0.18949; predicted 0.19082; proven for a word this far: n/q + (1 - dist)^Q with (1 - dist)^Q = 0.17798
+ok    spliced oracle: accepted exactly on the agreeing rows, or when c = 0 (inside the n/q term)
+ok    non-codeword extra column with the gambles: accepted 0.00762 <= 0.06747
+two levels: GF(64), folds 1/1, lane lengths 8/10 on cosets of 16/16 points, Q = 2/2; 4000 sampled challenge tuples per strategy
+ok    honest prover, true claim: accepted 1.0000 (600 tuples, rho, gamma, lam, c over the whole field)
+ok    false claim, switch polynomial at the code switch + final swap: accepted 0.5095 <= case bound 0.5207 (+ 0.0316 sampling)
+ok    all gambles (rho at both levels, roots, switch, c, swap): accepted 0.5030 <= case bound 0.5207 (+ 0.0316 sampling)
+ok    all gambles + lane-varying aux rows at both levels: accepted 0.3575 <= case bound 0.5360 (+ 0.0315 sampling)
+FAILURES 0

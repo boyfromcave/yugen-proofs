@@ -1,0 +1,26 @@
+# exact distance between the views of two witnesses with equal S and equal f(r) (plain sumcheck)
+GF(2^2) n=2 d=1 stair     coeffs= 3 pairs= 40 identical= 40 distinguishable=  0 maxSD=0.0000
+GF(2^2) n=2 d=1 weighted  coeffs= 4 pairs= 40 identical= 37 distinguishable=  3 maxSD=1.0000
+GF(2^2) n=2 d=1 libra     coeffs= 5 pairs= 40 identical= 40 distinguishable=  0 maxSD=0.0000
+GF(2^2) n=2 d=2 stair     coeffs= 5 pairs= 40 identical= 40 distinguishable=  0 maxSD=0.0000
+GF(2^2) n=2 d=2 weighted  coeffs= 6 pairs= 40 identical= 32 distinguishable=  8 maxSD=1.0000
+GF(2^2) n=2 d=2 libra     coeffs= 7 pairs= 40 identical=  6 distinguishable= 34 maxSD=1.0000
+GF(2^2) n=2 d=3 stair     coeffs= 7 pairs= 40 identical= 40 distinguishable=  0 maxSD=0.0000
+GF(2^2) n=2 d=3 weighted  coeffs= 8 pairs= 40 identical= 30 distinguishable= 10 maxSD=1.0000
+GF(2^2) n=2 d=3 libra     coeffs= 9 pairs= 15 identical=  0 distinguishable= 15 maxSD=1.0000
+GF(2^2) n=3 d=1 stair     coeffs= 4 pairs= 40 identical= 40 distinguishable=  0 maxSD=0.0000
+GF(2^2) n=3 d=1 weighted  coeffs= 6 pairs= 40 identical= 28 distinguishable= 12 maxSD=1.0000
+GF(2^2) n=3 d=1 libra     coeffs= 7 pairs= 40 identical= 12 distinguishable= 28 maxSD=1.0000
+GF(2^2) n=3 d=2 stair     coeffs= 7 pairs= 40 identical= 40 distinguishable=  0 maxSD=0.0000
+GF(2^2) n=3 d=2 weighted  coeffs= 9 pairs= 15 identical=  9 distinguishable=  6 maxSD=1.0000
+GF(2^2) n=3 d=2 libra     coeffs=10 pairs=  3 identical=  0 distinguishable=  3 maxSD=1.0000
+GF(2^4) n=2 d=1 stair     coeffs= 3 pairs= 40 identical= 40 distinguishable=  0 maxSD=0.0000
+GF(2^4) n=2 d=1 weighted  coeffs= 4 pairs= 40 identical= 38 distinguishable=  2 maxSD=1.0000
+GF(2^4) n=2 d=1 libra     coeffs= 5 pairs=  3 identical=  3 distinguishable=  0 maxSD=0.0000
+GF(2^4) n=2 d=2 stair     coeffs= 5 pairs=  3 identical=  3 distinguishable=  0 maxSD=0.0000
+GF(2^4) n=2 d=2 weighted  skipped (mask space too large to enumerate)
+GF(2^4) n=2 d=2 libra     skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 stair     coeffs= 4 pairs= 40 identical= 40 distinguishable=  0 maxSD=0.0000
+GF(2^4) n=3 d=1 weighted  skipped (mask space too large to enumerate)
+GF(2^4) n=3 d=1 libra     skipped (mask space too large to enumerate)
+RESULT: PASS

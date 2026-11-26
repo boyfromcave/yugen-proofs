@@ -1,0 +1,13 @@
+# blinder cells on the batched table sumcheck (S4 model): exact view laws, all blinders, all masks
+GF(4) A8   quadratic batch, round degrees [4, 3]: multiplier nonzero: identical 110, different 0 (witness groups x challenges); multiplier zero: identical 0, different 80; blinder off: identical 0, different 190; mask rank = dim V_r: True
+GF(4) A8   cubic batch, round degrees [6, 4]: multiplier nonzero: identical 94, different 0 (witness groups x challenges); multiplier zero: identical 0, different 88; blinder off: identical 0, different 182; mask rank = dim V_r: True
+GF(4) A8-T quadratic batch, round degrees [3, 2]: multiplier nonzero: identical 120, different 0 (witness groups x challenges); multiplier zero: identical 0, different 52; blinder off: identical 0, different 172; mask rank = dim V_r: True
+GF(4) A8-T cubic batch, round degrees [4, 3]: multiplier nonzero: identical 130, different 0 (witness groups x challenges); multiplier zero: identical 0, different 44; blinder off: identical 0, different 174; mask rank = dim V_r: True
+GF(16) A8   quadratic batch, round degrees [4, 3]: multiplier nonzero: identical 24, different 0 (witness groups x challenges); multiplier zero: identical 0, different 0; blinder off: identical 0, different 24; mask rank = dim V_r: True
+GF(16) A8-T quadratic batch, round degrees [3, 2]: multiplier nonzero: identical 22, different 0 (witness groups x challenges); multiplier zero: identical 0, different 0; blinder off: identical 0, different 22; mask rank = dim V_r: True
+brute force (A8-T, quadratic, GF(4), 3 witnesses, all 64 blinders x 4^8 masks each): count tables equal, 262144 distinct views
+control, A8: mask one degree short in y: rank below dim V_r, views differ in 50 of 50 cases
+control, A8-T: mask one degree short in y: rank below dim V_r, views differ in 94 of 96 cases
+control: plain sum p(0) + p(1) on the dummy variable: cube sum is 0 in 720 of 720 cases (440 of them have a nonzero target): the dummy round must be weighted
+control: multiplier y under eq(tau, y) with tau != 0: the sum differs from the target in 523 of 720 cases: the multiplier y needs lam_y = p(0)
+RESULT: PASS

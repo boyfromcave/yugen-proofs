@@ -1,0 +1,19 @@
+pinned constants: F_2-rank of RMFE_PROJECT 16 of 16, of RMFE_EMBED 16 of 16, gcd of the sixteen embedding polynomials = 0x1
+GF(2^8), every s: instance weights all zero at 0 points, functional zero at 0 points
+PASS chain S5 + 6 eq rounds + 11 plain rounds, random lam: checks pass 6/6, rank 92 = dim V_r at 6/6 challenge vectors
+PASS chain S5 + 6 eq rounds + 11 plain rounds, lam from random mu: checks pass 6/6, rank 92 = dim V_r at 6/6 challenge vectors
+PASS chain S5 + 6 eq rounds + 11 plain rounds, lam from mu = embeddings at a random s: checks pass 6/6, rank 92 = dim V_r at 6/6 challenge vectors
+PASS chain S5 + 6 eq rounds + 11 plain rounds, lam = 0: checks pass 6/6, rank 92 = dim V_r at 6/6 challenge vectors; G identically 0
+PASS chain S5 + 2 eq rounds + 3 plain rounds, random lam: checks pass 12/12, rank 60 = dim V_r at 12/12 challenge vectors
+PASS chain S5 + 2 eq rounds + 3 plain rounds, lam from random mu: checks pass 12/12, rank 60 = dim V_r at 12/12 challenge vectors
+PASS chain S5 + 2 eq rounds + 3 plain rounds, lam from mu = embeddings at a random s: checks pass 12/12, rank 60 = dim V_r at 12/12 challenge vectors
+PASS chain S5 + 2 eq rounds + 3 plain rounds, lam = 0: checks pass 12/12, rank 60 = dim V_r at 12/12 challenge vectors; G identically 0
+PASS chain S5 + 0 eq rounds + 0 plain rounds, random lam: checks pass 12/12, rank 47 = dim V_r at 12/12 challenge vectors
+PASS chain S5 + 0 eq rounds + 0 plain rounds, lam from random mu: checks pass 12/12, rank 47 = dim V_r at 12/12 challenge vectors
+PASS chain S5 + 0 eq rounds + 0 plain rounds, lam from mu = embeddings at a random s: checks pass 12/12, rank 47 = dim V_r at 12/12 challenge vectors
+PASS chain S5 + 0 eq rounds + 0 plain rounds, lam = 0: checks pass 12/12, rank 47 = dim V_r at 12/12 challenge vectors; G identically 0
+PASS chain S5 + 6 eq rounds + 11 plain rounds + one-sided dummy round: rank 94 = dim V_r at 6/6 challenge vectors
+PASS reduced size (degree 6, one eq round, one plain round), GF(16), four lam (one zero), three tau: rank 12 at 49152/49152 (all challenge vectors)
+control: mask of 45 coefficients for the product round: rank 59 against dim V_r = 60
+control: product round with lam = 0 placed second: the mask's messages pass the round checks: False
+FAILURES 0

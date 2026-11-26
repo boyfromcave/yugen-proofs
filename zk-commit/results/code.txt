@@ -1,0 +1,24 @@
+GF(2^4) |D|=8 lanes=1 m=2 aoff=2 t=2 coset : sets<=t hiding 36, leaking 0 (predicted 0); sets of t+1 leaking 56/56
+GF(2^4) |D|=8 lanes=1 m=2 aoff=2 t=2 linear: sets<=t hiding 21, leaking 15 (predicted 15); sets of t+1 leaking 56/56
+GF(2^4) |D|=8 lanes=2 m=4 aoff=4 t=3 coset : sets<=t hiding 92, leaking 0 (predicted 0); sets of t+1 leaking 70/70
+GF(2^4) |D|=8 lanes=2 m=4 aoff=4 t=3 linear: sets<=t hiding 14, leaking 78 (predicted 78); sets of t+1 leaking 70/70
+GF(2^8) |D|=16 lanes=2 m=4 aoff=4 t=3 coset : sets<=t hiding 696, leaking 0 (predicted 0); sets of t+1 leaking 400/400
+GF(2^8) |D|=16 lanes=2 m=4 aoff=4 t=3 linear: sets<=t hiding 298, leaking 398 (predicted 398); sets of t+1 leaking 400/400
+GF(2^8) |D|=16 lanes=4 m=5 aoff=8 t=3 coset : sets<=t hiding 696, leaking 0 (predicted 0); sets of t+1 leaking 400/400
+GF(2^8) |D|=16 lanes=4 m=5 aoff=8 t=3 linear: sets<=t hiding 92, leaking 604 (predicted 604); sets of t+1 leaking 400/400
+GF(2^8) |D|=16 lanes=1 m=6 aoff=8 t=4 coset : sets<=t hiding 2516, leaking 0 (predicted 0); sets of t+1 leaking 400/400
+GF(2^8) |D|=16 lanes=1 m=6 aoff=8 t=4 linear: sets<=t hiding 162, leaking 2354 (predicted 2354); sets of t+1 leaking 400/400
+GF(2^8) |D|=32 lanes=2 m=7 aoff=8 t=2 coset : sets<=t hiding 528, leaking 0 (predicted 0); sets of t+1 leaking 400/400
+GF(2^8) |D|=32 lanes=2 m=7 aoff=8 t=2 linear: sets<=t hiding 300, leaking 228 (predicted 228); sets of t+1 leaking 400/400
+enumeration GF(8) |D|=4 lanes=1 m=2 t=1 coset : identical 4, different 6, against prediction 0
+enumeration GF(8) |D|=4 lanes=1 m=2 t=1 linear: identical 5, different 5, against prediction 0
+enumeration GF(8) |D|=4 lanes=2 m=2 t=1 coset : identical 4, different 6, against prediction 0
+enumeration GF(8) |D|=4 lanes=2 m=2 t=1 linear: identical 5, different 5, against prediction 0
+enumeration GF(8) |D|=4 lanes=1 m=2 t=2 coset : identical 10, different 4, against prediction 0
+enumeration GF(8) |D|=4 lanes=1 m=2 t=2 linear: identical 7, different 7, against prediction 0
+alignment GF(2^8) coset |D|=16 m=3 aoff=3 t=2 (not aligned): leaking sets of t rows 0/120
+alignment GF(2^8) coset |D|=16 m=5 aoff=5 t=3 (not aligned): leaking sets of t rows 0/560
+alignment GF(2^8) coset |D|=16 m=6 aoff=6 t=4 (not aligned): leaking sets of t rows 4/1820
+alignment GF(2^8) coset |D|=16 m=4 aoff=4 t=4 (aligned): leaking sets of t rows 0/1820
+alignment GF(2^8) coset |D|=16 m=6 aoff=8 t=4 (aligned): leaking sets of t rows 0/1820
+FAILURES 0

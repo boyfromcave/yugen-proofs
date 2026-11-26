@@ -1,0 +1,7 @@
+# Local build settings for the Yugen proof prototypes (-j 3, nice, target/ in repo).
+[build]
+jobs = 3
+target-dir = "target"
+
+[target.'cfg(all())']
+rustflags = ["-C", "target-cpu=native"]
